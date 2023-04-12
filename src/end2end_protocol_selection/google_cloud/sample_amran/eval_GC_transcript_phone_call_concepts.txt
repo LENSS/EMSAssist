@@ -1,0 +1,100 @@
+general symptom~|~physical findings~|~usage~|~other specified alcohol related disorder~|~physical aggression~|~corrective~|~substance
+negation~|~specific qualifier value~|~fit (action)~|~mental status changes~|~drug toxicity~|~medical service~|~biological factors~|~unspecified - name type~|~clinical trial insurance documentation~|~night sweats~|~psyche structure
+harlequin fetus~|~smoke inhalation injury~|~disease~|~tissue membrane~|~align~|~general symptom~|~negation~|~specific qualifier value~|~legal adult~|~physical findings
+vomiting~|~nausea~|~unspecified - name type~|~guardian~|~shortness of breath:-:point in time:^patient:-
+epilepsy~|~seizures~|~epilepsy, generalized~|~syndrome~|~deglutition disorders~|~beds~|~negation~|~specific qualifier value~|~status
+dehydration~|~mental status changes~|~negation~|~specific qualifier value~|~not otherwise specified
+harlequin fetus~|~back pain adverse event~|~negation~|~specific qualifier value~|~skin specimen~|~back injuries~|~senior - suffix~|~lower - spatial qualifier~|~unspecified injury of lower back~|~not otherwise specified
+stupor~|~comatose~|~drowsiness~|~fatigue~|~menstruation disturbances~|~toxic effect of unspecified substance~|~not otherwise specified~|~relationships
+iodides~|~diarrhea~|~chills~|~tissue membrane~|~fever symptoms (finding)~|~specific qualifier value~|~fever with chills~|~m nos antibody~|~nausea and vomiting~|~adult disease~|~device display device component~|~highland~|~unspecified - name type
+accelerated angina~|~negation~|~specific qualifier value~|~back pain adverse event~|~pain nos adverse event
+inspiration function~|~iodides~|~brain injuries~|~poisoning~|~negation~|~specific qualifier value~|~toxic effect of unspecified substance~|~m nos antibody~|~determination aspects~|~herring (dietary)~|~p blood group antibodies
+iodides~|~adult children~|~crying~|~ability~|~asians~|~epilepsy~|~adolescent (age group)~|~poisoning~|~involvement with~|~negation~|~pharmaceutical preparations~|~physical findings~|~symptoms~|~chronic~|~m+ (tumor staging)~|~sedated state~|~unspecified - name type~|~emotional state observations~|~identifier~|~suicidal~|~adjudication
+abdominal pain~|~abdomen~|~generalized~|~unspecified - name type~|~alcohol dependence with withdrawal, unspecified~|~lower abdominal pain~|~lower abdomen~|~regina~|~pain - other~|~part of~|~localized
+iodides~|~alcohol consumption~|~traumatic and/or non-traumatic injury~|~traumatic injury~|~alcohol use, unspecified~|~specific qualifier value~|~intoxication~|~protein turn
+asians~|~emotional state observations~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~involvement with~|~negation~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~counter device component~|~identifier~|~suicidal~|~encounter due to unspecified general medical examination~|~legal adult
+epilepsy~|~dehydration~|~syndrome~|~not otherwise specified~|~mental status changes~|~pepe gene~|~generalized~|~ideal
+narcotics~|~alcohol consumption~|~poisoning~|~specific qualifier value~|~biological factors~|~consciousness related finding~|~negation~|~adjudication~|~unspecified - name type~|~pharmaceutical preparations~|~intoxication
+heartburn~|~hyperventilation~|~tissue membrane~|~gastric reflux finding~|~adult disease~|~free (available (qualifier))~|~gram per deciliter~|~heartburn acidity~|~highland
+health status~|~nausea~|~specific qualifier value~|~negation~|~nausea or abdominal pain~|~10%~|~generalized abdominal pain~|~generalized
+foot~|~craniocerebral trauma~|~specific qualifier value~|~environmental pool~|~negation~|~orientation (spatial)~|~unspecified - name type~|~slow~|~desert environment~|~responsive
+surveys~|~psychotic disorders~|~geographic population~|~negation~|~alcoholics~|~health~|~known~|~logical condition~|~due to~|~substance~|~patient visit~|~physiological
+hyperventilation~|~not otherwise specified~|~aspects of signs~|~emotional state observations~|~involvement with~|~symptoms aspect~|~mental status changes~|~physical aggression~|~mental state (observable entity)
+multiple trauma~|~thoracic back pain~|~not otherwise specified~|~pain nos adverse event~|~hypertension adverse event
+chest pain~|~hypertensive disease~|~specific qualifier value~|~per year~|~shortness of breath:-:point in time:^patient:-~|~this (eukaryote)
+singing~|~specific qualifier value~|~hypertension adverse event~|~collapse of medical device or device component~|~copy (object)~|~general symptom~|~negation~|~mental status changes~|~physical findings
+nausea~|~tachycardia~|~general symptom~|~negation~|~specific qualifier value~|~mental status changes~|~feet, unit of measurement~|~not otherwise specified~|~physical findings
+golf~|~influenza virus vaccine~|~nausea~|~orthomyxoviridae~|~specific qualifier value~|~blood group antibody i~|~m nos antibody~|~shortness of breath:-:point in time:^patient:-~|~due to~|~identified
+chills~|~ability~|~fever~|~mental status changes~|~not otherwise specified~|~chronic fever~|~fever with chills~|~chronic
+epilepsy, generalized~|~saint lucia~|~epilepsy~|~syndrome~|~negation~|~specific qualifier value~|~chronic~|~idiopathic epilepsy~|~generalized~|~nia (fungus)~|~unknown (origin) (qualifier value)
+specific qualifier value~|~nausea and vomiting~|~night sweats~|~hypertension adverse event~|~unspecified - name type~|~ballistic
+specific qualifier value~|~diabetes mellitus~|~hyperglycemia~|~negation~|~mental status changes~|~constipation adverse event~|~other constipation
+classification~|~awareness~|~stupor~|~harlequin fetus~|~iodides~|~seizures~|~face~|~negation~|~cognitive functions~|~involvement with~|~symptoms aspect~|~science~|~specific qualifier value~|~initial (abbreviation)~|~mental state (observable entity)~|~physical findings~|~other abnormalities of heart beat~|~shortness of breath:-:point in time:^patient:-~|~mia gene~|~persons~|~conversions~|~julia <juliidae>~|~secondary hypertension~|~not otherwise specified~|~20%~|~counter device component~|~skin specimen~|~encounter due to unspecified general medical examination~|~changing
+automobiles~|~specific qualifier value~|~back pain adverse event~|~negation~|~chest pain on breathing~|~julia <juliidae>~|~traumatic and/or non-traumatic injury
+acute disease~|~classification~|~edema~|~membrane~|~long~|~localized edema~|~acute edema~|~adult disease~|~device display device component~|~highland~|~legal adult~|~localized~|~north~|~unspecified - name type~|~acute
+tissue membrane~|~adult disease~|~highland~|~fever with chills~|~not otherwise specified~|~unspecified infectious disease
+seizures~|~epilepsy, generalized~|~saint lucia~|~negation~|~specific qualifier value~|~epilepsy~|~syndrome~|~fatigue~|~psychological orientation~|~idiopathic epilepsy~|~mental status changes~|~generalized~|~nia (fungus)~|~unknown (origin) (qualifier value)~|~not otherwise specified
+traumatic intracranial hemorrhage~|~classification~|~specific qualifier value~|~unspecified - name type~|~difficulty walking~|~slurred speech~|~negation~|~north
+chronic obstructive airway disease~|~dyspnea~|~specific qualifier value~|~pneumonia~|~negation~|~per year~|~organism~|~not otherwise specified
+abdominal pain~|~constipation~|~generalized~|~message~|~molina~|~unspecified - name type
+residual volume~|~iodides~|~general symptom~|~open wound~|~unspecified injury of abdomen~|~physical findings
+acute onset pain~|~classification~|~vomiting~|~negation~|~influentials~|~orthomyxoviridae~|~specific qualifier value~|~counter device component~|~encounter due to unspecified general medical examination~|~due to~|~legal adult~|~identified~|~unspecified - name type
+wheezing~|~unspecified - name type~|~tissue membrane~|~per year~|~adult disease~|~highland
+iodides~|~reading (activity)~|~ability~|~craniocerebral trauma~|~anger~|~counter device component~|~initial (abbreviation)~|~negation~|~not otherwise specified~|~specific qualifier value
+conduction disorder of the heart~|~adverse event associated with cardiac arrhythmia~|~mental state (observable entity)~|~negation~|~specific qualifier value~|~unspecified - name type~|~elevated blood-pressure reading without diagnosis of hypertension~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~changed status
+alcohol consumption~|~chief complaint (finding)~|~collapse of medical device or device component~|~general symptom~|~specific qualifier value~|~suspected diagnosis~|~copy (object)~|~encounter~|~aspects of signs~|~same~|~diagnosis study~|~reporting~|~generalized
+vomiting~|~iodides~|~golf~|~membrane~|~nausea and vomiting~|~specific qualifier value~|~m nos antibody~|~shortness of breath:-:point in time:^patient:-~|~adult disease~|~highland~|~legal adult
+automobiles~|~entire upper arm~|~negation~|~pain nos adverse event~|~injury of shoulder region~|~traumatic injury~|~specific qualifier value~|~chest pain on breathing
+pharyngitis~|~unspecified - name type~|~infected~|~negation~|~specific qualifier value~|~fever with chills~|~never (frequency)
+abdominal pain~|~ability~|~vomiting~|~generalized~|~left upper quadrant pain~|~call (instruction)~|~specific qualifier value
+hypoglycemia~|~constipation~|~specific qualifier value~|~unspecified - name type~|~alcohol use, unspecified~|~generalized abdominal pain
+iodides~|~specific qualifier value~|~pneumonia~|~general symptom~|~negation~|~m+ (tumor staging)~|~pneumonia organism nos~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~physical findings~|~unspecified - name type~|~back pain adverse event~|~organism
+asterias (invertebrate)~|~septicemia~|~saint lucia~|~not otherwise specified~|~fever with chills~|~organism~|~hip pain~|~specific qualifier value~|~nia (fungus)
+tachycardia~|~cardiac arrhythmia~|~pain nos adverse event~|~specific qualifier value~|~lip pain adverse event~|~entire lower lip~|~lower - spatial qualifier~|~not otherwise specified~|~area
+chronic obstructive airway disease~|~iodides~|~tissue membrane~|~dyspnea~|~disease~|~negation~|~specific qualifier value~|~dial device component~|~not otherwise specified~|~adult disease~|~highland
+hearing~|~contrast media~|~negation~|~specific qualifier value~|~respiratory failure~|~heart~|~mental status changes~|~person name~|~domain (area of knowledge)~|~on (qualifier value)
+iodides~|~needs~|~not otherwise specified~|~lydia~|~mental disorders~|~specific qualifier value~|~m+ (tumor staging)~|~mental status changes~|~person name~|~continuous~|~provisional
+chest pain~|~shortness of breath:-:point in time:^patient:-~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~other - answer to question
+headache~|~respiration disorders~|~gases~|~negation~|~specific qualifier value~|~film - layer~|~mental status changes~|~copy (object)~|~report (document)~|~slow~|~collapse of medical device or device component~|~worried~|~poor - qualifier~|~response process~|~due to~|~chemicals~|~unspecified - name type
+anaphylaxis~|~allergy specialty~|~carrier of disorder~|~specific qualifier value~|~shopping (activity)~|~readiness
+negation~|~specific qualifier value~|~fatigue~|~unspecified - name type~|~biological factors~|~reminding~|~narcotic poisoning~|~feet, unit of measurement~|~drug toxicity~|~not otherwise specified~|~adjudication~|~other convulsions
+mental status changes~|~negation~|~specific qualifier value~|~unspecified infectious disease~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~not otherwise specified
+seizures~|~epilepsy, generalized~|~saint lucia~|~epilepsy~|~syndrome~|~not otherwise specified~|~mental state (observable entity)~|~negation~|~specific qualifier value~|~idiopathic epilepsy~|~mental status changes~|~generalized~|~unknown (origin) (qualifier value)~|~nia (fungus)~|~nausea and vomiting~|~changed status~|~unspecified - name type
+epilepsy~|~seizures~|~syndrome~|~behavior~|~negation~|~specific qualifier value~|~idiopathic epilepsy~|~mental status changes~|~and~|~xp~|~not otherwise specified~|~approximate
+chest pain~|~tachycardia~|~educational aspects~|~agitation~|~general symptom~|~specific qualifier value~|~poisoning by cocaine~|~physical findings~|~adjudication
+septicemia~|~mental status changes~|~negation~|~specific qualifier value~|~worried~|~not otherwise specified~|~organism~|~unspecified - name type
+craniocerebral trauma~|~specific qualifier value~|~0%~|~hypertension adverse event~|~traumatic and/or non-traumatic injury
+heartburn~|~nausea~|~hyperglycemia~|~heartburn acidity~|~nausea and vomiting~|~right lower quadrant pain~|~left lower quadrant pain~|~specific qualifier value~|~unspecified - name type
+fever with chills~|~not otherwise specified~|~pain nos adverse event~|~pain in limb, lower leg~|~unspecified - name type
+chest pain~|~iodides~|~septicemia~|~saint lucia~|~specific qualifier value~|~m nos antibody~|~mia gene~|~organism~|~not otherwise specified
+alcohol consumption~|~mental status changes~|~not otherwise specified~|~biological factors~|~consciousness related finding~|~negation~|~specific qualifier value~|~determination aspects~|~drug toxicity~|~fighting~|~cdisc adas-cog - commands summary score~|~intoxication~|~space - property
+chest pain~|~lightheadedness~|~unspecified - name type~|~not otherwise specified~|~shortness of breath:-:point in time:^patient:-~|~night sweats
+hallucinations, visual~|~initial (abbreviation)~|~specific qualifier value~|~toxic effect of unspecified substance~|~worried~|~substance abuse, other~|~other substance intoxication~|~drug abuse~|~counter device component~|~active~|~intoxication~|~assault
+dyspnea~|~general symptom~|~specific qualifier value~|~physical findings~|~firstly~|~negation~|~unspecified injury of lower back~|~generalized aches and pains~|~elevated blood-pressure reading without diagnosis of hypertension~|~counter device component~|~traumatic injury
+edema~|~fever~|~chills~|~tissue membrane~|~disks (device)~|~edema disease~|~adult disease~|~fever symptoms (finding)~|~highland~|~legal adult
+asterias (invertebrate)~|~abdominal pain~|~nausea~|~vomiting~|~urea~|~fever with chills~|~unspecified infectious disease~|~not otherwise specified
+vision~|~specific qualifier value~|~disease~|~slurred speech~|~user group~|~tnfrsf10b wt allele
+asthma~|~xerostomia~|~specific qualifier value~|~tissue membrane~|~negation~|~adult disease~|~highland~|~legal adult
+iodides~|~respiration~|~disease~|~specific qualifier value~|~per year~|~m nos antibody~|~member~|~thoracic mammary region~|~pain of skin~|~highland~|~legal adult~|~chest pain on breathing~|~climbing~|~skin specimen
+vomiting~|~hyperventilation~|~specific qualifier value~|~unspecified - name type~|~other specified diabetes mellitus with hyperglycemia~|~nadia - zebrafish
+chronic kidney diseases~|~chronic obstructive airway disease~|~not otherwise specified~|~negation~|~pain nos adverse event~|~specific qualifier value~|~pain in lower limb~|~isis~|~dial device component~|~chronic
+iodides~|~neck pain~|~specific qualifier value~|~back~|~back injuries~|~neck~|~negation~|~m nos antibody~|~unspecified injury of hip~|~back pain adverse event~|~lower - spatial qualifier
+hypnotics~|~poisoning~|~epilepsy~|~asians~|~vomiting~|~adjudication~|~unspecified - name type~|~biological factors~|~involvement with~|~physical findings~|~symptoms aspect~|~cdisc adas-cog - commands summary score~|~peak level~|~emotional state observations~|~sost wt allele~|~identifier~|~pharmaceutical preparations~|~side~|~specific qualifier value~|~sweet taste perception~|~behavior:-:point in time:^patient:-~|~readiness
+adjudication~|~poisoning~|~general symptom~|~physical findings~|~reminding~|~narcotic poisoning~|~biological factors~|~drug toxicity~|~unspecified - name type~|~yard (length)
+venous thrombosis~|~arteries~|~acute pulmonary edema~|~localized~|~long
+edema~|~specific qualifier value~|~neck injuries~|~general symptom~|~lamp device component~|~localized~|~mass, a measure of quantity of matter~|~negation~|~physical findings~|~unspecified - name type~|~anatomic site~|~south
+chronic obstructive airway disease~|~coughing~|~acute lower respiratory tract infection~|~negation~|~specific qualifier value~|~easy
+disease~|~comment~|~unspecified - name type~|~poisoning~|~membrane~|~biological factors~|~reminding~|~make - instruction imperative~|~slow~|~narcotic poisoning~|~does pull~|~highland~|~responsive~|~this (eukaryote)~|~determination aspects
+abdominal pain~|~vomiting~|~diarrhea~|~epigastric pain~|~nausea and vomiting~|~specific qualifier value
+harlequin fetus~|~expiration, function~|~weather~|~saint lucia~|~specific qualifier value~|~books~|~respiratory failure~|~disease~|~mia gene~|~syringe caps~|~negation~|~to specify~|~per year~|~shortness of breath:-:point in time:^patient:-~|~nia (fungus)~|~acute respiratory failure~|~protective cup~|~highland~|~legal adult~|~member
+iodides~|~hypoglycemia~|~respiratory failure~|~specific qualifier value~|~negation~|~other specified diabetes mellitus with hypoglycemia~|~apnea adverse event~|~m nos antibody
+migraine disorders~|~wheezing~|~disease~|~member~|~highland~|~legal adult~|~unspecified - name type
+diarrhea~|~chest pain~|~iodides~|~specific qualifier value~|~m nos antibody
+negation~|~specific qualifier value~|~mental status changes~|~shortness of breath:-:point in time:^patient:-~|~visual disturbance~|~decision
+specific qualifier value~|~conduction disorder of the heart~|~hyperventilation~|~pathologic fistula~|~<50~|~negation~|~congestive heart failure~|~adverse event associated with cardiac arrhythmia~|~edema:finding:point in time:^patient:ordinal~|~slurred speech~|~not otherwise specified~|~near
+eye pain~|~iodides~|~head~|~memory observations~|~negation~|~specific qualifier value~|~open wound~|~unspecified injury of face~|~right
+dominica~|~circulating anticoagulants~|~hemorrhagic disorders~|~craniocerebral trauma~|~hemorrhage~|~head~|~negation~|~specific qualifier value
+diarrhea~|~nausea~|~vomiting~|~specific qualifier value~|~diarrhea and vomiting, symptom~|~hypertension adverse event~|~unspecified - name type
+kidney failure, acute~|~specific qualifier value~|~respiratory failure~|~pneumonia~|~negation~|~mental status changes~|~organism
+iodides~|~hypoglycemia~|~diabetes mellitus~|~hyperglycemia~|~specific qualifier value~|~anxiety~|~negation~|~to specify~|~m nos antibody~|~physical aggression
+epistaxis~|~specific qualifier value~|~hemorrhage~|~nosebleed qr kit~|~negation~|~stress~|~traumatic and/or non-traumatic injury~|~worried~|~emotional state observations

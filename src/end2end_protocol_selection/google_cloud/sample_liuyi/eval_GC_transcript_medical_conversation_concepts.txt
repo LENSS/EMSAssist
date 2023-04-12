@@ -1,0 +1,100 @@
+conduction disorder of the heart~|~xerostomia~|~constipation~|~satisfaction~|~back pain adverse event~|~negation~|~dietary phosphorus~|~specific qualifier value~|~fighting~|~adverse event associated with cardiac arrhythmia
+chest pain~|~pain, burning~|~nausea~|~satisfaction~|~shortness of breath:-:point in time:^patient:-~|~negation~|~specific qualifier value
+satisfaction~|~menthol~|~zetia~|~hematuria~|~candy~|~communicable diseases~|~negation~|~not otherwise specified~|~mental status changes~|~status~|~past
+nausea~|~satisfaction~|~generalized aches and pains~|~specific qualifier value~|~acute pain due to trauma~|~skeletal bone~|~negation~|~traumatic and/or non-traumatic injury
+abdominal pain~|~vomiting~|~satisfaction~|~negation~|~specific qualifier value~|~abdomen~|~heart~|~abdominal tenderness~|~generalized~|~generalized abdominal pain~|~pain site~|~anatomic site~|~recurrent urinary tract infection~|~parkinsonia
+hospice care~|~conduction disorder of the heart~|~heart atrium~|~neck injuries~|~heart~|~adverse event associated with cardiac arrhythmia~|~unspecified~|~atrial arrhythmia~|~fbl gene~|~relative (related person)
+epilepsy~|~father (person)~|~hallucinations~|~emotional state observations~|~generalized~|~involvement with~|~size~|~feet, unit of measurement~|~fighting~|~same~|~adverse event associated with syndromes~|~medial~|~best (quality)~|~specific qualifier value
+hospice care~|~not well~|~fighting~|~biological factors~|~indeterminate~|~saw (device)~|~ideation~|~mental state (observable entity)~|~analogy~|~thinking and speaking disturbances~|~pharmaceutical preparations~|~physical aggression
+father (person)~|~iodides~|~adult~|~opioid-related disorders~|~disease~|~substance-related disorders~|~general symptom~|~active~|~physical findings~|~remembering
+iodides~|~nitric oxide~|~venezuela~|~lower extremity~|~fused~|~injury of prostate~|~low confidentiality
+hospice care~|~septicemia~|~hispanics~|~disease~|~specific qualifier value~|~tissue membrane~|~pneumonia organism nos~|~process~|~false~|~organism
+feeling suicidal (finding)~|~iodides~|~lightheadedness~|~venezuela~|~major depressive disorder~|~ethanol~|~helium~|~nausea~|~aspects of signs~|~involvement with~|~negation~|~usage~|~specific qualifier value~|~seen~|~hot sensation quality~|~emotional state observations~|~not well~|~fighting
+nausea~|~vomiting~|~specific qualifier value~|~toxic effect of carbon monoxide~|~symptoms~|~side
+asbestos~|~chronic pain~|~nausea~|~vomiting~|~specific qualifier value~|~weakness~|~maintenance~|~negation~|~diabetic~|~powder physical state~|~chronic~|~chronic debility~|~generalized aches and pains~|~chronic vomiting~|~fighting
+craniocerebral trauma~|~human body~|~hospice environment~|~burundi~|~patient in hospital~|~satisfaction~|~ankle injuries~|~hip injuries~|~trauma to the abdomen~|~injury of lower leg~|~injury of thigh~|~most~|~best (quality)
+risk~|~pap smear~|~conduction disorder of the heart~|~emotions~|~cardiovascular system~|~adverse event associated with cardiac arrhythmia~|~burden~|~negation~|~specific qualifier value~|~unspecified
+betaseron~|~etiology aspects~|~cardiac arrest~|~unconscious state~|~satisfaction~|~specific qualifier value~|~negation~|~out (direction)~|~finding of cardiac pacemaker
+craniocerebral trauma~|~hospice environment~|~patient in hospital~|~foot~|~ankle injuries~|~foot injuries~|~head~|~transplantation~|~angular~|~entire eye~|~order (arrangement)~|~injury of lower leg~|~traumatic and/or non-traumatic injury~|~specific qualifier value~|~irregular
+iodides~|~classification~|~fatigue~|~disease~|~negation~|~tissue membrane~|~specific qualifier value~|~adult disease~|~apnea adverse event~|~fighting~|~not well~|~negative surgical margin~|~patient in hospital~|~doubt~|~remembering~|~high
+father (person)~|~burundi~|~hyperglycemia~|~sore throat~|~satisfaction~|~generalized aches and pains~|~specific qualifier value~|~diabetic~|~entire breast~|~negation
+traumatic cerebral hemorrhage~|~trauma qualifier~|~unconscious state~|~specific qualifier value~|~negation~|~patient visit~|~initial (abbreviation)~|~hemorrhoids adverse event~|~mental state (observable entity)~|~resolution~|~unspecified - name type~|~early complication of trauma~|~counts~|~not otherwise specified~|~unspecified~|~code system type - internal
+spasm~|~vomiting~|~nausea~|~hydroxide ion~|~pain nos adverse event~|~specific qualifier value~|~negation~|~withdrawal (dysfunction)~|~alcohol dependence with withdrawal, unspecified
+nausea~|~pain nos adverse event~|~generalized~|~initially~|~negation~|~patient visit~|~specific qualifier value~|~early complication of trauma~|~not otherwise specified~|~pump device component
+father (person)~|~seizures~|~alcohol consumption~|~nausea~|~disease~|~membrane~|~doubt~|~specific qualifier value
+father (person)~|~hypercholesterolemia~|~abdominal pain~|~headache~|~diabetes mellitus~|~hyperglycemia~|~meningitis~|~fighting~|~generalized~|~generalized abdominal pain~|~spells (neurological symptom)~|~unspecified
+israel~|~alcohol-induced disorders~|~alcohol consumption~|~specific qualifier value~|~utilization qualifier~|~foreign bodies~|~encounter for adult health check-up nos~|~professional guide~|~best (quality)~|~cardiopulmonary~|~respiratory system~|~alcohol use disorder~|~induce (action)~|~negation
+hospice environment~|~forearm~|~forearm injuries~|~satisfaction~|~pain nos adverse event~|~entire ankle region~|~lip pain adverse event~|~patient in hospital~|~traumatic and/or non-traumatic injury~|~entire lower lip~|~specific qualifier value~|~not otherwise specified~|~lower - spatial qualifier
+satisfaction~|~wheezing~|~constipation~|~back pain adverse event~|~negation~|~general symptom~|~side~|~exacerbation of asthma
+asbestos~|~facial paresis~|~hospice care~|~satisfaction~|~negation~|~specific qualifier value~|~psychological orientation~|~fighting~|~mental state (observable entity)~|~tension~|~abnormal coordination~|~changed status
+vision~|~nose~|~satisfaction~|~psychological orientation~|~negation~|~unspecified~|~mental status changes~|~fever with chills~|~not otherwise specified~|~recurrent urinary tract infection~|~unspecified anatomic sites~|~side~|~west (direction)
+vomiting~|~constipation~|~satisfaction~|~negation~|~patients~|~mental state (observable entity)~|~mental status changes~|~nausea and vomiting~|~not otherwise specified~|~changed status
+abdominal pain~|~zetia~|~intestinal obstruction~|~constipation~|~satisfaction~|~generalized abdominal rigidity~|~negation~|~severe pain
+conduction disorder of the heart~|~satisfaction~|~chronic debility~|~negation~|~unspecified~|~per year~|~adverse event associated with cardiac arrhythmia~|~breath~|~shortened~|~10%~|~past
+negation~|~togo~|~ankle~|~specific qualifier value~|~aneurysm~|~status~|~thrive~|~doubt~|~emend~|~electrical current
+father (person)~|~chest pain~|~health status~|~specific qualifier value~|~limb structure~|~species
+mortality vital statistics~|~asbestos~|~risk~|~definition~|~per year~|~respiratory failure~|~etiology unknown~|~cardiac arrest cause~|~respiration intermittent~|~bone structure of spine~|~cardiovascular system~|~failure (biologic function)~|~known~|~now (temporal qualifier)~|~periodic
+hallucinations~|~hallucinations, auditory~|~chantix~|~satisfaction~|~specific qualifier value~|~unspecified - name type~|~traumatic and/or non-traumatic injury~|~negation
+hypotension~|~shock~|~specific qualifier value~|~hypothermia due to exposure
+acute onset pain~|~classification~|~bad~|~negation~|~wound pain~|~headache acute
+father (person)~|~chest pain~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~general symptom~|~painful rt shoulder~|~specific qualifier value~|~office~|~side
+hypertensive disease~|~fighting~|~shortness of breath:-:point in time:^patient:-~|~best (quality)~|~breaths:number = count/time:point in time:respiratory system:quantitative~|~worried
+namenda~|~abdominal pain~|~drowsiness~|~nausea~|~constipation~|~negation~|~satisfaction~|~changing~|~specific qualifier value~|~nonspecific abdominal pain~|~generalized aches and pains~|~10%~|~unspecified - name type
+septicemia~|~oils, volatile~|~negation~|~pass (indicator)~|~personal failure~|~specific qualifier value~|~test categorized by action status~|~organism~|~emend~|~send (transmission)~|~not otherwise specified~|~transverse - anatomical location
+cerebral infarction~|~father (person)~|~somalia~|~headache~|~maintenance~|~general symptom~|~changed status~|~specific qualifier value~|~not otherwise specified~|~physical findings~|~possible~|~biomedical tube device
+angina pectoris~|~father (person)~|~satisfaction~|~anxiety~|~negation~|~thoracic mammary region~|~awareness of heart beat~|~cardiac pain~|~cardiac - anatomy qualifier~|~pain nos adverse event~|~specific qualifier value
+risk~|~awareness~|~dyspnea~|~satisfaction~|~negation~|~orthomyxoviridae~|~congestive heart failure~|~due to~|~including (qualifier)~|~specific qualifier value~|~influenza with respiratory manifestation other than pneumonia~|~elevated blood-pressure reading without diagnosis of hypertension~|~identified~|~injury wounds~|~manifest~|~operative surgical procedures
+zetia~|~flonase~|~facial paresis~|~oxaliplatin~|~negation~|~specific qualifier value~|~past~|~poor responsiveness
+asbestos~|~insertion of pack (procedure)~|~intoxication~|~fighting~|~alcohol abuse, uncomplicated~|~slurred speech~|~gauges (qualifier value)
+father (person)~|~epilepsy~|~satisfaction~|~orientation (spatial)~|~specific qualifier value~|~unspecified~|~size~|~general symptom~|~negation
+father (person)~|~pelvic pain~|~abdominal pain~|~generalized~|~chest pain angina~|~cardiac - anatomy qualifier
+satisfaction~|~epilepsy~|~trochlear nerve structure~|~negation~|~failure (biologic function)~|~specific qualifier value~|~endocrine system findings domain~|~mental status changes~|~feet, unit of measurement~|~home environment~|~generalized~|~adverse event associated with syndromes~|~free (available (qualifier))
+syncope~|~satisfaction~|~unspecified~|~hypertension adverse event~|~collapse (finding)~|~consent type - colonoscopy~|~negation
+abdominal pain~|~nausea~|~specific qualifier value~|~heart~|~negation~|~acute~|~myocardial infarction:finding:point in time:^patient:ordinal~|~nausea or abdominal pain~|~chest pain angina~|~generalized abdominal pain~|~generalized~|~unspecified - name type
+specific qualifier value~|~conduction disorder of the heart~|~disease~|~tissue membrane~|~hospital environment~|~doubt~|~abdominal tenderness~|~abnormally high~|~adverse event associated with cardiac arrhythmia~|~atrial fibrillation adverse event~|~negation~|~unspecified
+narcotics~|~fentanyl~|~negation~|~specific qualifier value~|~vomiting adverse event~|~emend~|~day~|~chance~|~person name~|~bad~|~mental state (observable entity)~|~unspecified - name type~|~entity~|~post
+satisfaction~|~major depressive disorder~|~negation~|~anxiety~|~specific qualifier value~|~worried
+headache~|~negation~|~specific qualifier value~|~unspecified~|~apparently~|~sore to touch~|~wounds and injuries~|~generalized abdominal pain~|~feeling upset~|~weak
+unconscious state~|~negation~|~bread~|~satisfaction~|~hernia~|~specific qualifier value~|~mental state (observable entity)~|~mental status changes~|~sore to touch~|~not otherwise specified~|~ischemic change
+chest pain~|~constipation~|~specific qualifier value~|~chest+lungs~|~oral pain~|~oral region~|~structure of parenchyma of lung~|~anterior thoracic region~|~pain nos adverse event~|~shortness of breath:-:point in time:^patient:-
+hyperglycemia~|~father (person)~|~satisfaction~|~zetia~|~negation~|~friend~|~unspecified~|~orientation (spatial)~|~cytip gene~|~side~|~this (eukaryote)~|~best (quality)~|~diabetic
+zetia~|~negation~|~specific qualifier value~|~satisfaction~|~psychological orientation~|~mental disorders~|~mental status changes~|~possibly related to intervention~|~clammy skin
+constipation~|~diarrhea/constipation~|~generalized~|~nausea and vomiting~|~left lower quadrant pain~|~right lower quadrant pain~|~left lower quadrant~|~right lower quadrant
+hypotension~|~chronic debility~|~general symptom~|~specific qualifier value~|~unspecified~|~physical findings
+chest pain~|~wound healing~|~fatigue~|~negation~|~specific qualifier value~|~unspecified~|~pain nos adverse event~|~author~|~site of~|~pressure - action
+lightheadedness~|~indication of (contextual qualifier)~|~disturbance~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+spasm~|~muscle cramp~|~constipation~|~craniocerebral trauma~|~bronchial spasm~|~injury of elbow~|~acute pain due to trauma~|~preposition for
+diarrhea~|~father (person)~|~chills~|~physical findings~|~numerous~|~fever with chills~|~sepsis, unspecified organism~|~general symptom~|~generalized~|~specific qualifier value
+sedatives~|~zetia~|~septicemia~|~classification~|~constipation~|~communicable diseases~|~organism~|~mirror device component~|~patient in hospital~|~not otherwise specified~|~rapid~|~else~|~negation~|~possibly related to intervention~|~specific qualifier value
+anaphylaxis~|~hypotension~|~negation~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~allergy assessment
+negation~|~specific qualifier value~|~nausea and vomiting~|~left upper quadrant pain~|~non-specific back pain~|~generalized
+angina pectoris~|~headache~|~lightheadedness~|~nausea~|~satisfaction~|~shortness of breath:-:point in time:^patient:-~|~back pain adverse event~|~left~|~hospital environment~|~pain nos adverse event~|~negation
+pap smear~|~shock, cardiogenic~|~classification~|~tachycardia~|~hemoptysis~|~shock~|~acute pulmonary edema~|~acute cardiac pulmonary edema~|~not well
+mastodynia~|~bronchitis~|~shoulder~|~constipation~|~heartburn~|~entire upper arm~|~injury of shoulder region~|~best (quality)~|~injury of breast~|~traumatic and/or non-traumatic injury~|~entire thorax~|~heartburn acidity~|~pain nos adverse event
+abdominal pain~|~specific qualifier value~|~left lower quadrant pain~|~nausea and vomiting~|~home environment~|~unspecified - name type
+zetia~|~classification~|~not well~|~difficulty walking~|~best (quality)~|~cerebellar stroke syndrome~|~now (temporal qualifier)~|~fighting
+father (person)~|~alcohol consumption~|~teratologic~|~substance-related disorders~|~specific qualifier value~|~site-specific telomere resolvase activity~|~smaller~|~mobility as a finding~|~active~|~agitation~|~event cycle
+wheezing~|~hemorrhage~|~disease~|~membrane~|~lower gastrointestinal hemorrhage~|~negation~|~specific qualifier value~|~interested~|~not otherwise specified~|~hilar
+disease~|~hemorrhage~|~intestines~|~specific qualifier value~|~membrane~|~negation~|~rectal hemorrhage~|~intestinal hemorrhage nos~|~abnormally high~|~alarm system device component~|~ms. - title~|~painful intercourse female~|~rectal
+father (person)~|~hypogonadism~|~schizophrenia~|~membrane~|~chest pain on breathing~|~adult disease~|~non-diabetic hyperglycemia~|~specific qualifier value
+father (person)~|~speech~|~chest pain~|~hyperlipidemia~|~negation~|~satisfaction~|~pain nos adverse event~|~sostdc1 gene~|~not otherwise specified~|~specific qualifier value
+constipation~|~dehydration~|~nausea and vomiting~|~hypertension adverse event
+aspirin~|~father (person)~|~melatonin~|~dehydration~|~dyspnea~|~hypertrophy~|~best (quality)~|~not otherwise specified~|~diabetic~|~insomnia adverse event~|~unspecified~|~nonspecific
+cerebral infarction~|~transient cerebral ischemia~|~specific qualifier value~|~negation~|~gait abnormality~|~mobility as a finding~|~possibly related to intervention~|~other - answer to question
+epilepsy, generalized~|~epilepsy~|~syndrome~|~tachycardia~|~hyperglycemia~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~hint1 gene~|~struck by~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)~|~not otherwise specified~|~fighting~|~negation~|~unspecified~|~best (quality)
+syncope~|~awareness~|~disease~|~collapse (finding)~|~authorization documentation~|~transitory~|~slurred speech~|~others - allergy~|~vasculitis adverse event~|~verbal
+chest pain~|~hospice environment~|~neck pain~|~foot~|~hand~|~respiration~|~respiration disorders~|~neck~|~entire toe~|~specific qualifier value~|~hot sensation quality~|~structure of all fingers~|~foot pain~|~specialized
+father (person)~|~drowsiness~|~emotional state observations~|~involvement with~|~negation~|~specific qualifier value~|~side~|~symptoms aspect~|~not otherwise specified~|~best (quality)~|~shortness of breath:-:point in time:^patient:-
+chronic obstructive airway disease~|~fatigue~|~satisfaction~|~now (temporal qualifier)~|~not otherwise specified~|~shortness of breath:-:point in time:^patient:-~|~nausea adverse event
+hemorrhage~|~not otherwise specified~|~negation~|~specific qualifier value~|~encounter for adult health check-up nos~|~patient visit~|~alcohol use, unspecified~|~adult nurse practitioner~|~checking (action)~|~out (direction)
+abdominal pain~|~behavior~|~generalized~|~mental status changes~|~shortness of breath:-:point in time:^patient:-~|~thoracic mammary region~|~not otherwise specified~|~pain nos adverse event~|~past~|~bite injury~|~indirect
+unconscious state~|~father (person)~|~epilepsy, generalized~|~hospice care~|~epilepsy~|~satisfaction~|~negation~|~communicable diseases~|~blood group antibody i~|~m+ (tumor staging)~|~specific qualifier value~|~adverse event associated with syndromes~|~idiopathic epilepsy~|~feet, unit of measurement~|~generalized~|~unknown (origin) (qualifier value)~|~symptoms~|~left cheek~|~not otherwise specified~|~severe (severity modifier)~|~size
+father (person)~|~gait~|~hyperglycemia~|~infarction~|~unspecified - name type~|~mobility as a finding~|~unspecified~|~biomedical tube device
+father (person)~|~hemorrhage~|~specific qualifier value~|~size~|~general symptom~|~generalized aches and pains~|~unspecified~|~abnormal~|~hypertension adverse event
+sneezing~|~father (person)~|~zetia~|~tissue membrane~|~chronic disease~|~ability~|~personnel selection~|~communicable diseases~|~disease~|~ireland~|~general symptom~|~widespread disease~|~physical findings~|~generalized~|~chronic~|~negation~|~serotonin reuptake inhibitor [epc]~|~unspecified~|~nonspecific
+angina pectoris~|~chest pain~|~hospice environment~|~anxiety~|~accelerated~|~negation~|~specific qualifier value~|~pain site~|~shortness of breath:-:point in time:^patient:-~|~anatomic site~|~anterior thoracic region
+fingers~|~hand~|~constipation~|~foot~|~upper arm~|~satisfaction~|~hip injuries~|~entire toe~|~negation~|~yes (indicator)~|~upper back pain~|~pain in limb~|~injury of shoulder region~|~specific qualifier value~|~no - yes/no indicator
+lightheadedness~|~sound - physical agent~|~vomiting~|~not otherwise specified~|~nausea and vomiting~|~specific qualifier value~|~per year
+septicemia~|~tissue membrane~|~hypertensive disease~|~disease~|~hilar~|~adult disease~|~organism~|~unspecified~|~unspecified - name type
+abdominal pain~|~burundi~|~beds~|~specific qualifier value~|~hip injuries~|~thoracic injuries~|~unspecified~|~pain nos adverse event~|~past~|~one
+feeling suicidal (finding)~|~chest pain~|~specific qualifier value~|~schizophrenia~|~dietary phosphorus~|~heart~|~negation~|~mental status changes~|~fighting~|~unspecified

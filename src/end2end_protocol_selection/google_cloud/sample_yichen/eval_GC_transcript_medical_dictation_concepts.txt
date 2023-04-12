@@ -1,0 +1,100 @@
+wheezing~|~diarrhea~|~respiratory distress syndrome, adult~|~unspecified - name type~|~vomiting adverse event~|~non-q wave myocardial infarction~|~night sweats~|~not otherwise specified
+iodides~|~primary cough headache~|~tissue membrane~|~doubt~|~shortness of breath:-:point in time:^patient:-~|~adult disease~|~hilar
+hearing~|~bradycardia~|~negation~|~specific qualifier value~|~poisoning~|~apnea adverse event~|~general symptom~|~indeterminate~|~mental state (observable entity)~|~aspects of signs
+aphasia~|~negation~|~specific qualifier value~|~changed status~|~mental state (observable entity)~|~apnea adverse event~|~suicide attempt incident code
+hematemesis~|~vomiting~|~nausea~|~hematochezia~|~hemorrhage~|~not otherwise specified
+shoulder pain~|~neck pain~|~generalized~|~negation~|~pain nos adverse event~|~specific qualifier value~|~anterior thoracic region~|~other
+spasm~|~hypoglycemia~|~negation~|~other specified diabetes mellitus with hypoglycemia~|~specific qualifier value~|~mental status changes~|~changed status~|~dpysl5 gene~|~not otherwise specified
+chronic obstructive airway disease~|~xerostomia~|~negation~|~specific qualifier value~|~not otherwise specified~|~shortness of breath:-:point in time:^patient:-
+abdominal pain~|~rectum~|~behavior~|~muscle strain~|~mental status changes~|~bleeding from anus~|~not otherwise specified
+wheezing~|~disease~|~tissue membrane~|~fever with chills~|~adult disease~|~hilar~|~favor~|~member
+fatigue~|~hypotension~|~diarrhea~|~unspecified - name type~|~negation~|~specific qualifier value~|~not otherwise specified~|~epigastric pain~|~postural
+hypothermia, natural~|~general symptom~|~negation~|~physical findings~|~specific qualifier value~|~mental status changes
+chest pain~|~negation~|~specific qualifier value~|~anxiety~|~thoracic injuries~|~generalized aches and pains~|~lacking~|~unspecified injury of unspecified thigh~|~other chest pain~|~lower - spatial qualifier
+hyperventilation~|~anxiety~|~not otherwise specified~|~shock~|~general symptom~|~physical findings~|~stress~|~emotional shock~|~emotional state observations~|~geographic state~|~unspecified - name type
+asthma~|~respiration disorders~|~general symptom~|~exacerbation acute~|~shortness of breath:-:point in time:^patient:-~|~acute bronchospasm~|~physical findings~|~unspecified - name type
+syncope~|~dyspnea~|~hypotension~|~singulair~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~collapse of medical device or device component
+ocular orbit~|~eye injuries~|~eye pain~|~lower extremity~|~negation~|~specific qualifier value~|~open wound of eyeball~|~traumatic injury~|~unspecified - name type~|~lacking~|~lower - spatial qualifier~|~hat - headwear~|~traumatic and/or non-traumatic injury~|~pay
+senna plant~|~asthma~|~chest pain~|~specific qualifier value~|~negation~|~findings aspects~|~not otherwise specified~|~atrial fibrillation adverse event~|~night sweats~|~unspecified - name type
+negation~|~specific qualifier value~|~forearm injuries~|~hemorrhage~|~generalized aches and pains~|~traumatic injury~|~lct gene~|~lower - spatial qualifier
+asthma~|~influenza virus vaccine~|~orthomyxoviridae~|~health~|~negation~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~contact with~|~not otherwise specified~|~unidentified - modifier
+chronic obstructive airway disease~|~negation~|~specific qualifier value~|~asthenia~|~chills~|~fever with chills~|~acute
+alcohol consumption~|~vomiting~|~mental state (observable entity)~|~obtain~|~not otherwise specified~|~indirect~|~intoxication~|~unspecified - name type
+dehydration~|~hypotension~|~biological factors~|~general symptom~|~indeterminate~|~physical findings~|~drug toxicity~|~unspecified - name type
+fever with chills~|~pain nos adverse event~|~not otherwise specified~|~back pain adverse event~|~generalized~|~negation~|~specific qualifier value~|~lower - spatial qualifier~|~structure of parenchyma of lung
+major depressive disorder~|~emotional states~|~involvement with~|~muscle strain~|~negation~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~shortness of breath:-:point in time:^patient:-~|~behavior:-:point in time:^patient:-
+iodides~|~tachycardia~|~chills~|~disease~|~severe sepsis with septic shock~|~tissue membrane~|~fever symptoms (finding)~|~respiration intermittent~|~organism~|~unspecified - name type~|~doubt
+not otherwise specified~|~negation~|~specific qualifier value~|~mental status changes~|~back pain adverse event~|~generalized aches and pains~|~pain in limb, lower leg
+asthenia~|~chest pain~|~alcohol consumption~|~specific qualifier value~|~negation~|~unspecified - name type~|~testing~|~generalized~|~pain nos adverse event~|~intoxication
+skin diseases, infectious~|~subcutaneous tissue~|~specific qualifier value~|~negation~|~mental status changes~|~sepsis, unspecified organism~|~local~|~somnolence
+abdominal pain~|~negation~|~specific qualifier value~|~hypotension~|~abdominal tenderness~|~unspecified - name type~|~mental status changes
+syncope~|~transient cerebral ischemia~|~associated persons domain~|~singular~|~clammy skin~|~collapse of medical device or device component
+hyaline membrane disease~|~wheezing~|~additional~|~exacerbation of asthma~|~left upper quadrant pain~|~right upper quadrant pain~|~left upper quadrant~|~right upper quadrant~|~anterior thoracic region~|~unspecified - name type
+alcohol use, unspecified~|~unspecified - name type~|~breast pain female~|~shortness of breath:-:point in time:^patient:-~|~intoxication
+syncope~|~hand~|~finger injuries~|~negation~|~specific qualifier value~|~wrist injuries~|~unspecified - name type~|~hand injuries~|~fit (action)~|~entire wrist region
+anterior myocardial infarction~|~chest pain~|~myocardial infarction:finding:point in time:^patient:ordinal~|~negation~|~specific qualifier value~|~unspecified - name type~|~acute~|~seen~|~elevation
+facial injuries~|~tachycardia~|~hand~|~negation~|~specific qualifier value~|~finger injuries~|~wrist injuries~|~fracture~|~unspecified~|~hand injuries~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~entire wrist region
+chest pain~|~abdominal pain~|~nausea~|~asthenia~|~generalized~|~unspecified - name type~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified
+generalized~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~nausea or abdominal pain
+back pain~|~negation~|~specific qualifier value~|~xerostomia~|~back pain adverse event~|~generalized aches and pains
+tissue membrane~|~shortness of breath:-:point in time:^patient:-~|~acute pulmonary edema~|~legal adult
+hematuria~|~negation~|~specific qualifier value~|~hemorrhage~|~calculi~|~abdominal tenderness~|~hemorrhage of kidney~|~generalized abdominal pain~|~renal hematuria~|~renal stone substance
+chest pain~|~iodides~|~tachycardia~|~nausea~|~hypertensive disease~|~tissue membrane~|~short value~|~breath~|~doubt~|~unspecified - name type
+alcohol consumption~|~aneurysm~|~unspecified - name type~|~not otherwise specified~|~alcohol use, unspecified~|~intoxication~|~hat - headwear~|~traumatic and/or non-traumatic injury
+dysuria~|~negation~|~specific qualifier value~|~chronic debility~|~site~|~shortness of breath:-:point in time:^patient:-~|~recurrent urinary tract infection
+uterine anomalies~|~abdominal pain~|~back pain~|~uterus~|~constipation~|~edema~|~mass of body structure~|~vaginal hemorrhage~|~negation~|~specific qualifier value~|~generalized abdominal pain~|~abnormal~|~unspecified - name type
+syncope~|~diarrhea~|~nausea~|~unspecified - name type~|~collapse (finding)~|~nausea and vomiting~|~traumatic injury~|~hat - headwear
+asthma~|~dehydration~|~not otherwise specified~|~unspecified - name type~|~unspecified dementia with aggressive behavior~|~traumatic and/or non-traumatic injury~|~back pain adverse event
+neck~|~tachycardia~|~hypoxemia~|~general symptom~|~venoms~|~physical findings~|~accidental~|~initial (abbreviation)~|~unintentional~|~unspecified - name type~|~visit~|~elevated blood-pressure reading without diagnosis of hypertension~|~toxic effect of venom~|~effect
+magnetic resonance imaging~|~hemorrhage~|~abdomen~|~generalized~|~negation~|~right lower quadrant pain~|~specific qualifier value~|~not otherwise specified~|~left lower quadrant pain
+chest pain~|~asthenia~|~unspecified - name type~|~not otherwise specified
+hallucinations, auditory~|~hallucinations, visual~|~gout~|~forearm~|~burn injury~|~involvement with~|~physical findings~|~specific site~|~symptoms aspect~|~units of measure - degree~|~negation~|~referral category - inpatient~|~usage~|~burn erythema of lower leg~|~second degree burn of lower leg~|~emotional state observations~|~first degree~|~second degree
+snoring~|~respiratory failure~|~biological factors~|~indeterminate~|~negation~|~specific qualifier value~|~unspecified - name type~|~mental state (observable entity)~|~drug toxicity~|~obtain
+chest pain~|~cardiac arrest~|~negation~|~specific qualifier value~|~acute~|~myocardial infarction:finding:point in time:^patient:ordinal~|~unspecified - name type~|~science of etiology
+abdominal pain~|~health status~|~abdominal bloating~|~generalized~|~generalized abdominal pain~|~specific qualifier value
+abdominal pain~|~tachycardia~|~respiratory distress syndrome, adult~|~negation~|~specific qualifier value~|~back pain adverse event~|~epigastric pain
+asthenia~|~lightheadedness~|~vertigo, peripheral~|~chest pain~|~negation~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~accelerated angina
+dyspnea~|~chronic obstructive airway disease~|~wheezing~|~negation~|~specific qualifier value~|~unspecified - name type
+dystonia~|~allergy specialty~|~dropping~|~emotional state observations~|~involvement with~|~muscle strain~|~physical findings~|~symptoms aspect~|~behavior:-:point in time:^patient:-~|~induce (action)
+tachycardia~|~asthenia~|~linear~|~negation~|~specific qualifier value~|~unspecified - name type~|~pain in left hip~|~not otherwise specified~|~traumatic injury
+dyspnea~|~hypoxemia~|~unspecified - name type~|~biological factors~|~indeterminate~|~patient visit~|~comment~|~nature~|~poisoning~|~fixed specimen~|~negation~|~specific qualifier value~|~respiration intermittent~|~drug toxicity~|~malignant - descriptor~|~not otherwise specified~|~medical service~|~pharmaceutical preparations~|~initial (abbreviation)~|~transient alteration of awareness~|~peak level~|~metabolic alkalosis~|~impression
+syncope~|~asthenia~|~epilepsy, generalized~|~confusion~|~syndrome~|~negation~|~specific qualifier value~|~hypotension~|~unspecified - name type~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)~|~atelectatic~|~collapse (finding)
+disease~|~patient observation~|~asthma~|~asthenia~|~specific qualifier value~|~cough adverse event~|~negation~|~one~|~out (direction)~|~positive~|~shortness of breath:-:point in time:^patient:-~|~encounter due to counseling~|~abnormal breathing~|~preposition for~|~suspected qualifier~|~patient visit
+abdominal pain~|~diarrhea~|~abdomen~|~unspecified - name type~|~right upper quadrant pain~|~generalized abdominal pain~|~right upper quadrant~|~generalized~|~epigastric
+headache~|~sore throat~|~hemorrhage~|~neck injuries~|~generalized~|~negation~|~pain nos adverse event~|~specific qualifier value~|~not otherwise specified
+intestinal obstruction~|~nausea~|~negation~|~specific qualifier value~|~generalized abdominal tenderness~|~chest pain on breathing~|~sore to touch~|~not otherwise specified~|~generalized abdominal pain~|~nausea or abdominal pain~|~generalized~|~pain nos adverse event
+anti-anxiety agents~|~hypnotics and sedatives~|~negation~|~specific qualifier value~|~asthenia~|~utilization qualifier~|~apnea adverse event~|~light, unspecified~|~relationships
+chest pain~|~nausea~|~unspecified - name type~|~shortness of breath:-:point in time:^patient:-~|~other chest pain
+epilepsy~|~seizures~|~epilepsy, generalized~|~syndrome~|~anxiety disorders~|~negation~|~specific qualifier value~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)~|~not otherwise specified
+wheezing~|~tachycardia~|~asthenia~|~disease~|~tissue membrane~|~negation~|~specific qualifier value~|~hilar
+dehydration~|~attention~|~hypoglycemia~|~malnutrition~|~muscle strain~|~mental concentration~|~behavior:-:point in time:^patient:-~|~unspecified - name type
+hypertensive disease~|~tissue membrane~|~shortness of breath:-:point in time:^patient:-~|~pneumonia organism nos
+nausea~|~vomiting~|~urologic diseases~|~unspecified - name type~|~abdominal tenderness~|~negation~|~specific qualifier value~|~fever with chills~|~retention of content~|~generalized abdominal pain~|~nausea or abdominal pain~|~generalized~|~in addition to
+tryptophanase~|~falls~|~hypoglycemia~|~diabetes mellitus~|~back pain adverse event~|~unspecified - name type~|~not otherwise specified~|~other hypoglycemia~|~specific qualifier value
+feeling suicidal (finding)~|~alcohol consumption~|~alcohol-related disorders~|~edema~|~general symptom~|~unspecified - name type~|~physical findings
+asthma~|~wheezing~|~disease~|~tissue membrane~|~exacerbation acute~|~shortness of breath:-:point in time:^patient:-~|~other asthma~|~hilar~|~other~|~unspecified - name type
+artificial cardiac pacemaker~|~chest pain~|~unspecified - name type~|~cardiac arrhythmia~|~general symptom~|~adverse event associated with cardiac arrhythmia~|~presence of cardiac defibrillator~|~physical findings~|~synchronous~|~automated (qualifier value)~|~implants
+patient visit~|~health~|~negation~|~specific qualifier value~|~abnormal finding~|~shortness of breath:-:point in time:^patient:-~|~encounter due to unspecified general medical examination~|~additional~|~other chest pain~|~childhood~|~routine
+abdominal pain~|~nausea~|~gastritis~|~generalized~|~negation~|~specific qualifier value~|~abdominal pain through to back~|~acute back pain~|~acute gastritis~|~pain nos adverse event
+back pain~|~lacking~|~unspecified - name type~|~unspecified injury of lower back~|~traumatic and/or non-traumatic injury~|~traumatic injury~|~not otherwise specified~|~lower - spatial qualifier
+abdominal pain~|~vomiting~|~anxiety~|~not otherwise specified~|~nausea and vomiting~|~generalized abdominal pain~|~generalized abdominal tenderness~|~generalized~|~pain nos adverse event~|~sore to touch~|~unspecified - name type
+hyaline membrane disease~|~colon structure (body structure)~|~iodides~|~chronic obstructive airway disease~|~negation~|~specific qualifier value~|~aspects of signs~|~general symptom~|~mental state (observable entity)~|~mental status changes~|~add - instruction imperative~|~changed status~|~skin specimen~|~not otherwise specified~|~doubt
+mortality vital statistics~|~cardiac arrest~|~science of etiology~|~definition~|~malaise~|~unspecified - name type~|~ulnar~|~clammy skin~|~negation~|~scanning~|~specific qualifier value~|~cardiac arrest cause~|~apnea adverse event~|~respiration intermittent
+back pain~|~dehydration~|~foot~|~not otherwise specified~|~unspecified injury of lower back
+unconscious state~|~negation~|~specific qualifier value~|~mental status changes~|~respiration intermittent~|~not otherwise specified
+feeling suicidal (finding)~|~anger~|~biological factors~|~indeterminate~|~involvement with~|~malignant - descriptor~|~physical findings~|~irritation - emotion~|~drug toxicity~|~emotional state observations~|~symptoms aspect~|~unspecified - name type
+hematemesis~|~unspecified - name type~|~lower gastrointestinal hemorrhage~|~hypertension adverse event~|~bleeding from anus~|~entire rectum~|~not otherwise specified
+drowsiness~|~negation~|~specific qualifier value~|~mental status changes~|~aspects of signs~|~biological factors~|~general symptom~|~indeterminate~|~malignant - descriptor~|~drug toxicity~|~unspecified - name type
+narcotics~|~hearing~|~dyspnea~|~poisoning~|~alcohol consumption~|~indeterminate~|~unspecified - name type~|~malignant - descriptor~|~drug toxicity~|~biological factors~|~intoxication
+lightheadedness~|~hypothermia, natural~|~neoplasm metastasis~|~hypovolemic shock~|~negation~|~specific qualifier value~|~obtain
+facial injuries~|~negation~|~specific qualifier value~|~abdominal tenderness~|~pelvic cavity structure~|~mental status changes~|~traumatic injury~|~not otherwise specified~|~unspecified injury of abdomen~|~perineal pain~|~hat - headwear
+chest pain~|~asthma~|~tachypnea~|~classification~|~asthenia~|~hypotension~|~unspecified - name type~|~negation~|~specific qualifier value~|~painful cough~|~anterior thoracic region~|~not otherwise specified~|~not well~|~cough adverse event~|~else
+negation~|~specific qualifier value~|~respiratory failure~|~mental status changes~|~apnea adverse event~|~contracture of joint~|~not otherwise specified~|~unspecified - name type
+headache~|~lightheadedness~|~fatigue~|~not otherwise specified
+headache~|~hallucinations~|~aspects of signs~|~involvement with~|~symptoms aspect~|~emotional state observations~|~videocassette
+feeling suicidal (finding)~|~negation~|~specific qualifier value~|~mental status changes~|~traumatic injury~|~hat - headwear
+asthma~|~disease~|~bronchial spasm~|~tissue membrane~|~doubt~|~shortness of breath:-:point in time:^patient:-~|~hilar~|~acute bronchospasm~|~acute asthma
+hyperventilation~|~emotional state observations~|~involvement with~|~physical findings~|~symptoms aspect~|~other asthma with acute exacerbation~|~unspecified - name type
+fingers~|~neoplasm metastasis~|~hand~|~chest~|~wrist injuries~|~hand injuries~|~back pain adverse event~|~negation~|~recurrent hemorrhage~|~specific qualifier value~|~unspecified injury of lower back~|~traumatic~|~entire wrist region~|~unspecified - name type~|~seroma adverse event
+dehydration~|~disorientation~|~not otherwise specified~|~anxiety disorders~|~mental status changes
+asthenia~|~hypotension~|~sinoatrial node~|~unspecified - name type~|~not otherwise specified~|~finding of cardiac pacemaker~|~cardiac - anatomy qualifier~|~present

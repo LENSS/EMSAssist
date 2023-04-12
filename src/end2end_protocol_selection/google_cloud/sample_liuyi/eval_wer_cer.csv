@@ -1,0 +1,9 @@
+filename,wer,cer
+eval_GC_transcript_default.txt,0.33259425,0.22733006
+eval_GC_transcript_latest_long.txt,0.2616408,0.07021724
+eval_GC_transcript_latest_short.txt,0.2289357,0.06370007
+eval_GC_transcript_video.txt,0.22006652,0.06853539
+eval_GC_transcript_phone_call.txt,0.7732816,0.34947443
+eval_GC_transcript_command_and_search.txt,0.34866962,0.23728101
+eval_GC_transcript_medical_dictation.txt,0.10421286,0.04134548
+eval_GC_transcript_medical_conversation.txt,0.4695122,0.20462508

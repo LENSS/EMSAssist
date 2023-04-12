@@ -1,0 +1,100 @@
+diarrhea~|~personnel selection~|~myocardium~|~wheezing~|~specific qualifier value~|~disease~|~night sweats~|~vomiting adverse event~|~not otherwise specified~|~member~|~wasf1 gene
+dizziness~|~headache~|~hemorrhoids~|~disease~|~shortness of breath:-:point in time:^patient:-~|~short value~|~member number~|~call (instruction)~|~precursor b-cell lymphoblastic leukemia~|~shortened~|~dial device component
+metronidazole~|~negation~|~specific qualifier value~|~poisoning~|~heart~|~apnea adverse event~|~general symptom~|~physical findings~|~station~|~sharing (social behavior)~|~changing~|~page (document)~|~slow
+negation~|~specific qualifier value~|~changing~|~mental state (observable entity)~|~suicide attempt incident code~|~entire fascia
+vomiting~|~nausea~|~jealousy~|~memory observations~|~not otherwise specified~|~f8 wt allele
+harlequin fetus~|~shoulder~|~pain nos adverse event~|~specific qualifier value~|~negation~|~fighting
+hypoglycemia~|~iodides~|~spasm~|~diabetes mellitus~|~changing~|~not otherwise specified~|~specific qualifier value~|~others - allergy~|~diabetic hypoglycemia~|~mental state (observable entity)
+helium~|~australia~|~xerostomia~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~long~|~negation~|~routine contract~|~obstructed~|~chronic~|~not otherwise specified
+abdominal pain~|~reptiles~|~iodides~|~specific qualifier value~|~specified time~|~time range~|~range~|~behavioral change~|~m nos antibody~|~mental state (observable entity)~|~hour~|~then
+disease~|~wheezing~|~personnel selection~|~diamond~|~chills~|~member~|~numerous~|~true~|~server (computer)
+diarrhea~|~fatigue~|~specific qualifier value~|~negation~|~row (arrangement)~|~not otherwise specified~|~hypertension adverse event~|~abcc8 gene~|~positioning attribute~|~post~|~stomach ache
+hypothermia, natural~|~general symptom~|~negation~|~physical findings~|~specific qualifier value~|~mental state (observable entity)~|~changing
+chest pain~|~specific qualifier value~|~iodides~|~tea~|~negation~|~pain nos adverse event~|~m+ (tumor staging)~|~traumatic and/or non-traumatic injury~|~injury of lower leg~|~atrophoderma vermiculatum~|~igsf6 gene~|~extrinsic
+hyperventilation~|~father (person)~|~specific qualifier value~|~shock~|~lupus erythematosus tumidus~|~negation~|~physical findings~|~she gene~|~draft~|~general symptom~|~emotional state observations~|~not otherwise specified
+asthma~|~australia~|~specific qualifier value~|~respiration disorders~|~patients~|~patient symptoms~|~bottom~|~general symptom~|~physical findings~|~generalized~|~entity
+harlequin fetus~|~singing~|~singer~|~urine~|~shortness of breath:-:point in time:^patient:-~|~coloring excipient~|~near~|~specific qualifier value~|~not otherwise specified~|~collapse of medical device or device component
+iodides~|~quercus~|~specific qualifier value~|~traumatic and/or non-traumatic injury~|~bit - unit of measure~|~pay~|~open wound~|~not otherwise specified~|~hat - headwear
+specific qualifier value~|~play~|~negation~|~atrial fibrillation adverse event~|~hanging~|~night sweats~|~not otherwise specified
+specific qualifier value~|~negation~|~traumatic and/or non-traumatic injury~|~generalized~|~pain nos adverse event~|~all~|~calorie unit of energy
+tryptophanase~|~negation~|~specific qualifier value~|~orthomyxoviridae~|~friend~|~breath~|~near~|~shopping (activity)~|~blood group antibody i~|~contact with~|~identified
+valylvaline~|~negation~|~specific qualifier value~|~copayment~|~aspen, bach flower essence~|~acute
+alcohol consumption~|~vomiting~|~specific qualifier value~|~mental state (observable entity)~|~pink color~|~intoxication~|~traumatic and/or non-traumatic injury~|~not otherwise specified
+short interspersed nucleotide elements~|~dehydration~|~thinking, function~|~generalized~|~biological factors~|~drug toxicity~|~tension~|~specific qualifier value~|~10%~|~shared attribute~|~determination aspects
+valine~|~not otherwise specified~|~chills~|~to~|~pain in limb, lower leg~|~nckipsd wt allele~|~pain nos adverse event
+major depressive disorder~|~emotional states~|~involvement with~|~language ability - sign~|~muscle strain~|~negation~|~specific qualifier value~|~term (temporal)~|~shortness of breath:-:point in time:^patient:-~|~behavior:-:point in time:^patient:-~|~then
+severe sepsis~|~septic shock~|~septicemia~|~iodides~|~chills~|~disease~|~specific qualifier value~|~female dog~|~hot sensation quality~|~rapid~|~respiration intermittent~|~severe disorder~|~human study subject~|~organism~|~member~|~dial device component
+metronidazole~|~not otherwise specified~|~negation~|~specific qualifier value~|~changing~|~back pain adverse event~|~generalized~|~pain nos adverse event~|~pain in limb, lower leg~|~mental state (observable entity)~|~geographic state
+chest pain~|~specific qualifier value~|~ethanol~|~utilization qualifier~|~negation~|~muscle~|~pain nos adverse event~|~afternoon~|~participation type - witness~|~generalized~|~fighting~|~intoxication~|~spiciness
+skiing (recreational activity)~|~communicable diseases~|~specific qualifier value~|~negation~|~subcutaneous~|~changing~|~exception - property or attribute~|~organism~|~somnolence~|~mental state (observable entity)~|~local
+abdominal pain~|~specific qualifier value~|~negation~|~abdominal tenderness~|~changing~|~mental state (observable entity)~|~tension~|~aspen, bach flower essence~|~not otherwise specified
+transient cerebral ischemia~|~plumbing~|~singing~|~paint~|~collapse of medical device or device component~|~game~|~entity
+personnel selection~|~funds~|~member~|~exacerbation of asthma~|~right upper quadrant pain~|~left upper quadrant pain~|~left upper quadrant~|~right upper quadrant~|~advice~|~anterior thoracic region
+utilization qualifier~|~specific qualifier value~|~alcoholic intoxication~|~pain nos adverse event~|~shortness of breath:-:point in time:^patient:-~|~mr. - title
+hand~|~rest~|~finger injuries~|~specific qualifier value~|~female dog~|~negation~|~illness (finding)~|~traumatic and/or non-traumatic injury~|~not otherwise specified
+chest pain~|~myocardium~|~myocardial infarction:finding:point in time:^patient:ordinal~|~not otherwise specified~|~send (transmission)~|~unspecified - name type~|~acute~|~pain nos adverse event~|~specific qualifier value~|~elevation~|~walls of a building
+fingers~|~tachycardia~|~hand~|~wrist injuries~|~specific qualifier value~|~hand injuries~|~negation~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~traumatic and/or non-traumatic injury~|~farm tractor~|~not otherwise specified~|~entire wrist region~|~unspecified - name type
+chest pain~|~abdominal pain~|~albania~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~line specimen~|~nadia - zebrafish
+generalized~|~nausea or abdominal pain~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~station
+specific qualifier value~|~xerostomia~|~back pain adverse event~|~negation~|~not otherwise specified~|~pain nos adverse event
+shortness of breath:-:point in time:^patient:-~|~numbers~|~dial device component~|~india - zebrafish~|~acute
+tennis (activity)~|~abdominal pain~|~negation~|~specific qualifier value~|~hemorrhage~|~calculi~|~rena
+chest pain~|~iodides~|~personnel selection~|~tachycardia~|~nausea~|~disease~|~member~|~pain nos adverse event~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~shortness of breath:-:point in time:^patient:-~|~specific qualifier value
+alcohol consumption~|~iodides~|~rest~|~traumatic and/or non-traumatic injury~|~fighting~|~not otherwise specified~|~mild (qualifier value)~|~specific qualifier value~|~bilateral~|~intoxication
+equus asinus~|~negation~|~specific qualifier value~|~childhood immunization~|~geographic locations~|~shortness of breath:-:point in time:^patient:-~|~gram per deciliter~|~side~|~recurrent urinary tract infection~|~chronic
+hemorrhage~|~specific qualifier value~|~abdominal pain~|~nitric oxide~|~anniversaries~|~back pain adverse event~|~generalized abdominal pain~|~localized~|~negation~|~percent normal~|~mass, a measure of quantity of matter~|~division (surgical procedure)~|~swelling~|~long~|~regina
+singer~|~nausea~|~diarrhea~|~specific qualifier value~|~collapsed~|~traumatic and/or non-traumatic injury~|~nausea and vomiting~|~collapse of medical device or device component
+dehydration~|~not otherwise specified~|~message~|~behavior~|~veneer~|~pain:behavior~|~back pain adverse event~|~dorsal~|~traumatic and/or non-traumatic injury~|~ms. - title~|~this (eukaryote)~|~per year
+vision~|~reading (activity)~|~tachycardia~|~snake bites~|~snake venoms~|~general symptom~|~hypertensive disease~|~physical findings~|~accidental~|~mia gene~|~intent~|~high~|~park (environment)~|~do (activity)~|~national citizen~|~microbial culture (procedure)~|~blood pressure finding~|~diagnosis study~|~firstly~|~specific qualifier value~|~visit
+abdominal pain~|~crohn disease~|~iodides~|~negation~|~specific qualifier value~|~generalized~|~left~|~memory device component~|~retained~|~m+ (tumor staging)~|~pain nos adverse event~|~right sided~|~lower - spatial qualifier~|~now (temporal qualifier)~|~project
+chest pain~|~specific qualifier value~|~not otherwise specified~|~fine - adjective
+hallucinations, visual~|~hallucinations, auditory~|~aves~|~burn injury~|~pyogenic arthritis, pyoderma gangrenosum and acne~|~utilization qualifier~|~involvement with~|~call (instruction)~|~second degree~|~units of measure - degree~|~periodontal screening and recording code 2~|~symptoms aspect~|~negation~|~referral category - inpatient~|~side~|~specific qualifier value~|~emotional state observations~|~first degree~|~kalmia~|~legal fine
+iodides~|~poisoning aspects~|~respiratory failure~|~specific qualifier value~|~population mean~|~biological factors~|~changing~|~negation~|~mental state (observable entity)~|~immunodeficiency, common variable, 10~|~determination aspects
+specific qualifier value~|~myocardium~|~chest pain~|~iodides~|~acute~|~cardiac arrest~|~negation~|~m nos antibody~|~call (instruction)~|~precursor b-cell lymphoblastic leukemia
+abdominal pain~|~health~|~generalized~|~laboratory procedures~|~loading technique~|~generalized aches and pains~|~specific qualifier value
+harlequin fetus~|~abdominal pain~|~iodides~|~tachycardia~|~disease~|~specific qualifier value~|~tissue membrane~|~negation~|~back pain adverse event~|~stomach ache~|~m+ (tumor staging)~|~member
+chest pain~|~wound healing~|~negation~|~specific qualifier value~|~accelerated~|~gorab gene~|~readiness~|~shortness of breath:-:point in time:^patient:-~|~cabinet~|~white color~|~manic~|~tests (qualifier value)
+iodides~|~chronic disease~|~wheezing~|~specific qualifier value~|~negation~|~shortness of breath:-:point in time:^patient:-~|~obstructive disease~|~obstructed~|~this (eukaryote)~|~chronic~|~per year
+drainage procedure~|~involvement with~|~physical findings~|~symptoms aspect~|~used by~|~drop british~|~emotional state observations~|~behavior:-:point in time:^patient:-
+iodides~|~tachycardia~|~specific qualifier value~|~negation~|~hip injuries~|~traumatic and/or non-traumatic injury~|~senior - suffix~|~wound pain~|~structure of left hip~|~left~|~m nos antibody
+harlequin fetus~|~poisoning~|~awareness~|~specific qualifier value~|~negation~|~patient visit~|~biography~|~septic toxemia~|~biological factors~|~comment~|~health~|~show~|~fish - non-drug agent~|~respiration intermittent~|~alteration~|~medical service~|~mint - sweet~|~near~|~verification~|~aluminum measurement~|~duration (temporal concept)~|~elf3 wt allele~|~metabolic~|~training~|~feature
+harlequin fetus~|~epilepsy, generalized~|~singer~|~specific qualifier value~|~leg~|~syndrome~|~negation~|~out (direction)~|~senior - suffix~|~idiopathic epilepsy~|~possession~|~generalized~|~unknown (origin) (qualifier value)~|~orientation (spatial)~|~type 5~|~this (eukaryote)~|~passion
+disease~|~patient observation~|~asthma~|~specific qualifier value~|~call (instruction)~|~negation~|~shortness of breath:-:point in time:^patient:-~|~counter device component~|~abnormality~|~suspected qualifier~|~counsel - legal~|~out (direction)~|~route
+diarrhea~|~specific qualifier value~|~abdomen~|~right upper quadrant pain~|~generalized abdominal pain~|~right upper quadrant~|~generalized~|~epigastric
+happiness~|~negation~|~pain nos adverse event~|~specific qualifier value~|~not otherwise specified
+intestinal obstruction~|~nausea~|~negation~|~specific qualifier value~|~generalized abdominal tenderness~|~sore to touch~|~respiratory gaseous exchange in organisms~|~pay~|~generalized abdominal pain~|~nausea or abdominal pain~|~generalized~|~pain nos adverse event
+lightheadedness~|~utilization qualifier~|~specific qualifier value~|~negation~|~angela~|~plekhg5 gene~|~preparation~|~relationships~|~opinion
+chest pain~|~nausea~|~right sided~|~shortness of breath:-:point in time:^patient:-
+fees~|~negation~|~specific qualifier value~|~very~|~unknown (origin) (qualifier value)~|~pharmaceutical preparations~|~feeling nervous~|~flat shape~|~generalized~|~not otherwise specified~|~african race
+harlequin fetus~|~wheezing~|~tachycardia~|~dog diseases~|~negation~|~specific qualifier value
+attention~|~dehydration~|~hypoglycemia~|~drainage procedure~|~mental concentration~|~specific qualifier value~|~and~|~behavior:-:point in time:^patient:-~|~following~|~weekly~|~message
+iodides~|~harlequin fetus~|~specific qualifier value~|~disease~|~pneumonia~|~m nos antibody~|~organism~|~pneumonia organism nos~|~shortness of breath:-:point in time:^patient:-~|~member organization~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+urinary retention~|~silver~|~specific qualifier value~|~chills~|~negation~|~order (action)~|~urinary system finding~|~generalized abdominal pain~|~nausea and vomiting
+tryptophanase~|~falls~|~guyana~|~diabetes mellitus~|~hyperglycemia~|~specific qualifier value~|~back pain adverse event~|~negation~|~send (transmission)
+harlequin fetus~|~supper~|~ethanol~|~alcohol-related disorders~|~specific qualifier value~|~general symptom~|~physical findings~|~usage~|~ideation
+iodides~|~asthma~|~dizziness~|~personnel selection~|~wheezing~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~exacerbation of asthma~|~member
+sinoatrial node~|~artificial cardiac pacemaker~|~specific qualifier value~|~cardiac arrhythmia~|~cousin~|~general symptom~|~pain nos adverse event~|~adverse event associated with cardiac arrhythmia~|~physical findings~|~automatic cardiac defibrillator~|~clinical
+choline o-acetyltransferase~|~chest pain~|~negation~|~patient visit~|~encounter due to unspecified general medical examination~|~experimental finding~|~specific qualifier value~|~counter device component~|~percent normal~|~home environment~|~routine~|~then
+nausea~|~gastritis~|~generalized~|~negation~|~specific qualifier value~|~abdominal pain through to back~|~pain nos adverse event
+iodides~|~back pain~|~specific qualifier value~|~traumatic and/or non-traumatic injury~|~lower - spatial qualifier~|~back injuries~|~message~|~lock - remote control command~|~m nos antibody~|~immunogenicity specimen assessments domain~|~not otherwise specified
+vomiting~|~abdominal pain~|~specific qualifier value~|~abdomen~|~tendon structure~|~assortment~|~generalized abdominal pain~|~negation~|~tenalgia~|~nadia - zebrafish~|~not otherwise specified
+disease~|~negation~|~specific qualifier value~|~chronic obstructive airway disease~|~changing~|~dial device component~|~general symptom~|~physical findings~|~numbers~|~mental state (observable entity)~|~drop british~|~game~|~member
+iodides~|~cardiac arrest~|~mortality vital statistics~|~latvia~|~caribbean islands~|~call (instruction)~|~legal fine~|~specific qualifier value~|~corporation~|~gram per deciliter~|~motel~|~precursor b-cell lymphoblastic leukemia~|~not otherwise specified~|~periodic report
+back injuries~|~dehydration~|~malaysia~|~food~|~specific qualifier value~|~not otherwise specified~|~pain nos adverse event
+negation~|~specific qualifier value~|~consciousness related finding~|~not otherwise specified~|~stages of change~|~changing~|~periodic report~|~teacher~|~psyche structure
+feeling suicidal (finding)~|~reading (activity)~|~ability~|~motion~|~poisoning aspects~|~anger~|~geographic state~|~physical findings~|~symptoms aspect~|~biological factors~|~involvement with~|~specific qualifier value~|~determination aspects
+specific qualifier value~|~montana <invertebrate>~|~hypertension adverse event~|~time range~|~lrpap1 gene~|~not otherwise specified~|~anna
+father (person)~|~metronidazole~|~drowsiness~|~specific qualifier value~|~changing~|~male population group~|~mentors~|~negation~|~tumor stage~|~biological factors~|~general symptom~|~drug toxicity~|~medina~|~not otherwise specified~|~>5~|~teacher~|~determination aspects
+poisoning~|~aves~|~hexachlorocyclohexane x-factor~|~belarus~|~automobiles~|~ethanol~|~specific qualifier value~|~usage~|~biological factors~|~intoxication~|~sharing (social behavior)~|~negation~|~cdisc adas-cog - commands summary score~|~term (temporal)~|~determination aspects
+lightheadedness~|~hypothermia, natural~|~make - instruction imperative~|~negation~|~specific qualifier value~|~changing~|~mental state (observable entity)~|~shot (injury)
+specific qualifier value~|~negation~|~face~|~traumatic and/or non-traumatic injury~|~trauma to the abdomen~|~tendon structure~|~awake~|~changing~|~half~|~not otherwise specified~|~actual~|~mental state (observable entity)~|~multiple of the median~|~entity~|~pain nos adverse event
+chest pain~|~specific qualifier value~|~classification~|~negation~|~pain nos adverse event~|~aspen, bach flower essence~|~meleagris gallopavo~|~not well~|~application procedure~|~not otherwise specified~|~chapter
+butterflies~|~specific qualifier value~|~respiratory failure~|~negation~|~near~|~institution relationship type - contractor~|~changing~|~not otherwise specified~|~mental state (observable entity)
+lightheadedness~|~fatigue~|~negation~|~specific qualifier value
+hallucinations, visual~|~headache~|~involvement with~|~physical findings~|~symptoms aspect~|~emotional state observations
+feeling suicidal (finding)~|~iodides~|~mentors~|~specific qualifier value~|~negation~|~painter~|~changing~|~traumatic and/or non-traumatic injury~|~teacher
+harlequin fetus~|~spasm~|~personnel selection~|~disease~|~multinational association of supportive care in cancer antiemesis tool~|~rack~|~lrpap1 gene~|~shopping (activity)~|~member
+iodides~|~hyperventilation~|~emotional state observations~|~involvement with~|~symptoms aspect~|~exacerbation of asthma~|~m+ (tumor staging)~|~legal fine
+fingers~|~kinetics~|~specific qualifier value~|~back injuries~|~hand injuries~|~leg injuries~|~back pain adverse event~|~negation~|~rate~|~recovering from~|~igsf6 gene~|~secondary to~|~right~|~aroma <invertebrate>~|~lower - spatial qualifier
+dehydration~|~metronidazole~|~psychological orientation~|~not otherwise specified~|~changing~|~specific qualifier value~|~gram per deciliter~|~feeling nervous~|~mr. - title~|~mental state (observable entity)~|~geographic state
+sinoatrial node~|~hypertensive disease~|~specific qualifier value~|~negation~|~10%~|~type - attribute~|~not otherwise specified~|~friends - (religious affiliation)~|~passion

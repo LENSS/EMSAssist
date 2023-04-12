@@ -1,0 +1,100 @@
+chest pain~|~back pain adverse event~|~specific qualifier value~|~negation~|~chest pain on breathing~|~not otherwise specified
+hallucinations~|~tachycardia~|~anxiety~|~biological factors~|~involvement with~|~negation~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~determination aspects~|~drug toxicity~|~pain in unspecified foot~|~unspecified - name type~|~auditory and visual hallucinations~|~emotional state observations
+syncope~|~nausea~|~collapse of medical device or device component~|~hypotension~|~general symptom~|~physical findings~|~unspecified - name type~|~potential~|~specific qualifier value
+heat exhaustion~|~not otherwise specified~|~chronic debility~|~struck by
+abdominal pain~|~pain~|~not otherwise specified~|~generalized~|~generalized abdominal pain~|~negation~|~specific qualifier value~|~nausea and vomiting~|~abdominal pain through to back~|~back pain adverse event
+diarrhea~|~hyperglycemia~|~unspecified - name type~|~specific qualifier value~|~nausea and vomiting
+comatose~|~stupor~|~hyperglycemia~|~other specified diabetes mellitus with hyperglycemia~|~mental status changes~|~not otherwise specified~|~somnolence
+hematuria~|~nausea~|~hypotension~|~calculi~|~generalized abdominal pain~|~nausea or abdominal pain~|~generalized~|~specific qualifier value
+nausea~|~acute appendicitis without peritonitis~|~not otherwise specified~|~abdominal tenderness~|~generalized~|~localized
+dyspnea~|~respiratory distress syndrome, adult~|~chills~|~fever with chills~|~cough with fever~|~specific qualifier value~|~cough adverse event
+vomiting~|~tachycardia~|~specific qualifier value~|~negation~|~feet, unit of measurement~|~nausea and vomiting~|~unspecified - name type~|~night sweats~|~metabolic acidosis
+chronic obstructive airway disease~|~coughing~|~nausea~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~chest pain on breathing
+disorientation~|~involvement with~|~physical findings~|~poor responsiveness~|~specific qualifier value~|~symptoms~|~unspecified dementia with aggressive behavior~|~emotional states
+nausea~|~chills~|~fever with chills~|~shortness of breath:-:point in time:^patient:-
+chest pain~|~shoulder pain~|~shoulder~|~specific qualifier value~|~negation~|~other anxiety disorders~|~anterior thoracic region
+alcohol consumption~|~conduction disorder of the heart~|~bradycardia~|~clay~|~adverse event associated with cardiac arrhythmia~|~unspecified - name type~|~specific qualifier value~|~dying process~|~intoxication
+migraine disorders~|~headache~|~dehydration~|~specific qualifier value~|~abdominal tenderness~|~negation~|~generalized abdominal pain
+cardiac arrhythmia~|~generalized~|~negation~|~other specified diabetes mellitus with hyperglycemia~|~pain nos adverse event~|~specific qualifier value~|~unspecified - name type~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~acute cardiac pulmonary edema
+abdominal pain~|~nausea~|~hypotension~|~generalized~|~unspecified - name type~|~generalized abdominal rigidity~|~severe (severity modifier)
+nausea~|~abdominal rigidity~|~negation~|~specific qualifier value~|~specific site~|~sore to touch~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~nausea or abdominal pain
+neck pain~|~craniocerebral trauma~|~specific qualifier value~|~neck injuries~|~negation~|~right lower quadrant pain~|~back pain adverse event
+hyperglycemia~|~craniocerebral trauma~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~specific qualifier value
+anaphylaxis~|~allergy specialty~|~exanthema~|~shock~|~unspecified - name type~|~allergic rash~|~not otherwise specified
+angina pectoris~|~chest pain~|~arteries~|~veins~|~snare instrument~|~pulmonary venous thrombosis~|~pulmonary artery thrombosis~|~specific qualifier value~|~acute
+edema~|~shortness of breath:-:point in time:^patient:-~|~suspected diagnosis~|~diagnosis study~|~reporting~|~encounter~|~specific qualifier value~|~chief complaint (finding)~|~generalized~|~preposition for
+tachycardia~|~cardiac arrhythmia~|~respiratory distress syndrome, adult~|~pneumonia~|~specific qualifier value~|~organism
+ocular orbit~|~headache~|~traumatic injury~|~open wound of eyeball~|~chest pain on breathing
+bradycardia~|~cardiac arrhythmia~|~respiratory failure~|~hypotension~|~membrane~|~unspecified - name type~|~mental status changes~|~card (document)~|~not otherwise specified~|~adult disease~|~high
+abdominal pain~|~general symptom~|~orientation (spatial)~|~physical findings~|~to specify~|~unspecified - name type~|~adjudication~|~poisoning by heroin
+smoke inhalation injury~|~respiration disorders~|~gases~|~cough adverse event~|~fume~|~to specify~|~vapor~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~due to~|~chemicals
+aphasia~|~cerebral infarction~|~hemiplegia~|~hemiparesis~|~negation~|~specific qualifier value~|~mental status changes
+chest pain~|~hemorrhage~|~thoracic injuries~|~negation~|~specific qualifier value~|~unspecified - name type
+abdominal pain~|~abdomen~|~lightheadedness~|~hematuria~|~chills~|~severe pain~|~generalized abdominal rigidity~|~severe (severity modifier)~|~abdominal tenderness~|~negation~|~specific qualifier value~|~digestive system disorders~|~unspecified - name type~|~not otherwise specified
+muscle cramp~|~spasm~|~headache~|~nausea
+nausea~|~hypnotics and sedatives~|~chest pain~|~lightheadedness~|~antiepileptic agents~|~allergy specialty~|~adverse reactions~|~specific qualifier value~|~unspecified - name type
+chest pain~|~unspecified - name type~|~nausea and vomiting~|~epigastric
+tremor~|~mental status changes~|~membrane~|~negation~|~specific qualifier value~|~not otherwise specified~|~adult disease~|~high
+pisum sativum~|~syncope~|~muscle cramp~|~spasm~|~craniocerebral trauma~|~collapse of medical device or device component~|~night sweats~|~singular~|~specific qualifier value
+facial paresis~|~confusion~|~transitory~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~chemicals~|~observation of attack~|~specific qualifier value
+chills~|~abdominal tenderness~|~negation~|~specific qualifier value~|~fever with chills~|~unspecified infectious disease
+dyspnea~|~respiratory failure~|~cyanosis~|~specific qualifier value~|~heart~|~negation~|~congestive heart failure~|~acute pulmonary edema~|~cardiorespiratory failure~|~cardiac arrest cause~|~respiration intermittent
+acute onset pain~|~specific qualifier value~|~entire upper arm~|~generalized aches and pains~|~negation~|~wounds and injuries~|~unspecified injury of elbow~|~injury of shoulder region
+constipation~|~dehydration~|~nausea~|~specific qualifier value~|~abdominal tenderness~|~negation~|~generalized abdominal pain~|~nausea or abdominal pain~|~generalized
+cerebral infarction~|~facial paresis~|~foot~|~general symptom~|~negation~|~physical findings~|~specific qualifier value~|~unspecified - name type~|~abnormal involuntary movement
+abdominal pain~|~chest pain~|~diarrhea~|~specific qualifier value~|~negation~|~abdominal tenderness
+cerebral infarction~|~transient cerebral ischemia~|~facial paresis~|~negation~|~specific qualifier value~|~unspecified - name type
+lightheadedness~|~influenza due to unidentified influenza virus~|~cardiac - anatomy qualifier~|~snap receptor activity~|~unspecified - name type~|~chronic debility
+hallucinations~|~major depressive disorder~|~specific qualifier value~|~negation~|~anxiety~|~call (instruction)~|~involvement with~|~physical findings~|~symptoms aspect~|~ideation~|~emotional state observations~|~homicidal thoughts
+cerebral infarction~|~septicemia~|~specific qualifier value~|~general symptom~|~fever with chills~|~organism~|~transportation services; taxi~|~physical findings~|~unspecified - name type
+chest pain~|~tachycardia~|~cardiac arrhythmia~|~supraventricular tachycardia adverse event
+lightheadedness~|~classification~|~tachycardia~|~tachypnea~|~hypoxemia~|~dyspnea~|~negation~|~snare instrument~|~unspecified - name type~|~elevated blood-pressure reading without diagnosis of hypertension~|~respiration intermittent~|~specific qualifier value~|~dosage
+not otherwise specified~|~membrane~|~cough adverse event~|~fever with chills~|~adult disease~|~high
+chest pain~|~pneumonia~|~tissue membrane~|~chest disorders~|~adult disease~|~adult pain~|~painful cough~|~pneumonia organism nos~|~anterior thoracic region~|~cough adverse event~|~high~|~organism~|~unspecified - name type
+cerebral infarction~|~negation~|~specific qualifier value~|~unspecified - name type~|~abnormal involuntary movement~|~not otherwise specified
+metals~|~negation~|~specific qualifier value~|~mental status changes~|~slow~|~changed status~|~fever with chills~|~not otherwise specified~|~sepsis, unspecified organism~|~poor responsiveness
+abdominal pain~|~inferior wall myocardial infarction~|~vomiting~|~nausea~|~abdominal tenderness~|~negation~|~specific qualifier value~|~generalized abdominal rigidity~|~chest pain on breathing~|~severe (severity modifier)~|~elevation~|~s prime~|~st elevation myocardial infarction by ecg finding
+cerebral infarction~|~headache~|~vomiting~|~specific qualifier value~|~negation~|~nausea and vomiting~|~slurred speech~|~collapse of medical device or device component
+subcutaneous fat~|~anger~|~edema~|~emotional states~|~involvement with~|~irritation - emotion~|~localized~|~mass of body region~|~mass of skin~|~physical findings~|~symptoms~|~chronic debility~|~behavior:-:point in time:^patient:-
+tranquilizing agents~|~drowsiness~|~epilepsy~|~major depressive disorder~|~adjudication~|~poisoning~|~emotional states~|~involvement with~|~negation~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~poisoning by other opioids~|~unspecified - name type
+dyspnea~|~unspecified - name type~|~acute bronchitis~|~specific qualifier value~|~pneumonia organism nos
+fatigue~|~ability~|~hypotension~|~negation~|~specific qualifier value~|~unspecified - name type~|~chronic~|~fever with chills~|~not otherwise specified
+lightheadedness~|~general symptom~|~jaw pain~|~awareness of heart beat~|~physical findings
+migraine disorders~|~neck pain~|~fever with chills~|~clammy skin~|~specific qualifier value
+acute onset pain~|~abdominal pain~|~headache~|~negation~|~classification~|~shoulder~|~specific qualifier value~|~abdomen~|~abdominal tenderness~|~severe pain~|~injury of upper arm~|~generalized abdominal rigidity~|~traumatic and/or non-traumatic injury~|~traumatic injury~|~injury of shoulder region~|~severe (severity modifier)~|~not otherwise specified~|~entire face~|~unspecified
+negation~|~specific qualifier value~|~dehydration~|~general symptom~|~infection by site~|~mental state (observable entity)~|~muscle twitch~|~retraction (finding)~|~urinary~|~physical findings~|~changed status
+tachycardia~|~psychological orientation~|~specific qualifier value~|~negation~|~mental status changes~|~substance-related disorders
+amnesia~|~negation~|~specific qualifier value~|~neck injuries~|~back pain adverse event~|~unspecified injury of lower back
+chest pain~|~venous thrombosis~|~conduction disorder of the heart~|~cardiac arrhythmia~|~shortness of breath:-:point in time:^patient:-~|~acute chest pain~|~pulmonary venous thrombosis~|~adverse event associated with cardiac arrhythmia~|~pulmonary (qualifier value)~|~r prime~|~acute~|~theories
+specific qualifier value~|~respiration disorders~|~negation~|~not otherwise specified~|~patient visit~|~encounter due to unspecified general medical examination~|~legal adult
+unconscious state~|~cerebral infarction~|~facial paresis~|~negation~|~specific qualifier value~|~unspecified - name type
+wheezing~|~respiratory distress syndrome, adult~|~anxiety~|~membrane~|~adult disease~|~not otherwise specified~|~high~|~other asthma with acute exacerbation~|~unspecified - name type
+seizures~|~specific qualifier value~|~negation~|~anxiety~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~mental status changes~|~visual disturbance
+cerebral infarction~|~hemorrhage~|~togo~|~falls~|~negation~|~specific qualifier value~|~unspecified - name type~|~not otherwise specified
+hyperventilation~|~respiratory distress syndrome, adult~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~other specified diabetes mellitus with hyperglycemia~|~*activity (kind of quantity)~|~orthopnea
+confusion~|~hyperglycemia~|~tachycardia~|~specific qualifier value~|~changed status~|~negation~|~other specified diabetes mellitus with hyperglycemia~|~skin specimen~|~mental status changes
+cough adverse event~|~general symptom~|~generalized aches and pains~|~pneumonia organism nos~|~fever with chills~|~not otherwise specified~|~physical findings~|~unspecified - name type
+alcohol consumption~|~hypersensitivity~|~general symptom~|~specific qualifier value~|~allergic urticaria~|~physical findings
+hallucinations, visual~|~sick role~|~adolescent (age group)~|~specific qualifier value~|~negation~|~mental disorders~|~worried~|~excessive crying of child~|~psyche structure~|~legal adult~|~behavior:-:point in time:^patient:-~|~feeling nervous
+hyperglycemia~|~vomiting~|~nausea~|~specific qualifier value~|~negation~|~other specified diabetes mellitus with hyperglycemia~|~mental status changes
+menopause~|~urinary retention~|~pain~|~hernia of abdominal cavity~|~abdomen~|~mental state (observable entity)~|~specific qualifier value~|~strangulated hernia~|~negation~|~strangulated
+alcohol consumption~|~ability~|~chronic~|~unspecified - name type~|~weakness~|~chronic debility~|~slurred speech~|~intoxication~|~somnolence
+negation~|~specific qualifier value~|~conduction disorder of the heart~|~mental status changes~|~not otherwise specified~|~abdominal tenderness~|~generalized aches and pains~|~unspecified - name type~|~adverse event associated with cardiac arrhythmia~|~slurred speech~|~abdominal bloating
+anxiety~|~shock~|~adolescent (age group)~|~emotional state observations~|~involvement with~|~physical findings~|~specific qualifier value~|~stress~|~symptoms~|~geographic state~|~short value~|~emotional shock~|~excessive crying of child~|~not otherwise specified~|~legal adult~|~breath
+specific qualifier value~|~conduction disorder of the heart~|~fatigue~|~adverse event associated with cardiac arrhythmia~|~chronic fatigue~|~negation~|~unspecified - name type
+ability~|~pleurisy~|~shortness of breath:-:point in time:^patient:-~|~chronic debility
+cerebral infarction~|~lightheadedness~|~facial paresis~|~nausea~|~vomiting~|~specific qualifier value~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+snap receptor~|~conduction disorder of the heart~|~respiration disorders~|~tissue membrane~|~specific qualifier value~|~congestive heart failure~|~adult disease~|~not otherwise specified~|~adverse event associated with cardiac arrhythmia~|~localized edema~|~high
+abdominal pain~|~shortness of breath:-:point in time:^patient:-~|~generalized~|~generalized aches and pains~|~negation~|~pain nos adverse event~|~specific qualifier value~|~not otherwise specified
+chest pain~|~dehydration~|~negation~|~specific qualifier value~|~awareness of heart beat
+irritable mood~|~specific qualifier value~|~anger~|~negation~|~mental status changes~|~feeling nervous
+constipation~|~cough adverse event~|~specific qualifier value~|~general symptom~|~negation~|~shortness of breath:-:point in time:^patient:-~|~aspects of signs
+specific qualifier value~|~respiration disorders~|~cardiac - anatomy qualifier~|~chest pain on breathing~|~negation~|~elevated blood-pressure reading without diagnosis of hypertension~|~generalized aches and pains~|~respiration intermittent~|~anesthesia of skin
+conduction disorder of the heart~|~collapse of medical device or device component~|~not otherwise specified~|~adverse event associated with cardiac arrhythmia~|~night sweats~|~specific qualifier value~|~unspecified - name type
+pulmonary edema~|~respiratory failure~|~heart~|~malfunction of tracheostomy stoma~|~mental status changes~|~not otherwise specified~|~cardiopulmonary~|~edema:finding:point in time:^patient:ordinal
+abnormal breathing~|~negation~|~specific qualifier value~|~apnea adverse event~|~drug toxicity~|~biological factors~|~accidental~|~unintentional~|~collapse of medical device or device component~|~unspecified - name type
+chest pain~|~classification~|~overweight~|~walking (activity)~|~negation~|~specific qualifier value~|~dyspnea~|~tachycardia~|~thoracic injuries~|~neck injuries~|~respiration disorders~|~changing~|~skin specimen~|~shortness of breath:-:point in time:^patient:-~|~pain nos adverse event~|~not otherwise specified~|~intercostal pain~|~generalized~|~chest pain on breathing~|~has difficulty doing (qualifier value)~|~other chest pain~|~other respiratory system diseases~|~cherry - dietary~|~then
+septicemia~|~tachycardia~|~dehydration~|~changed status~|~mental state (observable entity)~|~organism~|~not otherwise specified~|~unspecified - name type
+chest pain~|~thoracic injuries~|~dyspnea~|~slow~|~poor responsiveness
+headache~|~abnormal behavior~|~not otherwise specified~|~changed status~|~mental state (observable entity)~|~mental status changes
+xerostomia~|~hyperglycemia~|~mental status changes~|~specific qualifier value~|~negation~|~other specified diabetes mellitus with hyperglycemia~|~unspecified - name type~|~not otherwise specified~|~slurred speech

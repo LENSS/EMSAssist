@@ -1,0 +1,100 @@
+iodides~|~bicycling (recreational activity)~|~conduction disorder of the heart~|~histidine~|~time~|~specific qualifier value~|~pain nos adverse event~|~t prime~|~not otherwise specified~|~adverse event associated with cardiac arrhythmia~|~office
+chest pain~|~bedside testing~|~communications media~|~znf699 gene~|~checking (action)~|~shortness of breath:-:point in time:^patient:-~|~prh1 gene~|~not well~|~breath~|~short value~|~out (direction)~|~personal failure
+negation~|~specific qualifier value~|~communicable diseases~|~remembering~|~mental state (observable entity)~|~senior - suffix~|~tests (qualifier value)~|~best (quality)
+light~|~nausea~|~acute pain due to trauma~|~on (qualifier value)~|~specific qualifier value~|~now (temporal qualifier)~|~best (quality)~|~urinary pain
+pregnancy in adolescence~|~abdominal pain~|~intraabdominal infections~|~infection~|~time~|~generalized~|~generalized abdominal pain~|~pain nos adverse event~|~10%~|~now (temporal qualifier)~|~best (quality)~|~ridging~|~tract~|~fighting~|~negation~|~specific qualifier value
+pet animal~|~conduction disorder of the heart~|~specific qualifier value~|~adverse event associated with cardiac arrhythmia~|~cde protocol-cyclophosphamide/doxorubicin/etoposide~|~relative (related person)~|~best (quality)~|~chia gene~|~chi~|~sylvia~|~traumatic and/or non-traumatic injury
+motion~|~finding~|~generalized~|~good~|~nation~|~units of measure - siemens~|~unknown (origin) (qualifier value)~|~sweet taste perception~|~adverse event associated with syndromes~|~specific qualifier value~|~web site~|~negation~|~geographic state
+latvia~|~hospice care~|~asians~|~male population group~|~biological factors~|~physical aggression~|~status~|~person name~|~now (temporal qualifier)~|~fighting~|~identifier~|~suicidal~|~not otherwise specified~|~buying drugs~|~medical service~|~nt5e wt allele
+canis familiaris~|~disease~|~hope (emotion)~|~relationships~|~finding~|~general symptom~|~to~|~howling~|~member~|~active~|~services~|~event cycle
+hospice care~|~burundi~|~leg injuries~|~side~|~not well~|~fighting~|~low confidentiality
+hospice care~|~helium~|~pneumonia~|~open~|~organism~|~fighting~|~negative surgical margin~|~alignment~|~<50~|~east~|~abnormally high~|~out (direction)~|~ultrasound study file~|~well adult
+feeling suicidal (finding)~|~lightheadedness~|~major depressive disorder~|~ethanol~|~lawyer (occupation)~|~use of~|~same~|~emotional state observations~|~nausea adverse event~|~best (quality)
+louisiana (geographic location)~|~6-fluoro-6-desoxyoxymorphone~|~nausea~|~carbon monoxide~|~attending (action)~|~monitor device component~|~retained~|~track (course)~|~best (quality)
+proline~|~diabetes mellitus~|~austin~|~hyperglycemia~|~best (quality)~|~woman~|~generalized~|~retained~|~ideal~|~corona~|~pay~|~fighting~|~to~|~other~|~patient need for (contextual qualifier)
+iodides~|~human body~|~hip structure~|~ankle injuries~|~craniocerebral trauma~|~specific qualifier value~|~hand injuries~|~time~|~replaced by~|~to specify~|~before~|~possess~|~removed~|~rent~|~space - property~|~traumatic and/or non-traumatic injury~|~injury of lower leg~|~bad~|~this (eukaryote)~|~best (quality)
+conduction disorder of the heart~|~respiratory~|~best (quality)~|~emotions~|~adverse event associated with cardiac arrhythmia~|~ounce
+cardiac arrest~|~call (instruction)~|~finding of cardiac pacemaker~|~blood group antibody i~|~consciousness related finding~|~m nos antibody~|~type - attribute~|~not well~|~dorsal~|~apnea adverse event~|~now (temporal qualifier)~|~best (quality)
+foot~|~irritable mood~|~ankle injuries~|~foot injuries~|~traumatic and/or non-traumatic injury~|~best (quality)~|~head~|~angular~|~specific qualifier value~|~injury of lower leg~|~space - property~|~internal~|~entire ankle region~|~home environment~|~web site
+iodides~|~classification~|~fatigue~|~disease~|~out (direction)~|~tissue membrane~|~call (instruction)~|~line specimen~|~member~|~office~|~not well~|~best (quality)
+hyperglycemia~|~father (person)~|~diabetes mellitus~|~best (quality)~|~generalized~|~place - dosing instruction imperative
+cerebral hemorrhage~|~unconscious state~|~togo~|~family~|~needs~|~best (quality)~|~call (instruction)~|~finding~|~visit~|~member~|~intracranial injury~|~office~|~home environment~|~negation~|~teams~|~early complication of trauma~|~not otherwise specified~|~fighting~|~interested~|~mounts~|~romantic
+alcoholic intoxication, chronic~|~chest pain~|~vomiting~|~nausea~|~fine - adjective~|~bad~|~billy~|~fighting~|~generic role
+specific qualifier value~|~pain nos adverse event~|~negation~|~quantity~|~early complication of trauma~|~north~|~agreement~|~unit
+seizures~|~photon correlation spectroscopy~|~alcohol consumption~|~chile~|~membrane~|~nadia - zebrafish
+abdominal pain~|~hyperglycemia~|~diabetes mellitus~|~generalized~|~aspect (characteristic)~|~fighting~|~this (eukaryote)~|~others - allergy
+iodides~|~alcohol-induced disorders~|~specific qualifier value~|~card (document)~|~uncle~|~encounter due to unspecified general medical examination~|~foreign body in respiratory tract~|~use of~|~best (quality)~|~year~|~legal adult~|~not well~|~agreement
+hospice environment~|~entire ankle region~|~injury 4~|~traumatic and/or non-traumatic injury~|~arm pain~|~bad~|~farming environment~|~office~|~state~|~legal fine~|~best (quality)
+back pain~|~best (quality)~|~gas station~|~negation~|~specific qualifier value~|~acute~|~reading (datum presentation)~|~now (temporal qualifier)~|~pain nos adverse event~|~other asthma~|~antenna device component~|~set scale
+psychological orientation~|~negation~|~specific qualifier value~|~communicable diseases~|~status~|~web site~|~mental state (observable entity)~|~reading (datum presentation)~|~abnormal coordination~|~fighting~|~serious~|~changed status~|~friday~|~this (eukaryote)
+asians~|~communicable diseases~|~nasal sinus~|~negation~|~specific qualifier value~|~best (quality)~|~>5~|~choose (action)~|~favorable~|~signature~|~sample mean~|~tract~|~recurrent urinary tract infection~|~now (temporal qualifier)~|~tests (qualifier value)
+asians~|~mentors~|~fine - adjective~|~male population group~|~doctor - title~|~note (document)~|~nausea and vomiting~|~not otherwise specified
+abdominal pain~|~intestinal obstruction~|~constipation~|~generalized~|~negation~|~specific qualifier value~|~pain nos adverse event~|~retinol equivalents~|~generalized abdominal rigidity~|~sandia race
+conduction disorder of the heart~|~retained~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~adverse event associated with cardiac arrhythmia
+togo~|~colombia~|~negation~|~specific qualifier value~|~cessation of life~|~fine - adjective~|~new~|~roof physical object~|~then~|~thrive~|~cytip gene~|~legal adult~|~now (temporal qualifier)~|~not otherwise specified~|~amended
+health status~|~paint~|~specific qualifier value~|~left
+mortality vital statistics~|~cardiac arrest~|~emotions~|~course~|~percent normal~|~heart~|~call (instruction)~|~finding~|~to~|~back structure, including back of neck~|~side~|~respiratory~|~periodic report~|~normal cardiac structure~|~arrested progression
+hallucinations~|~specific qualifier value~|~unspecified - name type~|~traumatic and/or non-traumatic injury~|~illumination (procedure)~|~not otherwise specified
+iodides~|~hypothermia, natural~|~specific qualifier value~|~hypertension adverse event~|~shark - food
+classification~|~beak~|~negation~|~offspring~|~pain nos adverse event~|~tnfsf13b wt allele~|~not well~|~wounds and injuries
+hospice environment~|~shoulder~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~sentence~|~hanging~|~generalized~|~side~|~pain goodbye~|~anterior thoracic region
+vascular diseases~|~does suck~|~functional map~|~respiratory pressure~|~abnormally high~|~breath~|~office
+abdominal pain~|~constipation~|~specific qualifier value~|~negation~|~remembering~|~status~|~not otherwise specified~|~best (quality)~|~call (instruction)~|~linda~|~precursor b-cell lymphoblastic leukemia~|~generalized~|~nadia - zebrafish
+negation~|~specific qualifier value~|~prices~|~pass (indicator)~|~tests (qualifier value)~|~god~|~remembering
+rivers~|~communicable diseases~|~time~|~negation~|~specific qualifier value~|~sentiments~|~coop~|~entity~|~generalized~|~physical findings~|~best (quality)
+angina pectoris~|~chest pain~|~health~|~negation~|~specific qualifier value~|~heart beat
+tryptophanase~|~radio~|~reading (activity)~|~negation~|~hypertensive disease~|~heart~|~specific qualifier value~|~influenza with respiratory manifestation other than pneumonia~|~site-specific telomere resolvase activity~|~linda~|~virus~|~due to~|~undergarment~|~manifest~|~congestive~|~respiratory~|~congestive heart failure~|~shortness of breath:-:point in time:^patient:-~|~blood pressure finding~|~diagnosis
+hospice care~|~rivers~|~communicable diseases~|~10%~|~specific qualifier value~|~fine - adjective~|~negation~|~slow~|~martes pennanti~|~true~|~environmental pool~|~responsive
+alcohol abuse~|~intoxication~|~alert brand of caffeine~|~uncle~|~green color~|~baseline~|~this (eukaryote)
+epilepsy~|~orientation (spatial)~|~specific qualifier value~|~>5~|~fighting~|~negation~|~intern~|~generalized
+abdominal pain~|~pelvic pain~|~generalized~|~chest pain angina~|~cardiac - anatomy qualifier
+athletics~|~eclampsia~|~not otherwise specified~|~negation~|~specific qualifier value~|~idiopathic epilepsy~|~mental status changes~|~feet, unit of measurement~|~possibly related to intervention~|~muskogee language
+kentucky (geographic area)~|~class~|~hypertension adverse event~|~not otherwise specified~|~fighting
+abdominal pain~|~light~|~myocardium~|~finding~|~lupus erythematosus tumidus~|~negation~|~specific qualifier value~|~acute~|~cardiac pain~|~angela~|~fine - adjective~|~nadia - zebrafish
+iodides~|~conduction disorder of the heart~|~disease~|~tissue membrane~|~finding~|~fine - adjective~|~negation~|~specific qualifier value~|~sore to touch~|~home environment~|~dominant~|~adverse event associated with cardiac arrhythmia~|~atrial fibrillation adverse event
+iodides~|~specific qualifier value~|~negation~|~call (instruction)~|~precursor b-cell lymphoblastic leukemia~|~now (temporal qualifier)~|~status~|~changed status~|~sentiments~|~entity~|~cottage~|~legal fine~|~memphis
+major depressive disorder~|~negation~|~specific qualifier value~|~anxiety~|~not otherwise specified~|~worried
+abdominal pain~|~negation~|~specific qualifier value~|~hanging~|~obstetrics service
+negation~|~specific qualifier value~|~inventors~|~consciousness related finding~|~chen~|~dentist, general~|~son (person)
+chest pain~|~iodides~|~bread~|~constipation~|~specific qualifier value~|~m nos antibody~|~shortness of breath:-:point in time:^patient:-~|~fine - adjective~|~all~|~home environment
+hyperglycemia~|~genus tenia~|~diabetes mellitus~|~best (quality)~|~negation~|~specific qualifier value~|~orientation (spatial)~|~not otherwise specified~|~home environment~|~fighting~|~this (eukaryote)~|~other~|~tests (qualifier value)
+climate~|~negation~|~best (quality)~|~changed status~|~mental state (observable entity)~|~not otherwise specified~|~specific qualifier value~|~game~|~orientation (spatial)~|~fine - adjective
+iodides~|~nausea~|~vomiting~|~attending (action)~|~one~|~left lower quadrant pain~|~right lower quadrant pain~|~generalized~|~side~|~step (specific stage)~|~best (quality)
+coronavirus infections~|~genus: coronavirus~|~tension~|~antenna device component~|~generalized~|~limited (extensiveness)~|~side
+iodides~|~physicians~|~fine - adjective~|~muskogee language~|~author~|~not otherwise specified~|~now (temporal qualifier)~|~site of~|~m nos antibody~|~pain nos adverse event~|~pressure - action~|~best (quality)
+lightheadedness~|~east timor~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+city of boston~|~muscle cramp~|~human body~|~wound pain~|~body ache~|~space - property~|~pain nos adverse event~|~injury of elbow~|~due to~|~trauma/injury problem~|~standard (document)~|~traumatic and/or non-traumatic injury~|~wounds and injuries
+father (person)~|~lawyer (occupation)~|~chills~|~organ~|~house (environment)~|~favor~|~pipe (object)~|~diarrhea adverse event~|~site~|~fine - adjective
+genus tenia~|~harlequin fetus~|~texas~|~coitus~|~classification~|~communicable diseases~|~organism~|~best (quality)~|~negation~|~specific qualifier value~|~not well~|~web site
+magic~|~shock~|~infrequent~|~shortness of breath:-:point in time:^patient:-~|~hypersensitivity types~|~fighting~|~office~|~site~|~tension~|~best (quality)
+negation~|~specific qualifier value~|~office~|~left upper quadrant pain~|~back pain adverse event~|~nausea and vomiting~|~generalized
+headache~|~nausea~|~shortness of breath:-:point in time:^patient:-~|~extrinsic~|~back pain adverse event~|~best (quality)
+harlequin fetus~|~classification~|~carpets~|~beak~|~heart~|~massive~|~shot (injury)~|~mia gene~|~shark - food~|~not well~|~owns own home~|~long~|~rapid~|~acute
+histidine~|~shoulder~|~entire upper arm~|~rack~|~injury of shoulder region~|~bicycle~|~hanging~|~auto~|~traumatic and/or non-traumatic injury~|~best (quality)~|~bad~|~this (eukaryote)
+iodides~|~rotation~|~venezuela~|~vomiting~|~home environment~|~pain nos adverse event~|~fine - adjective~|~left lower quadrant pain~|~10*6/l~|~nadia - zebrafish~|~specific qualifier value
+classification~|~kind of quantity - smell~|~negation~|~specific qualifier value~|~watching~|~call (instruction)~|~cytip gene~|~paralytic stroke~|~now (temporal qualifier)~|~sandia race~|~then~|~not otherwise specified
+ethanol~|~disease~|~competition~|~other and unspecified congenital anomalies~|~active~|~substance~|~use of~|~agitation~|~capability~|~specific qualifier value
+iodides~|~hemorrhage~|~disease~|~specific qualifier value~|~membrane~|~negation~|~inject - dosing instruction imperative~|~indication of (contextual qualifier)~|~performer (entertainment)~|~not at all~|~live - specimen condition
+canis familiaris~|~tennis (activity)~|~time~|~negation~|~specific qualifier value~|~cytip gene~|~howling~|~reaching~|~member organization~|~procedure on intestine~|~case (situation)
+iodides~|~hospice care~|~diabetes mellitus~|~hyperkalemia~|~plant leaves~|~membrane respiration~|~fine - adjective~|~abcc8 gene~|~craig alaska indian~|~m nos antibody~|~fighting~|~insulation device component~|~3'-o-methyl-nordihydroguaiaretic acid~|~call (instruction)
+iodides~|~headache~|~hospice environment~|~hyperglycemia~|~india - zebrafish~|~negation~|~specific qualifier value~|~chance~|~home environment~|~web site~|~best (quality)
+vomiting~|~dehydration~|~10%~|~north~|~office~|~fighting~|~hypertension adverse event~|~this (eukaryote)
+father (person)~|~hearing~|~iodides~|~diabetes mellitus~|~dehydration~|~samia~|~not otherwise specified~|~best (quality)~|~fighting
+transient cerebral ischemia~|~communicable diseases~|~congenital abnormality~|~specific qualifier value~|~now (temporal qualifier)~|~qualitative mobility
+epilepsy, generalized~|~athletics~|~tachycardia~|~hyperglycemia~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~not well~|~amended~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)
+speech~|~vascular diseases~|~alteration~|~three~|~obama
+toes~|~fingers~|~hand~|~respiration~|~respiration disorders~|~put - instruction imperative~|~within~|~best (quality)~|~side~|~table - furniture
+negation~|~specific qualifier value~|~motion~|~entity~|~update~|~size
+lung diseases~|~negation~|~specific qualifier value~|~nausea chronic~|~breath~|~now (temporal qualifier)~|~obstructed~|~short value~|~best (quality)
+ethanol~|~utilization qualifier~|~not otherwise specified~|~specific qualifier value~|~encounter for adult health check-up nos~|~patient visit~|~fighting~|~kel gene~|~this (eukaryote)
+iodides~|~austin~|~electricity~|~andorra~|~behavior~|~changing~|~specific qualifier value~|~to~|~pay~|~mental status changes~|~incision and drainage~|~shortness of breath:-:point in time:^patient:-~|~generalized aches and pains~|~extrinsic~|~office~|~now (temporal qualifier)
+iodides~|~negation~|~specific qualifier value~|~epilepsy~|~athletics~|~m+ (tumor staging)~|~give - dosing instruction imperative~|~incision and drainage~|~consciousness related finding~|~teams~|~financial cost~|~correction (change)~|~package~|~very~|~adverse event associated with syndromes~|~generalized~|~side~|~microcephaly, epilepsy, and diabetes syndrome~|~redness~|~roof physical object~|~taverns~|~best (quality)
+hyperglycemia~|~side~|~other and unspecified congenital anomalies~|~qualitative mobility
+iodides~|~physical findings~|~reaching~|~general symptom~|~hypertension adverse event~|~m+ (tumor staging)~|~now (temporal qualifier)~|~best (quality)
+iodides~|~toxic epidermal necrolysis~|~coronavirus infections~|~genus: coronavirus~|~2alpha,3beta,19alpha-trihydroxyurs-12-en~|~communicable diseases~|~disease~|~time~|~tissue membrane~|~negation~|~specific qualifier value~|~cytip gene~|~case (situation)~|~remembering~|~m nos antibody~|~entity~|~generalized~|~best (quality)
+angina pectoris~|~hospice environment~|~accelerated~|~negation~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~side~|~call (instruction)~|~pain nos adverse event~|~precursor b-cell lymphoblastic leukemia~|~whole
+fingers~|~appearance~|~entire toe~|~injury of shoulder region~|~traumatic and/or non-traumatic injury~|~hanging~|~not well~|~bad~|~this (eukaryote)
+call (instruction)~|~area~|~not otherwise specified~|~nausea and vomiting~|~best (quality)~|~extrinsic~|~tests (qualifier value)~|~10%
+vision~|~canis familiaris~|~harlequin fetus~|~coitus~|~disease~|~organism~|~tissue membrane~|~align~|~howling~|~member organization~|~office~|~outlet (position)~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~except for
+humulus lupulus~|~dental occlusion~|~hip structure~|~hip injuries~|~professional guide~|~specific qualifier value~|~injury 2~|~within~|~best (quality)~|~office~|~rack~|~pain nos adverse event
+iodides~|~thinking, function~|~fine - adjective~|~negation~|~potato chips~|~specific qualifier value~|~population mean~|~advice~|~best (quality)

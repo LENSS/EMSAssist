@@ -1,0 +1,178 @@
+abdominal tenderness not otherwise specified
+accelerated angina
+acute edema of lung
+acute or subacute confusional state nonalcoholic
+acute pain not elsewhere classified
+acute respiratory failure unspecified whether with hypoxia or hypercapnia
+adult hyaline membrane disease
+alcohol dependence with withdrawal unspecified
+alcohol use unspecified
+alcohol use unspecified with intoxication
+allergic shock
+allergic urticaria
+allergy unspecified
+anesthesia of skin
+anxiety not otherwise specified
+apnea not otherwise specified
+asthenia not otherwise specified
+back pain not otherwise specified
+bed confinement status
+brain injury not otherwise specified
+cardiac angina
+cardiac arrhythmia unspecified
+cardiorespiratory failure
+cerebral infarction unspecified
+cerebrovascular disease unspecified
+cervicalgia
+change in mental status not otherwise specified
+chest pain unspecified
+chronic debility
+chronic kidney disease requiring chronic dialysis
+chronic obstructive lung disease not otherwise specified
+chronic obstructive pulmonary disease with acute lower respiratory infection
+clammy skin
+congestive heart failure not otherwise specified
+constipation unspecified
+convulsions not elsewhere classified
+cough
+cyanosis
+dehydration
+diarrhea unspecified
+difficulty in walking not elsewhere classified
+disorientation unspecified
+dry mouth unspecified
+dysphasia
+dyspnea unspecified
+dysuria
+edema unspecified
+elevated blood pressure reading without diagnosis of hypertension
+encounter for adult health check up not otherwise specified
+encounter for general examination without complaint suspected or reported diagnosis
+encounter for health examination in population surveys
+epigastric pain
+epileptic fits not otherwise specified
+excessive crying of child adolescent or adult
+facial droop
+fatigue not otherwise specified
+fever with chills
+fit not otherwise specified
+gastro esophageal reflux disease
+generalized abdominal pain
+generalized idiopathic epilepsy and epileptic syndromes
+generalized pain not otherwise specified
+headache
+heartburn
+hematemesis
+hemiplegia unspecified
+hemorrhage not otherwise specified
+hemorrhagic disorder due to circulating anticoagulants
+high blood pressure
+hyperglycemia unspecified
+hyperventilation
+hypoesthesia of skin
+hypoglycemia unspecified
+hypotension postural
+hypotension unspecified
+hypoxemia
+infective nasopharyngitis not otherwise specified
+influenza due to unidentified influenza virus
+injury unspecified
+intercostal pain
+irritability and anger
+left lower quadrant pain
+left upper quadrant pain
+light headedness
+localized edema
+localized swelling mass and lump unspecified
+melena
+mental illness not otherwise specified
+migraine unspecified
+nausea
+nausea with vomiting unspecified
+need for continuous supervision
+night sweats
+nontraumatic intracranial hemorrhage unspecified
+nosebleed
+ocular pain unspecified eye
+open wound of eye and orbit
+opioid related disorders
+other abnormalities of heart beat
+other acute kidney failure
+other allergy
+other asthma
+other chest pain
+other general symptoms and signs
+other psychoactive substance abuse with intoxication unspecified
+other psychoactive substance related disorders
+other secondary hypertension
+other seizures
+other specified diabetes mellitus with hyperglycemia
+other specified diabetes mellitus with hypoglycemia
+other specified health status
+other symptoms and signs involving cognitive functions and awareness
+other symptoms and signs involving emotional state
+pain in limb unspecified
+pain in lower limb not otherwise specified
+pain in unspecified hip
+pain in unspecified knee
+pain localized to other parts of lower abdomen
+painful respiration
+periodic breathing
+pneumonia unspecified organism
+poisoning by cocaine undetermined
+poisoning by heroin undetermined
+poisoning by other drugs medicaments and biological substances undetermined
+poisoning by other opioids undetermined
+poisoning by unspecified antiepileptic and sedative hypnotic drugs undetermined
+poisoning by unspecified drugs medicaments and biological substances undetermined
+poisoning by unspecified narcotics undetermined
+projectile vomiting
+pulmonary acute arteryvein thrombosis
+pulmonary edema
+rapid heart beat
+respiratory failure unspecified
+respiratory failure unspecified unspecified whether with hypoxia or hypercapnia
+restlessness and agitation
+right lower quadrant pain
+sepsis unspecified organism
+severe abdominal pain generalized with abdominal rigidity
+shortness of breath
+slowness and poor responsiveness
+slurred speech
+smoke inhalation not otherwise specified
+somnolence stupor and coma
+state of emotional shock and stress unspecified
+strange and inexplicable behavior
+stupor
+suffocation not otherwise specified
+suicidal ideations
+syncope and collapse
+tachypnea not elsewhere classified
+tonic pupil unspecified eye
+toxic effect of unspecified substance
+toxic effect of unspecified substance assault initial encounter
+toxic effect of unspecified substance undetermined
+unconsciousness not otherwise specified
+unspecified infectious disease
+unspecified injury of abdomen
+unspecified injury of face and head
+unspecified injury of face initial encounter
+unspecified injury of head
+unspecified injury of head initial encounter
+unspecified injury of hip
+unspecified injury of lower back
+unspecified injury of lower back initial encounter
+unspecified injury of neck
+unspecified injury of shoulder and upper arm
+unspecified injury of thorax
+unspecified injury of unspecified eye and orbit
+unspecified multiple injuries
+unspecified psychosis not due to a substance or known physiological condition
+unspecified respiratory condition due to chemicals gases fumes and vapors
+unspecified visual disturbance
+violent behavior
+visual hallucinations
+vomiting
+vomiting unspecified
+wheezing
+worries

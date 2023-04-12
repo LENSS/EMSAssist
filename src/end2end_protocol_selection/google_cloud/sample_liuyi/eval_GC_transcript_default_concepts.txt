@@ -1,0 +1,100 @@
+xerostomia~|~back pain adverse event~|~negation~|~specific qualifier value~|~unspecified - name type~|~mia gene
+chest pain~|~nausea~|~shortness of breath:-:point in time:^patient:-~|~pain nos adverse event~|~specific qualifier value~|~testing
+negation~|~specific qualifier value~|~korea~|~candy~|~unspecified infectious disease~|~mental state (observable entity)~|~not otherwise specified
+nausea~|~generalized aches and pains~|~acute pain due to trauma~|~not otherwise specified~|~traumatic injury
+abdominal pain~|~negation~|~specific qualifier value~|~abdomen~|~abdominal tenderness~|~generalized~|~generalized abdominal pain~|~unspecified - name type~|~vomiting of pregnancy~|~pain site~|~anatomic site~|~recurrent urinary tract infection
+neck pain~|~conduction disorder of the heart~|~cardiac arrhythmia~|~leg injuries~|~unspecified atrial fibrillation~|~adverse event associated with cardiac arrhythmia~|~atrial fibrillation adverse event
+hallucinations~|~epilepsy, generalized~|~epilepsy~|~involvement with~|~negation~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~unspecified - name type~|~idiopathic epilepsy~|~suite~|~generalized~|~unknown (origin) (qualifier value)~|~emotional state observations
+rod photoreceptors~|~specific qualifier value~|~biological factors~|~indeterminate~|~negation~|~physical aggression~|~mental state (observable entity)~|~medicament~|~20%~|~ideation
+opioids~|~disease~|~respiratory distress syndrome, adult~|~substance-related disorders~|~general symptom~|~physical findings~|~relationships
+hospice care~|~cues~|~absent corpus callosum cataract immunodeficiency~|~verbal~|~injury of lower leg~|~internal-external locus of control scale~|~space - property
+respiratory distress syndrome, adult~|~pneumonia organism nos
+feeling suicidal (finding)~|~iodides~|~lightheadedness~|~major depressive disorder~|~alcohol consumption~|~involvement with~|~physical findings~|~unspecified - name type~|~symptoms aspect~|~emotional state observations~|~spells (neurological symptom)
+nausea~|~general symptom~|~toxic effect of carbon monoxide~|~physical findings~|~unspecified - name type
+nausea~|~specific qualifier value~|~other specified diabetes mellitus with hyperglycemia~|~generalized aches and pains~|~weakness~|~chronic debility
+hip structure~|~abdominal cavity~|~craniocerebral trauma~|~unspecified injury of unspecified lower leg~|~specific qualifier value~|~entire ankle region~|~tie (garment)
+conduction disorder of the heart~|~apnea adverse event~|~negation~|~specific qualifier value~|~unspecified - name type~|~adverse event associated with cardiac arrhythmia~|~cardiorespiratory failure
+unconscious state~|~artificial cardiac pacemaker~|~negation~|~specific qualifier value~|~apnea adverse event~|~cardiac arrest cause~|~unspecified - name type
+hospice care~|~burundi~|~foot~|~irritable mood~|~vertebral column~|~craniocerebral trauma~|~injury of lower leg~|~traumatic injury~|~unspecified injury of ankle~|~unspecified injury of foot~|~diane~|~entire ankle region~|~specific qualifier value~|~husband
+fatigue~|~respiratory distress syndrome, adult~|~negation~|~specific qualifier value~|~unspecified - name type~|~line specimen~|~sonia~|~best (quality)
+hyperglycemia~|~other specified diabetes mellitus with hyperglycemia~|~generalized~|~unspecified - name type
+cerebral hemorrhage~|~hemorrhage~|~negation~|~specific qualifier value~|~unspecified - name type~|~initial (abbreviation)~|~patient visit~|~travel~|~unspecified intracranial injury without loss of consciousness~|~early complication
+chest pain~|~alcoholic intoxication, chronic~|~vomiting~|~drawings (art)~|~basis - conceptual entity~|~specific qualifier value~|~toddler (age group)
+negation~|~specific qualifier value~|~pain nos adverse event~|~early complication of trauma~|~initial (abbreviation)~|~visit
+seizures~|~alcohol consumption~|~nausea~|~respiratory distress syndrome, adult~|~unspecified - name type
+abdominal pain~|~headache~|~hyperglycemia~|~generalized~|~generalized abdominal pain
+alcohol consumption~|~disease~|~specific qualifier value~|~negation~|~encounter due to unspecified general medical examination~|~foreign body in respiratory tract~|~legal adult~|~alcohol use disorder~|~alcohol use, unspecified~|~part of~|~patient visit~|~unspecified - name type
+spiders~|~forearm injuries~|~pain in lower limb~|~specific qualifier value~|~unspecified injury of unspecified ankle~|~preposition for
+back pain~|~general symptom~|~indication of (contextual qualifier)~|~negation~|~physical findings~|~specific qualifier value~|~exacerbation of asthma~|~pain nos adverse event~|~best (quality)~|~unspecified - name type
+cerebral infarction~|~hospice care~|~facial paresis~|~confusion~|~mental state (observable entity)~|~negation~|~specific qualifier value~|~abnormal coordination~|~changed status
+togo~|~disorientation~|~specific qualifier value~|~now (temporal qualifier)~|~choose (action)~|~negation~|~mental status changes~|~site~|~recurrent urinary tract infection~|~best (quality)~|~not otherwise specified~|~infection by site~|~urinary system~|~february
+vomiting~|~eructation~|~specific qualifier value~|~negation~|~mental status changes
+abdominal pain~|~abdomen~|~finding~|~interested~|~negation~|~specific qualifier value~|~abstraction~|~severe pain~|~generalized abdominal rigidity~|~specimen type - abscess~|~severe (severity modifier)
+conduction disorder of the heart~|~negation~|~specific qualifier value~|~unspecified - name type~|~shortness of breath:-:point in time:^patient:-~|~adverse event associated with cardiac arrhythmia~|~chronic debility
+togo~|~functional encopresis~|~negation~|~specific qualifier value~|~not otherwise specified~|~status~|~survive~|~videocassette~|~racial group~|~legal adult~|~any
+father (person)~|~health status~|~chest pain~|~specific qualifier value~|~m/s~|~unspecified - name type
+mortality vital statistics~|~andorra~|~prisons~|~finding~|~cyanosis~|~cfdp1 gene~|~science of etiology~|~etiology unknown~|~cardiac arrest cause~|~specific qualifier value~|~unknown
+hallucinations~|~iodides~|~specific qualifier value~|~traumatic injury~|~mental state (observable entity)~|~m+ (tumor staging)~|~not otherwise specified
+shock~|~hypotension~|~hypothermia due to exposure
+acute onset pain~|~classification~|~acute pain due to trauma~|~negation
+chest pain~|~shoulder~|~general symptom~|~unspecified - name type~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~side
+respiration disorders~|~unspecified - name type~|~shortness of breath:-:point in time:^patient:-~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+abdominal pain~|~drowsiness~|~constipation~|~not otherwise specified~|~generalized~|~specific qualifier value~|~house (environment)~|~home environment~|~mental state (observable entity)
+septicemia~|~fighting~|~not otherwise specified~|~organism~|~unspecified - name type
+cerebral infarction~|~certain (qualifier value)~|~general symptom~|~negation~|~specific qualifier value~|~to~|~unspecified - name type~|~mental status changes~|~physical findings
+angina pectoris~|~chest pain~|~anxiety~|~negation~|~specific qualifier value~|~awareness of heart beat
+influenza virus vaccine~|~tryptophanase~|~hypertensive disease~|~negation~|~specific qualifier value~|~manifest~|~influenza with respiratory manifestation other than pneumonia~|~congestive heart failure~|~shortness of breath:-:point in time:^patient:-~|~virus~|~diagnosis~|~in addition to~|~respiratory
+facial paresis~|~specific qualifier value~|~communicable diseases~|~negation~|~unspecified - name type~|~slow~|~environmental pool~|~cerebral hemisphere structure (body structure)~|~responsive
+alcohol abuse with intoxication, unspecified~|~intoxication~|~best (quality)~|~uncomplicated
+disorientation~|~seizures~|~epilepsy~|~specific qualifier value~|~negation~|~unspecified - name type~|~orientation (spatial)
+angina pectoris~|~pelvic pain~|~abdominal pain~|~chest pain~|~abdomen~|~generalized abdominal pain~|~generalized chest pain
+epilepsy, generalized~|~pre-eclampsia~|~epilepsy~|~syndrome~|~negation~|~specific qualifier value~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)
+hypotension~|~clammy skin~|~crafts (art)~|~not otherwise specified
+abdominal pain~|~generalized abdominal pain~|~negation~|~specific qualifier value~|~acute~|~impaction~|~chest pain angina~|~cardiac - anatomy qualifier~|~unspecified - name type
+conduction disorder of the heart~|~respiratory distress syndrome, adult~|~cardiac arrhythmia~|~unspecified atrial fibrillation~|~abdominal tenderness~|~adverse event associated with cardiac arrhythmia~|~atrial fibrillation adverse event
+narcotics~|~candy~|~negation~|~specific qualifier value~|~mental state (observable entity)~|~memphis~|~synthesis~|~cfb gene
+major depressive disorder~|~specific qualifier value~|~anxiety~|~negation~|~not otherwise specified~|~worried
+headache~|~abdominal tenderness~|~negation~|~specific qualifier value~|~generalized abdominal pain
+unconscious state~|~negation~|~specific qualifier value~|~mental status changes~|~near~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified
+chest pain~|~constipation~|~shortness of breath:-:point in time:^patient:-
+disorientation~|~hyperglycemia~|~unspecified - name type~|~negation~|~other specified diabetes mellitus with hyperglycemia~|~specific qualifier value~|~not otherwise specified
+psychological orientation~|~unspecified - name type~|~mental status changes~|~negation~|~best (quality)~|~clammy skin
+vomiting~|~left lower quadrant pain~|~right lower quadrant pain~|~left lower quadrant~|~right lower quadrant~|~generalized~|~genus aria~|~unspecified - name type
+hypotension~|~unspecified - name type~|~general symptom~|~weakness~|~chronic debility~|~physical findings~|~chronic
+unspecified - name type~|~negation~|~specific qualifier value~|~emotions~|~thoracic mammary region~|~pain nos adverse event~|~site of~|~pressure - action
+lightheadedness~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~visual disturbance
+muscle cramp~|~craniocerebral trauma~|~acute pain due to trauma~|~standing position~|~injury of elbow
+choose (action)~|~sepsis, unspecified organism~|~diarrhea adverse event
+classification~|~organism~|~specific qualifier value~|~mia gene~|~unspecified infectious disease~|~text line~|~unspecified - name type
+anaphylaxis~|~hypotension~|~allergy specialty~|~shortness of breath:-:point in time:^patient:-
+back pain~|~negation~|~specific qualifier value~|~nausea without vomiting~|~left upper quadrant pain~|~generalized
+angina pectoris~|~headache~|~nausea~|~back pain adverse event~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~pain nos adverse event~|~best (quality)~|~fighting~|~negation
+shock, cardiogenic~|~tachycardia~|~maltese~|~adela~|~money~|~long~|~acute
+chest pain~|~burundi~|~shoulder~|~thoracic injuries~|~entire upper arm~|~traumatic injury~|~injury of shoulder region~|~unspecified - name type~|~specific qualifier value
+left lower quadrant pain~|~nausea and vomiting~|~unspecified - name type
+negation~|~classification~|~specific qualifier value~|~cerebellar stroke syndrome~|~zenia
+alcohol consumption~|~agitation~|~substance-related disorders~|~gait abnormality~|~active~|~mobility as a finding~|~unspecified - name type~|~other
+iodides~|~tissue membrane~|~lower gastrointestinal hemorrhage~|~negation~|~specific qualifier value~|~adult disease~|~average of value derivation technique
+hemorrhoids~|~nurses~|~respiratory distress syndrome, adult~|~specific qualifier value~|~negation~|~test time
+hyperglycemia~|~respiratory distress syndrome, adult~|~cell respiration~|~unspecified - name type~|~other specified diabetes mellitus with hyperglycemia~|~person name
+father (person)~|~chest pain~|~negation~|~specific qualifier value~|~back pain adverse event
+dehydration~|~vomiting~|~hypotension
+father (person)~|~diabetes mellitus~|~dehydration~|~hyperglycemia~|~not otherwise specified~|~best (quality)
+cerebral infarction~|~transient cerebral ischemia~|~gait abnormality~|~mobility as a finding~|~unspecified - name type~|~other - answer to question
+epilepsy~|~epilepsy, generalized~|~syndrome~|~hyperglycemia~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~negation~|~specific qualifier value~|~mental state (observable entity)~|~generalized~|~unspecified - name type
+syncope~|~vascular diseases~|~collapse (finding)~|~transient alteration of awareness~|~slurred speech~|~others - allergy
+chest pain~|~fingers~|~foot~|~respiration disorders~|~entire toe~|~unspecified - name type~|~pain nos adverse event
+anxiety~|~science~|~time~|~emotional state observations~|~involvement with~|~specific qualifier value~|~not otherwise specified~|~breath
+chronic obstructive airway disease~|~shortness of breath:-:point in time:^patient:-~|~not otherwise specified~|~best (quality)
+negation~|~specific qualifier value~|~encounter for adult health check-up nos~|~checkup examination~|~not otherwise specified~|~alcohol use, unspecified
+abdominal pain~|~chest pain~|~chest~|~behavior~|~generalized~|~specific qualifier value~|~mental status changes~|~shortness of breath:-:point in time:^patient:-~|~guide device~|~side pain~|~side of chest~|~bad~|~pain nos adverse event~|~side
+unconscious state~|~epilepsy, generalized~|~epilepsy~|~negation~|~specific qualifier value~|~impacted tooth~|~general symptom~|~idiopathic epilepsy~|~unknown (origin) (qualifier value)~|~not otherwise specified~|~generalized~|~size~|~best (quality)
+cerebral infarction~|~ethyl ether~|~unspecified - name type~|~gait abnormality~|~mobility as a finding~|~other - answer to question
+hypotension~|~negation~|~specific qualifier value~|~unspecified - name type~|~ridging~|~generalized aches and pains~|~parma~|~abnormal
+hyaline membrane disease~|~disease~|~general symptom~|~negation~|~specific qualifier value~|~unspecified infectious disease~|~physical findings~|~approximate~|~chronic
+chest pain~|~anxiety~|~negation~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~accelerated angina~|~stress b
+fingers~|~upper arm~|~shoulder~|~negation~|~specific qualifier value~|~then~|~unspecified injury of hip~|~put - instruction imperative~|~upper back pain~|~injury of toe
+lightheadedness~|~negation~|~specific qualifier value~|~best (quality)
+respiratory distress syndrome, adult~|~hypertensive disease~|~sepsis, unspecified organism
+abdominal pain~|~chest pain~|~burundi~|~chest~|~hip structure~|~abdomen~|~thoracic injuries~|~unspecified - name type~|~pain nos adverse event~|~outer space~|~unspecified injury of hip
+chest pain~|~negation~|~specific qualifier value~|~mental state (observable entity)~|~20%

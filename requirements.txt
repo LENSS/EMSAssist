@@ -1,0 +1,17 @@
+tensorflow_addons
+sentencepiece
+gin-config
+tflite-support
+tensorflow_hub
+natsort
+
+scikit-learn
+
+fire
+pyyaml
+tqdm
+librosa
+tensorflow-io == 0.26
+tensorflow_datasets
+nltk
+pydub

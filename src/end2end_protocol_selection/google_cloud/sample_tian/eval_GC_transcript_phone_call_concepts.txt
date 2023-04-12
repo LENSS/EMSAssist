@@ -1,0 +1,100 @@
+epilepsy, generalized~|~plastics~|~guyana~|~happiness~|~channel~|~symptoms~|~others - allergy~|~idiopathic epilepsy~|~generalized~|~unknown (origin) (qualifier value)~|~changing~|~behavior:-:point in time:^patient:-~|~physical findings~|~place - dosing instruction imperative~|~jones~|~mia gene~|~specific qualifier value
+iodides~|~affecting~|~specific qualifier value~|~senior - suffix~|~>5~|~lower - spatial qualifier~|~mean blood pressure~|~feature~|~wife~|~30%~|~55~|~french southern territories~|~population mean~|~housewife~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~mobile~|~abnormally high~|~side
+trauma qualifier~|~brain concussion~|~vomiting~|~specific qualifier value~|~orientation (spatial)~|~not otherwise specified~|~module~|~this (eukaryote)
+abdominal pain~|~iodides~|~tachycardia~|~pressure - action~|~negation~|~specific qualifier value~|~abdominal pressure~|~note (document)~|~pain nos adverse event
+hallucinations~|~elbow~|~specific qualifier value~|~pain nos adverse event~|~stable status~|~now (temporal qualifier)~|~chronic
+specific qualifier value~|~conduction disorder of the heart~|~chronic disease~|~changed status~|~mental state (observable entity)~|~now (temporal qualifier)~|~adverse event associated with cardiac arrhythmia~|~negation~|~obstructive disease~|~obstructed~|~chronic
+abdomen~|~abdominal pain~|~constipation~|~specific qualifier value~|~decision~|~severe pain~|~regina~|~unspecified - name type~|~severe (severity modifier)
+headache~|~iodides~|~changed status~|~specific qualifier value~|~male population group~|~generalized~|~negation~|~wife~|~status~|~now (temporal qualifier)~|~pain nos adverse event
+specific qualifier value~|~comprehension~|~now (temporal qualifier)~|~pain nos adverse event~|~>5~|~changed status~|~physical findings~|~symptoms aspect~|~mental state (observable entity)~|~tumor histopathological grade status values~|~nia (fungus)~|~fine - adjective
+specific qualifier value~|~respiration disorders~|~directly observed therapy~|~negation~|~chronic~|~encounter~|~house (environment)~|~unspecified - name type
+feeling suicidal (finding)~|~iodides~|~alcohol consumption~|~etiology~|~vomiting~|~specific qualifier value~|~advising (action)~|~agitation~|~knowledge acquisition~|~negation~|~to specify
+chronic disease~|~fever with chills~|~membrane~|~obstructive disease~|~not otherwise specified~|~melapuldencel-t~|~aluminum measurement~|~highland~|~long~|~obstructed~|~chronic~|~dial device component
+apple~|~texas~|~specific qualifier value~|~renown~|~senior - suffix~|~>5~|~sostdc1 gene
+iodides~|~somalia~|~togo~|~call (instruction)~|~legal fine~|~specific qualifier value~|~intoxication~|~to specify~|~allergic
+cities~|~epilepsy~|~educational status~|~specific qualifier value~|~psychological orientation~|~changed status~|~mental state (observable entity)~|~negation~|~wife~|~agitation~|~not otherwise specified~|~mental status changes
+grassland~|~paint~|~specific qualifier value~|~negation~|~status~|~wife~|~abnormal coordination~|~modify status~|~fraction of~|~prong device component~|~three~|~now (temporal qualifier)~|~on (qualifier value)
+respiration~|~chronic obstructive airway disease~|~hyperventilation~|~office~|~this (eukaryote)~|~>5
+apple~|~fluorides~|~taste perception~|~face~|~chief complaint (finding)~|~negation~|~specific qualifier value~|~suspected qualifier~|~diagnosis study~|~feet, unit of measurement~|~college~|~not otherwise specified~|~accurate (qualifier)~|~reporting~|~present
+households~|~asians~|~needs~|~helping behavior~|~motion~|~able (finding)~|~moving~|~negation~|~son (person)~|~specific qualifier value~|~stadium~|~state~|~to~|~affiliate - roleclass~|~care activity~|~sentence~|~at~|~home environment~|~member organization~|~not otherwise specified~|~identifier~|~suicidal
+acute onset pain~|~negation~|~response (statement)~|~fire as a heat source~|~apply (instruction)~|~part of~|~meetings~|~tests (qualifier value)~|~cos (greek island)~|~lower abdomen~|~location equipment - suction~|~now (temporal qualifier)~|~specific qualifier value~|~within
+hyperglycemia~|~iodides~|~diabetes mellitus~|~urea~|~abdomen~|~left lower quadrant pain~|~to specify~|~right lower quadrant pain~|~northwest~|~others - allergy~|~party~|~physical findings~|~specific qualifier value~|~unspecified - name type
+apple~|~flucytosine~|~seizures~|~epilepsy~|~andorra~|~left~|~now (temporal qualifier)~|~specific qualifier value~|~housewife~|~office~|~pain nos adverse event~|~generalized~|~unknown (origin) (qualifier value)~|~thermal injury~|~jokes
+chest pain~|~shortness of breath:-:point in time:^patient:-~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~this (eukaryote)~|~type of restoration
+mirage~|~voice~|~aruba~|~hemorrhage~|~vendors~|~generalized aches and pains~|~ross - pharmaceutical company~|~visit~|~not otherwise specified~|~heather (plant)~|~negation~|~>5~|~similarity~|~ignition~|~rnh1 gene~|~traumatic
+fingers~|~iodides~|~kenya~|~priests~|~abdomen~|~hand injuries~|~trauma to the abdomen~|~negation~|~reaching~|~special~|~specific qualifier value~|~to specify~|~ross - pharmaceutical company~|~today~|~severe pain
+esthesia~|~pneumonia~|~<50~|~science~|~genomic orientation~|~specific qualifier value~|~channel~|~south~|~hill
+craniocerebral trauma~|~fine - adjective~|~now (temporal qualifier)~|~stop (instruction imperative)~|~bony process~|~>5~|~entry (data)~|~echo (insect)~|~severe (severity modifier)
+chest pain~|~conduction disorder of the heart~|~fever~|~tachycardia~|~specific qualifier value~|~adverse event associated with cardiac arrhythmia~|~else~|~fibrillation~|~true~|~fine - adjective
+abdominal pain~|~recurrent urinary tract infection~|~negation~|~specific qualifier value~|~fighting~|~generalized~|~senior - suffix~|~practice experience~|~authorization documentation~|~not well~|~housewife
+lightheadedness~|~specific qualifier value~|~show~|~visit~|~application procedure~|~complication of injury~|~now (temporal qualifier)~|~pain nos adverse event~|~olfm1 gene
+stupor~|~specific qualifier value~|~edema~|~negation~|~localized~|~wife~|~diagnosis~|~traumatic injury~|~application procedure~|~changing~|~increase in blood pressure~|~mental status changes~|~in addition to~|~pad mass~|~entry (data)~|~reading (datum presentation)
+muscle weakness~|~conduction disorder of the heart~|~generalized~|~adverse event associated with cardiac arrhythmia~|~medical product stability~|~nadia - zebrafish~|~specific qualifier value~|~chronic
+ice~|~proline~|~communicable diseases~|~>5~|~female dog~|~orientation (spatial)~|~senior - suffix~|~mtdh gene~|~not otherwise specified~|~age~|~specific qualifier value~|~surrey
+iodides~|~pressure- physical agent~|~thinking, function~|~specific qualifier value~|~chronic~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal
+vision~|~chills~|~seafood~|~changed status~|~mental state (observable entity)~|~not otherwise specified~|~aquatic animal as human food
+abdominal pain~|~chest pain~|~generalized~|~specific qualifier value~|~acp5 protein, human~|~trap medical device~|~pay
+headache~|~heartburn~|~heartburn acidity~|~son (person)
+abdominal pain~|~tennessee~|~vomiting~|~abdomen~|~generalized~|~structure of subregion of abdomen~|~severe pain~|~severe (severity modifier)~|~specific qualifier value
+specific qualifier value~|~negation~|~poisoning~|~generalized~|~pain nos adverse event~|~ling~|~symptoms aspect~|~surface antigen 5~|~channel~|~jonas~|~physical findings~|~housewife~|~stevia extract
+equus asinus~|~seizures~|~specific qualifier value~|~traumatic and/or non-traumatic injury~|~negation~|~wife~|~she gene~|~house (environment)~|~not otherwise specified~|~>5~|~local~|~telephone number~|~fine - adjective
+vomiting~|~specific qualifier value~|~now (temporal qualifier)~|~left lower quadrant pain~|~negation~|~nausea or abdominal pain~|~back pain adverse event~|~sore to touch~|~>5
+fingers~|~neck injuries~|~back~|~specific qualifier value~|~degree or extent~|~housewife~|~office~|~<3 (qualifier value)~|~negation~|~step (specific stage)~|~ounce
+constipation~|~specific qualifier value~|~per year~|~else~|~oss tumor staging notations~|~journalist~|~severe pain~|~structure of subregion of abdomen
+iodides~|~asians~|~occupations~|~shock~|~poisoning aspects~|~songs~|~substance~|~side of chest~|~emotional shock~|~emotional state observations~|~geographic state~|~determination aspects~|~m nos antibody~|~identifier~|~suicidal
+specific qualifier value~|~communicable diseases~|~blood group antibody i~|~negation~|~pain nos adverse event~|~response (statement)~|~unspecified - name type~|~consciousness states~|~modify status~|~changed status~|~consciousness related finding~|~now (temporal qualifier)~|~housewife
+iodides~|~specific qualifier value~|~traumatic and/or non-traumatic injury~|~senior - suffix~|~fine - adjective~|~m nos antibody~|~housewife~|~else~|~now (temporal qualifier)
+syncope~|~lightheadedness~|~andorra~|~disease~|~membrane~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~application procedure
+iodides~|~poisoning aspects~|~specific qualifier value~|~negation~|~m nos antibody~|~population mean~|~not otherwise specified~|~apnea adverse event~|~herring (dietary)~|~housewife~|~changing
+iodides~|~disease~|~tissue membrane~|~negation~|~specific qualifier value~|~congestive heart failure~|~population mean~|~housewife~|~night sweats~|~fine - adjective~|~line specimen
+vision~|~negation~|~specific qualifier value~|~changed status~|~mental state (observable entity)~|~not otherwise specified~|~pain nos adverse event~|~housewife~|~feet, unit of measurement~|~>5
+abdomen~|~abdominal pain~|~specific qualifier value~|~>5~|~negation~|~senior - suffix~|~with intensity~|~severe pain~|~abdominal tenderness~|~fabp6 protein, human~|~meetings~|~severe (severity modifier)~|~now (temporal qualifier)~|~physical findings~|~multiple of the median
+conduction disorder of the heart~|~poisoning aspects~|~occupations~|~specific qualifier value~|~anxiety disorders~|~biological factors~|~commit lozenge~|~size~|~adverse event associated with cardiac arrhythmia~|~housewife
+voice~|~specific qualifier value~|~changed status~|~collapse of medical device or device component~|~negation~|~usage~|~intoxication~|~mental status changes~|~unspecified - name type~|~now (temporal qualifier)
+harlequin fetus~|~fingers~|~iodides~|~priests~|~face~|~specific qualifier value~|~multiple trauma~|~hand injuries~|~negation~|~m nos antibody~|~traumatic and/or non-traumatic injury~|~>5
+hyperglycemia~|~abdominal pain~|~specific qualifier value~|~vomiting~|~diabetes mellitus~|~nausea~|~negation~|~not otherwise specified~|~pay~|~sore to touch~|~all~|~fighting~|~me1 gene
+sound - physical agent~|~nausea~|~communicable diseases~|~specific qualifier value
+angina pectoris~|~chest pain~|~vomiting~|~else~|~fine - adjective
+chest pain~|~iodides~|~sinoatrial node~|~anxiety~|~fine - adjective~|~negation~|~widening~|~>5~|~else~|~m nos antibody
+abdominal pain~|~call (instruction)~|~now (temporal qualifier)~|~physical findings~|~specific qualifier value~|~symptoms aspect~|~pay
+pulmonary edema~|~psychological orientation~|~specific qualifier value~|~now (temporal qualifier)~|~>5~|~changed status~|~negation~|~mental status changes~|~retention of content~|~ounce~|~congestive heart failure~|~mental state (observable entity)~|~localized
+abdominal pain~|~vomiting~|~nausea and vomiting~|~abdominal quadrant~|~lower - spatial qualifier~|~office~|~pain nos adverse event~|~quadrant~|~specific qualifier value
+conduction disorder of the heart~|~hydroxide ion~|~tachycardia~|~collapse of medical device or device component~|~>5~|~physical findings~|~adverse event associated with cardiac arrhythmia~|~fibrillation~|~true
+asthma~|~ounce~|~changed status~|~mental state (observable entity)~|~negation~|~toxic effect~|~0/5~|~most
+occupations~|~poisoning aspects~|~logic~|~specific qualifier value~|~advanced phase~|~changed status~|~mental state (observable entity)~|~negation~|~application of substance~|~suicide attempt incident code~|~determination aspects
+chest pain~|~migraine disorders~|~pressure- physical agent~|~happiness~|~love~|~blood pressure finding~|~specific qualifier value~|~shortness of breath:-:point in time:^patient:-~|~abnormally high
+abdominal pain~|~abdomen~|~chest pain~|~extrinsic~|~negation~|~pain nos adverse event~|~specific qualifier value~|~severe pain~|~localized~|~regina~|~main~|~severe (severity modifier)
+sepsis~|~chills~|~lung diseases~|~assisted (qualifier value)~|~specific qualifier value~|~acute bronchitis~|~fever symptoms (finding)~|~acute respiratory disease~|~infectious disease of lung~|~acute respiratory infections
+hyperglycemia~|~diabetes mellitus~|~reproduction~|~abnormal coordination~|~extrinsic~|~fighting~|~me1 gene
+orgasm~|~septicemia~|~nervousness~|~senior - suffix~|~specific qualifier value~|~alpha
+iodides~|~nia (fungus)~|~snow (substance)~|~to specify~|~specific qualifier value
+somalia~|~elbow joint structure~|~physical findings~|~office~|~site of~|~traumatic and/or non-traumatic injury
+vision~|~aggressive behavior~|~specific qualifier value~|~housewife~|~changed status~|~legal fine~|~now (temporal qualifier)~|~status~|~tablet dosing unit~|~elder extract~|~feet, unit of measurement~|~negation~|~singular
+specific qualifier value~|~chronic obstructive airway disease~|~bread~|~wheezing~|~now (temporal qualifier)~|~>5~|~negation~|~show~|~slice~|~housewife~|~shortness of breath:-:point in time:^patient:-~|~senior - suffix
+chronic obstructive airway disease~|~negation~|~senior - suffix~|~specific qualifier value~|~near~|~wife
+sambucus~|~tryptophanase~|~membrane~|~disease~|~foreign bodies~|~causing~|~fixation - action~|~reading (datum presentation)~|~show
+iodides~|~classification~|~asphalt~|~negation~|~specific qualifier value~|~mental disorders~|~chronic~|~skin tag~|~m nos antibody
+diarrhea~|~fever~|~chills~|~specific qualifier value~|~fever with chills~|~not otherwise specified
+diagnosis aspect~|~reading (activity)~|~communicable diseases~|~changed status~|~mental state (observable entity)~|~negation~|~specific qualifier value~|~transient blood pressure elevation~|~ischemic attack~|~experimental result~|~fine - adjective
+iodides~|~utilization qualifier~|~poisoning~|~advanced phase~|~biological factors~|~to specify~|~m nos antibody~|~traumatic and/or non-traumatic injury~|~fire - physical phenomenon~|~jury~|~intoxication~|~loose~|~specific qualifier value~|~this (eukaryote)
+records~|~physicians~|~face~|~not otherwise specified~|~specific qualifier value~|~suspected diagnosis~|~diagnosis study~|~housewife~|~calendar~|~now (temporal qualifier)~|~pain nos adverse event~|~generalized~|~height~|~preposition for
+brain diseases~|~wiskott-aldrich syndrome~|~main~|~health~|~science~|~and
+apple~|~leg~|~fine - adjective~|~connect~|~sostdc1 gene~|~right lower quadrant pain~|~housewife~|~and~|~fitness~|~food consumption~|~left lower quadrant pain~|~senior - suffix~|~not otherwise specified~|~jones~|~degree of relationship - exchange~|~generalized
+sambucus~|~disease~|~chronic disease~|~specific qualifier value~|~tissue membrane~|~long~|~negative finding~|~now (temporal qualifier)~|~near~|~left upper quadrant pain~|~effectiveness~|~fine - adjective~|~housewife
+homo sapiens~|~vomiting~|~helium~|~specific qualifier value~|~legal fine~|~november~|~ross - pharmaceutical company~|~housewife~|~else~|~not otherwise specified~|~heather (plant)~|~negation~|~tests (qualifier value)
+iodides~|~nausea~|~substance-related disorders~|~removed~|~specific qualifier value~|~stress~|~agitation~|~pelvic cavity structure~|~emotional state observations~|~m-5~|~pain nos adverse event~|~premier~|~physical findings~|~active~|~fighting~|~housewife~|~shot (injury)~|~station
+lightheadedness~|~alcohol abuse~|~*activity (kind of quantity)~|~uncomplicated
+iodides~|~personnel selection~|~poisoning aspects~|~anger~|~songs~|~original~|~poisoning by cocaine~|~agitation~|~journal~|~sentencing~|~knowledge acquisition
+muscle weakness~|~falls~|~classification~|~face~|~housewife~|~>5~|~generalized~|~to~|~not well~|~now (temporal qualifier)~|~pain nos adverse event~|~extrinsic~|~fine - adjective~|~specific qualifier value
+chills~|~septicemia~|~conduction disorder of the heart~|~fever~|~specific qualifier value~|~adverse event associated with cardiac arrhythmia~|~negation~|~senior - suffix~|~to specify~|~modify status~|~not otherwise specified
+mastodynia~|~chest pain~|~vomiting~|~accept - source type~|~collapse of medical device or device component~|~filed~|~office
+vision~|~iodides~|~hypoglycemia~|~mia gene~|~mental status changes~|~fine - adjective~|~negation~|~office~|~park (environment)~|~specific qualifier value
+shoulder pain~|~acute onset pain~|~pain~|~mastodynia~|~shoulder~|~patient visit~|~wounds and injuries~|~traumatic injury~|~injury of breast~|~acute~|~all
+neck injuries~|~specific qualifier value~|~visit~|~ever told by doctor or nurse that you have high blood pressure:finding:point in time:^patient:ordinal~|~set scale~|~secondary to
+iodides~|~bulimia nervosa~|~fine - adjective~|~negation~|~screening - procedure intent~|~specific qualifier value~|~wife~|~climbing~|~housewife~|~stevia extract~|~application procedure~|~senior - suffix
+iodides~|~chest pain~|~fine - adjective~|~specific qualifier value~|~back pain adverse event~|~to specify~|~housewife~|~thoracic mammary region~|~response (statement)~|~else~|~pain nos adverse event
+chest pain~|~myocardial infarction:finding:point in time:^patient:ordinal~|~acute~|~fine - adjective~|~>5~|~unspecified - name type~|~associated with~|~negation~|~else~|~now (temporal qualifier)
+chest pain~|~lightheadedness~|~vomiting~|~fine - adjective~|~else~|~policy~|~out (direction)~|~znf699 gene~|~show~|~laptop computer~|~pain nos adverse event~|~question (inquiry)
+iodides~|~conduction disorder of the heart~|~specific qualifier value~|~institutes~|~generalized abdominal pain~|~localized~|~negation~|~to specify~|~adverse event associated with cardiac arrhythmia~|~mass of body region~|~sore to touch~|~mass of skin~|~route~|~fibrillation~|~trio gene~|~body tissue
+vomiting~|~specific qualifier value~|~carrier of disorder~|~collapse of medical device or device component~|~mental status changes~|~large granular lymphocyte
+chewing~|~tryptophanase~|~sick role~|~negation~|~fatigue~|~behavior~|~specific qualifier value~|~substance~|~logical condition~|~nonorganic psychosis~|~housewife~|~changing~|~>5~|~fine - adjective~|~mental disorders~|~physiological~|~psyche structure~|~english race
