@@ -1,31 +1,24 @@
-# EMSMobileBERT
+# Protocol Selection
 
-This repository contains the finalized files for EMSAssist. For artifact evaluation (AE) purposes, i.e., you only want to reproduce the results with our fine-tuned TensorFlow/TensorFlowLite (TF/TFLite) models, you can just look at the testing sections. In cases where you want to develop your customized protocol selection or automatic speech recognition (ASR) models, you can refer to the training sections.
+We replicate Protocol Selection result shown in Table 4, which is covered by inference commands using our provided model. In addition, we provide commands to train the model on your own, which should produce almost the same results shown in Table 4 in EMSAssist paper. It's highly recommend to use a performant NVIDIA GPU in this part for reducing inference/training time. We use NVIDIA A30. As what we do under other folders in this repo, we provide expected output after each command.
 
-We tested this repo with TensorFlow-GPU versions: 2.9, 2.11
+## 1 Testing (Inference with provided model)
 
-# 1. Protocol Selection
+### 1.1 Protocol Selection on Customized Local Dataset
 
-## 1.1 Requirements
+MetaMap/MetaMapLite (SOTA, 11 minutes): `python match_nemsis_nemsisconcepts.py --concept_set_source both --metric cosine --input_mm_file nemsis_input_mm_concept.txt --input_mml_file nemsis_input_mml_concept.txt`
 
-Install the required modules for training/testing protocol selection models:
-
-`pip install -r requirements.txt`
-
-
-## 1.2 Testing
-
-### 1.2.1 Protocol Selection on Customized Local Dataset
-
-EMSMobileBERT (ours, 1.2 mins): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
-
-> 545/545 [==============================] - 37s 62ms/step - loss: 0.9696 - top1_accuracy: 0.7226 - top3_accuracy: 0.9270 - top5_accuracy: 0.9629
+> =============== protocol_selection ====================
+> 
+> /home/liuyi/anaconda3/envs/xgb-gpu/lib/python3.7/site-packages/scipy/spatial/distance.py:699: RuntimeWarning: invalid value encountered in sqrt
 >
-> inference time of model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ on server is 0:00:00.067642
+>  dist = 1.0 - uv / np.sqrt(uu * vv)
 >
-> This run takes 0:01:12.467527
+>(cosine) input metamap topk:  0.13053887402542227 0.37417469485239235 0.49031450585033703
+>
+>(cosine) input metamaplite topk:  0.10407169676997095 0.26762851795289877 0.33216020392931367
 
-ANN One-hot encoding codes: `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_only`
+ANN One-hot encoding words (55 seconds): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_only`
 
 > 545/545 [==============================] - 3s 5ms/step - loss: 1.0586 - top1: 0.6872 - top3: 0.9104 - top5: 0.9508
 > 
@@ -33,7 +26,7 @@ ANN One-hot encoding codes: `python emsANN.py --test_model_path ../../model/emsA
 >
 > This run takes 0:00:49.493647
 
-ANN One-hot encoding codes: `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_only`
+ANN One-hot encoding codes (1.4 minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_only`
 
 > 545/545 [==============================] - 4s 5ms/step - loss: 1.0673 - top1: 0.6817 - top3: 0.9132 - top5: 0.9516
 >
@@ -41,7 +34,7 @@ ANN One-hot encoding codes: `python emsANN.py --test_model_path ../../model/emsA
 > 
 > This run takes 0:01:18.282308
 
-ANN One-hot encoding tokens: `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_only`
+ANN One-hot encoding tokens (3.5 minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_only`
 
 > 545/545 [==============================] - 5s 8ms/step - loss: 1.0828 - top1: 0.6809 - top3: 0.9093 - top5: 0.9501
 > 
@@ -49,7 +42,7 @@ ANN One-hot encoding tokens: `python emsANN.py --test_model_path ../../model/ems
 > 
 > This run takes 0:03:32.688118
 
-### 1.2.4 XGBoost Baselines on Customized Local Dataset
+<!-- ### 1.2.4 XGBoost Baselines on Customized Local Dataset
 
 ```
 conda create -n xgb-gpu
@@ -62,9 +55,9 @@ pip install tensorflow-gpu==2.9
 
 `mv /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29.old`
 
-`ln -s /home/liuyi/anaconda3/envs/tf-gpu/lib/libstdc++.so.6.0.30 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29`
+`ln -s /home/liuyi/anaconda3/envs/tf-gpu/lib/libstdc++.so.6.0.30 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29` -->
 
-XGBoost One-hot encoding words, lr 0.1: `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 1 --feature_type words --test_model_path ../../model/emsXGBoost/Fitted_Words_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
+XGBoost One-hot encoding words, lr 0.1 (20 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type words --test_model_path ../../model/emsXGBoost/Fitted_Words_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
 > evaluate on test set:
 >
@@ -76,7 +69,7 @@ XGBoost One-hot encoding words, lr 0.1: `python emsXGBoost.py --eval_dir ../../d
 > 
 > This run takes 0:00:20.664986
 
-XGBoost One-hot encoding codes, lr 0.1: `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 1 --feature_type codes --test_model_path ../../model/emsXGBoost/Fitted_Codes_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
+XGBoost One-hot encoding codes, lr 0.1 (10 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type codes --test_model_path ../../model/emsXGBoost/Fitted_Codes_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
 > evaluate on test set:
 > 
@@ -88,7 +81,7 @@ XGBoost One-hot encoding codes, lr 0.1: `python emsXGBoost.py --eval_dir ../../d
 >
 > This run takes 0:00:03.909039
 
-XGBoost One-hot encoding tokens, lr 0.1: `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 1 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
+XGBoost One-hot encoding tokens, lr 0.1 (15 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
 > evaluate on test set:
 > 
@@ -100,7 +93,7 @@ XGBoost One-hot encoding tokens, lr 0.1: `python emsXGBoost.py --eval_dir ../../
 >
 > This run takes 0:00:14.954746
 
-XGBoost One-hot encoding tokens, lr 0.05: `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 1 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.05/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
+XGBoost One-hot encoding tokens, lr 0.05 (16 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.05/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
 > evaluate on test set:
 > 
@@ -112,7 +105,7 @@ XGBoost One-hot encoding tokens, lr 0.05: `python emsXGBoost.py --eval_dir ../..
 >
 > This run takes 0:00:16.030952
 
-XGBoost One-hot encoding tokens, lr 0.01: `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 1 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.01/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
+XGBoost One-hot encoding tokens, lr 0.01 (23 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type tokens --test_model_path ../../model/emsXGBoost/Fitted_Tokens_Desc_Lr0.01/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
 > evaluate on test set:
 > 
@@ -124,9 +117,9 @@ XGBoost One-hot encoding tokens, lr 0.01: `python emsXGBoost.py --eval_dir ../..
 > 
 > This run takes 0:00:23.975072
 
-### 1.2.5 BERT Baselines on Customized Local Dataset
+<!-- ### 1.2.5 BERT Baselines on Customized Local Dataset -->
 
-BERT_BASE: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+BERT_BASE (1.2 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 60s 109ms/step - loss: 0.9710 - top1_accuracy: 0.7190 - top3_accuracy: 0.9217 - top5_accuracy: 0.9577
 >
@@ -135,7 +128,7 @@ BERT_BASE: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Ber
 >
 > This run takes 0:01:12.44526
 
-BERT_PubMed: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_Fitted_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+BERT_PubMed (1.2 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_Fitted_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 61s 109ms/step - loss: 0.9883 - top1_accuracy: 0.7206 - top3_accuracy: 0.9247 - top5_accuracy: 0.9604
 >
@@ -143,7 +136,7 @@ BERT_PubMed: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_P
 >
 > This run takes 0:01:12.889064
 
-BERT_EMS: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device 2 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+BERT_EMS (1.5 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 60s 107ms/step - loss: 0.9868 - top1_accuracy: 0.7189 - top3_accuracy: 0.9193 - top5_accuracy: 0.9554
 >
@@ -151,7 +144,17 @@ BERT_EMS: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pret
 >
 > This run takes 0:01:26.34841
 
-### 1.2.2 Protocol Selection on Nation-wide dataset
+
+
+EMSMobileBERT (ours, 1.2 mins): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+
+> 545/545 [==============================] - 37s 62ms/step - loss: 0.9696 - top1_accuracy: 0.7226 - top3_accuracy: 0.9270 - top5_accuracy: 0.9629
+>
+> inference time of model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ on server is 0:00:00.067642
+>
+> This run takes 0:01:12.467527
+
+### 1.2 Protocol Selection on Nation-wide dataset
 
 EMSMobileBERT (ours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_NoFitted_Desc/0006/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
 
