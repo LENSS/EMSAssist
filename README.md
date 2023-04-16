@@ -6,6 +6,8 @@ This repository currently contains the reproducible artifact for EMSAssist.
 
 We follow the [official docker guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) to install and run docker images:
 
+Install docker, docker_compose
+
 
 ## Using bare metal machine 
 First of all, we download anaconda for smoother artifact evaluation
@@ -22,6 +24,8 @@ First of all, we download anaconda for smoother artifact evaluation
 
 * Install the TensorFlow-2.9: `pip install tensorflow-gpu==2.9`
 
+* Install the CUDA ToolKit 11.0 and CuDNN 8.0: `conda install -c conda-forge cudatoolkit=11.0 cudnn`
+
 * Install the required python modules: `pip install -r requirements.txt`
 
 ## Directory and path preparation
@@ -36,15 +40,15 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 * `export PYTHONPATH=$PWD/src/speech_recognition:$PWD/examples`
 
-* `export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$CONDA_PREFIX/lib`
+* `export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH`
 
 * Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link) and [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) tar files from Google Drive to the cuurent EMSAssist folder. We expect the downloading and decompressing to take 2-3 hours.
 
 * decompress the `model.tar.gz`: `tar -xvzf model.tar.gz`
 
-* decompress the `data.tar.gz`: `tar -xvzf data.tar.gz`. After this step, make sure we have 3 folders under `EMSAssist` directory: `src`, `examples`, `data`, and `model`.
+* decompress the `data.tar.gz`: `tar -xvzf data.tar.gz`. After this step, make sure we have 5 folders under `EMSAssist` directory: `src`, `examples`, `data`, `init_models` and `model`.
 
-
+* begin the evaluation: `cd src`. Check out the README file when you enter each sub-directory.
 
 
 <!-- we create and activate a conda environment with tensorflow-gpu: `conda activate tf-gpu` -->
@@ -75,7 +79,7 @@ Before the artifact evaluation and use the open-sourced code/data, please make s
 | TensorFlow  | 2.9   |
 
 
-```
+<!-- ```
 conda create -n xgb-gpu
 conda activate xgb-gpu
 conda install python=3.7
@@ -87,4 +91,4 @@ pip install tensorflow-gpu==2.9
 
 `mv /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29.old`
 
-`ln -s /home/liuyi/anaconda3/envs/tf-gpu/lib/libstdc++.so.6.0.30 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29`
+`ln -s /home/liuyi/anaconda3/envs/tf-gpu/lib/libstdc++.so.6.0.30 /home/liuyi/anaconda3/lib/libstdc++.so.6.0.29` -->
