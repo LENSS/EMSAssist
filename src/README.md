@@ -1,4 +1,12 @@
-# Directory preparation
+Here is the evaluation for Section 5 in our EMSAssist paper:
+
+For 5.1 EMSConformer Accuracy evaluation: `cd speech_recognition`
+
+For 5.2 EMSMobileBERT Accuracy evaluation: `cd protocol_selection`
+
+For 5.3 E2E Protocol Selection Accuracy: `cd end2end_protocol_selection`
+
+<!-- # Directory preparation
 
 Before we proceed, please make sure you successfully set up the environment or get the Docker image running with `nvidia-smi`
 
@@ -6,7 +14,7 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 * `cd EMSAssist`
 
-* Download the [data](https://drive.google.com/drive/folders/1RGblUKwCLg0w7RsPFP2x_AntsabnntaQ?usp=share_link) and [model](https://drive.google.com/drive/folders/1VEDDCNO_UBjzFdsu4zhv3UcTy4NnCpdO?usp=share_link) folder from Google Drive]. Copy the `data` and `model` folders to the folder `EMSAssist`. Make sure we have 3 folders under `EMSAssist` directory: `src`, `data`, and `model`.
+* Download the [data](https://drive.google.com/drive/folders/1RGblUKwCLg0w7RsPFP2x_AntsabnntaQ?usp=share_link) and [model](https://drive.google.com/drive/folders/1VEDDCNO_UBjzFdsu4zhv3UcTy4NnCpdO?usp=share_link) folder from Google Drive]. Copy the `data` and `model` folders to the folder `EMSAssist`. Make sure we have 3 folders under `EMSAssist` directory: `src`, `data`, and `model`. -->
 
 
 <!-- # EMSAssist

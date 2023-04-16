@@ -144,8 +144,6 @@ BERT_EMS (1.5 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT
 >
 > This run takes 0:01:26.34841
 
-
-
 EMSMobileBERT (ours, 1.2 mins): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 37s 62ms/step - loss: 0.9696 - top1_accuracy: 0.7226 - top3_accuracy: 0.9270 - top5_accuracy: 0.9629
@@ -153,6 +151,12 @@ EMSMobileBERT (ours, 1.2 mins): `python emsBERT.py --test_model_path ../../model
 > inference time of model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004/ on server is 0:00:00.067642
 >
 > This run takes 0:01:12.467527
+
+ALBERT_Base ():
+
+We need to remove the previous tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
+
+
 
 ### 1.2 Protocol Selection on Nation-wide dataset
 
@@ -296,7 +300,16 @@ When testing TFLite models on a server with NVIDIA GPU, it's good to set `cuda_d
 
 ## 1.3 Training
 
+## training on customized local datasets:
+
 The BERT_Base model 
+
+ALBERT_Base on customized local datasets: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/ --cuda_device 1 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
+
+
+## training on nation-wide datasets:
+
+
 
 # 2. Speech Recognition
 

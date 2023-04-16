@@ -79,7 +79,7 @@ class RefInfo(object):
 
   def __init__(self):
 
-    nemsis_dir = "/slot1/NEMSIS-files/"
+    nemsis_dir = "../../data/ae_text_data/NEMSIS_files/"
     pri_sym_ref = os.path.join(nemsis_dir, "ESITUATION_09REF.txt")
     pri_imp_ref = os.path.join(nemsis_dir, "ESITUATION_11REF.txt")
     add_sym_ref = os.path.join(nemsis_dir, "ESITUATION_10REF.txt")
