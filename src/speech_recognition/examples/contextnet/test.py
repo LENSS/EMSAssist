@@ -15,7 +15,7 @@
 
 import tensorflow as tf
 
-devices = [1]
+devices = [0]
 gpus = tf.config.list_physical_devices("GPU")
 visible_gpus = [gpus[i] for i in devices]
 tf.config.set_visible_devices(visible_gpus, "GPU")

@@ -11,7 +11,7 @@ fire
 pyyaml
 tqdm
 librosa
-tensorflow-io == 0.26
+tensorflow-io==0.26
 tensorflow_datasets
 nltk
 pydub
