@@ -4,7 +4,7 @@ We replicate Protocol Selection result shown in Table 4, which is covered by inf
 
 We provide all TFLite models in this repo and all commands to evaluate TFLite below for users to check the accuracy of the fine-tuned protocol selection TFLite models. When testing TFLite models on a server with NVIDIA GPU, it's good to set `cuda_device` as `-1` so that the TFLite test process does not occupy your NVIDIA GPU. TFLite inference engine, according to [information provided here](https://github.com/tensorflow/tensorflow/issues/34536#issuecomment-565632906), can only delegate operations to mobile GPUs. This applies to all TFLite files.
 
-As indicated in our paper, the TFLite results are almost the same with TF results. In addition, the evaluation of TFLite can only leverages CPUs, which will take several hours. So, the focus of the artifact evaluation is on TF models on the server. It should be fine if you want to test 1-2 TFLite commands.
+As indicated in our paper, the TFLite results are almost the same with TF results. In addition, the evaluation of TFLite can only leverages CPUs, which will take several hours. So, the focus of the artifact evaluation is on TF models on the server. It should be fine if you want to test 1-2 TFLite commands. It's important to note each time you switch between ALBERT and other protocol selection models, we need to regenerate the tfrecord files as albert uses different tokenization approaches.
 
 [part1] ## 1 Testing (Inference with provided model)
 
@@ -30,6 +30,18 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 >
 > This run takes 0:00:49.493647
 
+Running TFLite on PH-1 (3 mins): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_tflite --tflite_name ANN_Fitted_Words_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+>
+> 0.6865873 0.9105437 0.9505953
+>
+>Here is the top1/3/5 using tf math topk:
+> 
+>0.6865872902022665 0.9105436809639937 0.950595323483001
+>
+> This run takes 0:02:52.713626
+
 * ANN One-hot encoding codes (1.4 minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_only`
 
 > 545/545 [==============================] - 4s 5ms/step - loss: 1.0673 - top1: 0.6817 - top3: 0.9132 - top5: 0.9516
@@ -38,6 +50,18 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 > 
 > This run takes 0:01:18.282308
 
+Running TFLite on PH-1 (4 minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_tflite --tflite_name ANN_Fitted_Codes_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+>
+> 0.68176734 0.91303974 0.95168555
+>
+> Here is the top1/3/5 using tf math topk:
+>
+> 0.6817673217615837 0.9130397360493473 0.9516855544398222
+>
+> This run takes 0:03:54.115804
+
 * ANN One-hot encoding tokens (3.5 minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_only`
 
 > 545/545 [==============================] - 5s 8ms/step - loss: 1.0828 - top1: 0.6809 - top3: 0.9093 - top5: 0.9501
@@ -45,6 +69,18 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 > inference time of model ../../model/emsANN/Fitted_Tokens_Desc/0001/ on server is 0:00:00.000158
 > 
 > This run takes 0:03:32.688118
+
+unning TFLite on PH-1 ( minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_tflite --tflite_name ANN_Fitted_Tokens_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+>
+> 0.6804476 0.9092239 0.95005023
+>
+> Here is the top1/3/5 using tf math topk:
+>
+> 0.6804475684980634 0.9092239277004734 0.9500502080045904
+>
+> This run takes 0:09:00.718973
 
 * XGBoost One-hot encoding words, lr 0.1 (20 seconds): `python emsXGBoost.py --eval_dir ../../data/ae_text_data/ --test_file no_fitted_separated_desc_code_46_test.txt --cuda_device 0 --feature_type words --test_model_path ../../model/emsXGBoost/Fitted_Words_Desc_Lr0.1/ --vocab_file ../../model/emsXGBoost/vocab.txt --test_only`
 
@@ -117,6 +153,18 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 >
 > This run takes 0:01:12.44526
 
+Running TFLite on PH-1 (7.2 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_BertBase4_Fitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+>
+> 0.71917945 0.9217903 0.95788264
+> 
+> Here is the top1/3/5 using tf math topk:                      
+> 
+> 0.7191794577535504 0.9217902739922537 0.9578826567207
+> 
+> This run takes 7:12:51.097079
+
 * BERT_PubMed (1.2 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_Fitted_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 61s 109ms/step - loss: 0.9883 - top1_accuracy: 0.7206 - top3_accuracy: 0.9247 - top5_accuracy: 0.9604
@@ -124,6 +172,18 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 > inference time of model ../../model/emsBERT/FineTune_PubMed2_Fitted_Desc/0003/ on server is 0:00:00.111243
 >
 > This run takes 0:01:12.889064
+
+Running TFLite on PH-1 (7.2 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_Fitted_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_PubMed2_Fitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+> 
+> 0.72015494 0.9246019 0.9598623
+> 
+> Here is the top1/3/5 using tf math topk:
+> 
+> 0.7201549275570219 0.9246019222493186 0.9598622866159805
+> 
+> This run takes 7:13:23.804974
 
 * BERT_EMS (1.5 minutes): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
@@ -133,11 +193,23 @@ As indicated in our paper, the TFLite results are almost the same with TF result
 >
 > This run takes 0:01:26.34841
 
+Running TFLite on PH-1 (7.2 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_Fitted_Desc/0002/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_Pretrained30_Fitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+> 
+> 0.71892124 0.91837615 0.95578825
+> 
+> Here is the top1/3/5 using tf math topk:
+> 
+> 0.7189212451585139 0.9183761296801033 0.95578826567207
+> 
+> This run takes 7:15:49.777462
+
 * ALBERT_Base (1.05 minutes):
 
 We need to remove the previous tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
 
-Run TF test: `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/0004.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+Run TF test: `python emsAlBERT.py --init_model ../../init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/0004.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
 
 > 545/545 [==============================] - 60s 107ms/step - loss: 1.0084 - top1_accuracy: 0.7138 - top3_accuracy: 0.9180 - top5_accuracy: 0.9563
 > 
@@ -145,9 +217,21 @@ Run TF test: `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys22/i
 >
 > This run takes 0:01:04.504529
 
-Run TFLite test: `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/0004.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertBase2_Fitted_Desc_batch1.tflite`
+Run TFLite test: `python emsAlBERT.py --init_model ../../init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/0004.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertBase2_Fitted_Desc_batch1.tflite`
 
+* ALBERT_Large (1.05 minutes):
 
+We need to remove the previous tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
+
+Run TF test: `python emsAlBERT.py --init_model ../../init_models/albert2/large_2  --test_model_path ../../model/emsBERT/FineTune_AlbertLarge2_Fitted_Desc/0003.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --do_test`
+
+> 545/545 [==============================] - 162s 293ms/step - loss: 0.9987 - top1_accuracy: 0.7138 - top3_accuracy: 0.9205 - top5_accuracy: 0.9562
+> 
+> inference time of model ../../model/emsBERT/FineTune_AlbertLarge2_Fitted_Desc/0003.h5 on server is 0:00:00.298006
+>
+> This run takes 0:02:47.397797
+
+Run TFLite test: `python emsAlBERT.py --init_model ../../init_models/albert2/large_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/0003.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertLarge2_Fitted_Desc_batch1.tflite`
 
 * EMSMobileBERT (ours)
 
@@ -177,13 +261,25 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 ### 1.2 Protocol Selection on Nation-wide dataset
 
 
-* ANN One-hot encoding words: `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_only`
+* ANN One-hot encoding words (3 mins): `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_only`
 
 > 2117/2117 [==============================] - 11s 5ms/step - loss: 1.5312 - top1: 0.5397 - top3: 0.8322 - top5: 0.9136
 >
 > inference time of model ../../model/emsANN/NoFitted_Words_Desc/0001/ on server is 0:00:00.000080
 >
 > This run takes 0:03:16.217035
+
+Running TFLite on PH-1 (30 mins): `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Words_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type words --test_tflite --tflite_name ANN_NoFitted_Words_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+>
+> 0.5384746 0.831831 0.9135124
+>
+> Here is the top1/3/5 using tf math topk:
+>
+> 0.5384746000457723 0.8318309671989547 0.9135124360479281
+>
+> This run takes 0:32:29.080218
 
 * ANN One-hot encoding codes: `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_only`
 
@@ -193,6 +289,18 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 > 
 > This run takes 0:04:54.284115
 
+Running TFLite on PH-1 (38 minutes): `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Codes_Desc/0003/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type codes --test_tflite --tflite_name ANN_NoFitted_Codes_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+> 
+> 0.542476 0.8383572 0.9159118
+>
+> Here is the top1/3/5 using tf math topk:
+>
+> 0.5424759879810709 0.8383572161561574 0.9159117922821938
+> 
+> This run takes 0:37:58.676564
+
 * ANN One-hot encoding tokens: `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_only`
 
 > 2117/2117 [==============================] - 17s 8ms/step - loss: 1.5507 - top1: 0.5350 - top3: 0.8274 - top5: 0.9102
@@ -201,6 +309,7 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 >
 > This run takes 0:13:45.737043
 
+Running TFLite on PH-1 (40 minutes): `python emsANN.py --test_model_path ../../model/emsANN/NoFitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_102_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_tflite --tflite_name ANN_NoFitted_Tokens_Desc_batch1.tflite`
 
 <!-- ### 1.2.8 XGBoost Baselines on Nation-wide dataset -->
 
@@ -274,6 +383,18 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 >
 > This run takes 0:04:05.172377
 
+Running on PH-1 (28.5 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_BertBase4_NoFitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:                                                                     
+> 
+> 0.59601486 0.85775876 0.92867637                                                                               
+> 
+> Here is the top1/3/5 using tf math topk:                                                                       
+> 
+> 0.5960148538607487 0.8577587797981587 0.9286763674484877                                                       
+> 
+> This run takes 1 day, 4:32:30.855136
+
 * BERT_PubMed: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
 
 > 2117/2117 [==============================] - 229s 107ms/step - loss: 1.3383 - top1_accuracy: 0.5930 - top3_accuracy: 0.8588 - top5_accuracy: 0.9299
@@ -281,6 +402,18 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 > inference time of model ../../model/emsBERT/FineTune_PubMed2_NoFitted_Desc/0004/ on server is 0:00:00.108039
 >
 > This run takes 0:04:02.875558
+
+Running on PH-1 (28.5 hours):`python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_PubMed2_NoFitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:                                                
+> 
+> 0.59381485 0.85882187 0.9301972                                                           
+> 
+> Here is the top1/3/5 using tf math topk:                                                  
+> 
+> 0.5938148287597912 0.8588218791758027 0.9301971901692838                                  
+> 
+> This run takes 1 day, 4:34:53.355314 
 
 * BERT_EMS: `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device 2 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
 
@@ -290,11 +423,24 @@ Run TFLite test (7 hours): `python emsBERT.py --test_model_path ../../model/emsB
 >
 > This run takes 0:04:54.529066
 
+Running TFLite on PH-1 (28.5 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device  -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_Pretrained30_NoFitted_Desc_batch1.tflite`
+
+> Here is the top1/3/5 using tf sparse topk:
+> 
+> 0.5911128 0.8543111 0.927473
+> 
+> Here is the top1/3/5 using tf math topk:
+> 
+> 0.5911127845082796 0.854311089455383 0.9274729980140713
+> 
+> This run takes 1 day, 4:34:58.242247
+
+
 * ALBERT_Base:
 
 We need to remove the previous tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
 
-Run TF test (4 mins): `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_NoFitted_Desc/0005.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
+Run TF test (4 mins): `python emsAlBERT.py --init_model ../../init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_NoFitted_Desc/0005.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
 
 > 2117/2117 [==============================] - 231s 108ms/step - loss: 1.3627 - top1_accuracy: 0.5872 - top3_accuracy: 0.8527 - top5_accuracy: 0.9260
 > 
@@ -303,6 +449,20 @@ Run TF test (4 mins): `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mo
 > This run takes 0:03:57.476973
 
 Run TFLite test: `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertBase2_NoFitted_Desc/0005.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertBase2_NoFitted_Desc_batch1.tflite`
+
+* ALBERT_Large (1.05 minutes):
+
+We need to remove the previous tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
+
+Run TF test: `python emsAlBERT.py --init_model ../../init_models/albert2/large_2 --test_model_path ../../model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/0001.h5 --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
+
+> 2117/2117 [==============================] - 626s 295ms/step - loss: 2.3341 - top1_accuracy: 0.5094 - top3_accuracy: 0.6429 - top5_accuracy: 0.7091
+>
+> inference time of model ../../model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/0001.h5 on server is 0:00:00.295861
+>
+> This run takes 0:10:33.026546
+
+Run TFLite test: `python emsAlBERT.py --init_model ../../init_models/albert2/large_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/0001.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertLarge2_NoFitted_Desc_batch1.tflite`
 
 
 * EMSMobileBERT (ours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_NoFitted_Desc/0006/ --eval_dir ../../data/ae_text_data/ --cuda_device 0 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --do_test`
@@ -317,7 +477,7 @@ Run TFLite test: `python emsAlBERT.py --init_model /home/liuyi/emsAssist_mobisys
 
 ## 2 Training
 
-We expect the main focus of artifact evaluaiton to be [testing](part1), and 1-2 training commands should serve the purpose of artifact evaluation. 
+We expect the main focus of artifact evaluaiton to be [testing](part1), and leave the commands to reproduce the results above for future artifact update.  
 
 ### 2.1 training on customized local datasets:
 
@@ -325,11 +485,13 @@ The BERT_Base model
 
 * ALBERT_Base: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/ --cuda_device 1 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
+* ALBERT_Large: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertLarge2_Fitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/large_2/ --cuda_device 1 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
 ### 2.2 training on nation-wide datasets:
 
 * ALBERT_Base: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertBase2_NoFitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/ --cuda_device 2 --max_seq_len 128 --train_file no_fitted_separated_desc_code_102_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_102_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
+* ALBERT_Large: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/large_2/ --cuda_device 2 --max_seq_len 128 --train_file no_fitted_separated_desc_code_102_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_102_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
 <!-- # 2. Speech Recognition
 

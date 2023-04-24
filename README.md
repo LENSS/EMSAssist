@@ -1,14 +1,51 @@
 # EMSAssist
 
-This repository currently contains the reproducible artifact for EMSAssist.
+This repository contains the reproducible artifact for EMSAssist. We provide 3 ways to replicate the results in the EMSAssist paper: 1) replicate using a prebuilt docker image (recommended and provided); 2) replicate using a baremetal desktop/server machine with a decent NVIDIA GPU; 3) remote access (available upon request).
 
-## Using Docker
+## 1. Basic requirement
 
-We follow the [official docker guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) to install and run docker images:
+EMSAssist artifact evaluation relies on some basic software and hardware environment as shown below. The environment versions listed here are the versions we have tested. Different versions with small gaps should work (e.g., Ubuntu Desktop 18 and NVIDIA 3080 should work). It's good to note the artifact evaluation does not neccessarily need an NVIDIA GPU, but a NVIDIA GPU will help a lot for the evaluation (e.g., huge evaluation time reduction). In the following, we assume you have a least 1 NVIDIA GPU.
+
+| Software Environment  | Version |
+| ------------- | ------------- |
+| OS  | Ubuntu Server 20.04.1 LTS |
+| NVIDIA Driver  | 525.85.12  |
+
+| Hardware Environment  | Version |
+| ------------- | ------------- |
+| GPU  | 3 x NVIDIA A30   |
+| CPU | 2 x Intel Xeon 4314 |
+| Disk | require more than 200 GB |
+| RAM | require more than 32GB |
+
+Before evaluating and using the EMSAssist artifact, please make sure you have at least 1 NVIDIA GPU available with `nvidia-smi` command.
+
+![nvidia-gpu](./nvidia-smi.png)
+
+<!-- ## Build the target Environment
+
+| Software Environment  | Version |
+| ------------- | ------------- |
+| OS  | Ubuntu Server 22.04.1 LTS |
+| NVIDIA Driver  | 525.85.12  |
+| CUDA Version  | 11   |
+| CuDNN  | 8.0   |
+| TensorFlow  | 2.9   | -->
+
+
+## 2. Replicate using a prebuilt docker image (recommended and provided)
+
+The prebuilt docker image contains the neccessary software environment. We recommend using this option for the artifact evaluation. The image can be built by following this DockerFile.
+
+To start with artifact evaluation using prebuilt docker image, we first install docker and pull the docker image from dockerhub.
+
+<!-- We follow the [official docker guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) to install and run docker images: -->
 
 Install docker:
 
-Download the prebuilt docker image from dockerhub and run a container with the downloaded image: `docker-compose up -d`
+Download the prebuilt docker image from dockerhub:
+
+Launch a container with the prebuilt image: `docker-compose up -d`
 
 
 ## Using bare metal machine 
@@ -55,30 +92,6 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 <!-- we create and activate a conda environment with tensorflow-gpu: `conda activate tf-gpu` -->
 
-## Basic Environment
-
-| Software Environment  | Version |
-| ------------- | ------------- |
-| OS  | Ubuntu Server 22.04.1 LTS |
-| NVIDIA Driver  | 525.85.12  |
-
-| Hardware Environment  | Version |
-| ------------- | ------------- |
-| GPU  | 3 x NVIDIA A30   |
-| CPU | 2 x Intel Xeon 4314 |
-
-Before the artifact evaluation and use the open-sourced code/data, please make sure you have at least 1 NVIDIA GPU available with `nvidia-smi` command.
-
-![nvidia-gpu](./nvidia-smi.png)
-
-## Build the target Environment
-
-| Software Environment  | Version |
-| ------------- | ------------- |
-| OS  | Ubuntu Server 22.04.1 LTS |
-| NVIDIA Driver  | 525.85.12  |
-| CUDA Version  | 10   |
-| TensorFlow  | 2.9   |
 
 
 <!-- ```
