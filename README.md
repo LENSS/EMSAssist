@@ -22,33 +22,102 @@ Before evaluating and using the EMSAssist artifact, please make sure you have at
 
 ![nvidia-gpu](./nvidia-smi.png)
 
-<!-- ## Build the target Environment
-
-| Software Environment  | Version |
-| ------------- | ------------- |
-| OS  | Ubuntu Server 22.04.1 LTS |
-| NVIDIA Driver  | 525.85.12  |
-| CUDA Version  | 11   |
-| CuDNN  | 8.0   |
-| TensorFlow  | 2.9   | -->
-
 
 ## 2. Replicate using a prebuilt docker image (recommended and provided)
 
-The prebuilt docker image contains the neccessary software environment. We recommend using this option for the artifact evaluation. The image can be built by following this DockerFile.
+The prebuilt docker image contains the neccessary software environment. We recommend using this option for the artifact evaluation. If you want to build the docker image on your own, please refer to the `build_docker.md` file in this repository.
 
-To start with artifact evaluation using prebuilt docker image, we first install docker and pull the docker image from dockerhub.
+Assuming NVIDIA GPUs present in the bare metal system running Ubuntu 22.04, we can start with artifact evaluation using prebuilt docker image
 
-<!-- We follow the [official docker guide](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-20-04) to install and run docker images: -->
+We first install docker and pull the docker image from dockerhub.
 
-Install docker:
+### 2.1 Install Docker
 
-Download the prebuilt docker image from dockerhub:
+	* Update and Install Docker:
+	```console
+    $ sudo apt update
+	$ sudo apt-get install docker
+	```
 
-Launch a container with the prebuilt image: `docker-compose up -d`
+	* Test Docker installation: (should show docker.service details.)
+	```console 
+    $ sudo systemctl status docker 
+    ```
+	
+	* Perform post installation steps to avoid sudo
+	```console
+    #Create the Docker group.
+	$ sudo groupadd docker
+	#Add your user to the Docker group
+	$ sudo usermod -aG docker $USER
+	#Activate the changes to groups
+	$ newgrp docker
+    ```
+### 2.2 Install Docker-Compose
 
+	```
+    $ sudo apt update
+	$ sudo apt-get install docker-compose 
+    ```
 
-## Using bare metal machine 
+### 2.3 Install nvidia container tootlkit in local machine (requires Docker dameon to reload).
+
+	This toolkit allows you to connect the container engine to the bare metal machine's nvidia driver.
+
+	```
+    #Add key and repository 
+	$ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -
+	$ curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu22.04/nvidia-docker.list > /etc/apt/sources.list.d/nvidia-docker.list
+	
+    #Update repository
+	$ apt update
+	
+    #Install nvidia-container-toolkit
+	$ sudo apt -y install nvidia-container-toolkit
+	
+    #Restart docker engine
+	$ systemctl restart docker
+    ```
+
+### 2.4 Clone the git repository of EMSAssist
+
+	```console
+	$ git clone --recursive git@github.com:LENSS/EMSAssist.git`
+	$ cd EMSAssist
+	$ git clone --recursive git@github.com:tensorflow/examples.git
+    $ cd ..
+	```
+
+### 2.5 Download and decompress the data and model
+
+Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) and [docker-compose.yml](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) files from Google Drive to the cuurent working (e.g., /home/$username) folder. We expect the downloading and decompressing to take 2-3 hours.
+
+    * decompress the `model.tar.gz`: `tar -xvzf model.tar.gz`
+    * decompress the `data.tar.gz`: `tar -xvzf data.tar.gz`. 
+
+For the next step, `data`, `model`, and `EMSAssist` directories along with the `docker-compose.yml` file need to be in the same folder (i.e., current folder)
+
+### 2.6 Launch the docker
+
+Run docker-compose in silent mode from the terminal of current folder:
+	
+    #it will pull a docker container image and run it in local machine as "emsassist"
+    $ docker-compose up -d
+
+### 2.7 Login the docker and begin the evaluation
+
+	```
+    $ docker exec -it emsassist /bin/bash
+    $ conda activate emsassist-gpu
+
+    # make sure you can see nvidia-device after you login the docker
+	$ nvidia-smi
+
+    # follow the README in the EMSAssist/src to continue the evaluation
+    $ cd EMSAssist/src
+    ```
+
+## 3  Using bare metal machine 
 First of all, we download anaconda for smoother artifact evaluation
 
 * Download Anaconda installer: `wget https://repo.anaconda.com/archive/Anaconda3-2023.03-Linux-x86_64.sh`
@@ -67,7 +136,7 @@ First of all, we download anaconda for smoother artifact evaluation
 
 * Install the required python modules: `pip install -r requirements.txt`
 
-## Directory and path preparation
+### 3.1 Directory and path preparation
 
 Before we proceed, please make sure you successfully set up the environment or get the Docker image running with `nvidia-smi`
 
