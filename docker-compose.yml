@@ -26,6 +26,8 @@ services:
     image: haroon3rd/anaconda3:nvidia-v1
     container_name: emsassist
     volumes:
+      - ./init_models:/home/EMSAssist/init_models
+      - ./examples:/home/EMSAssist/examples
       - ./src:/home/EMSAssist/src
       - ./data:/home/EMSAssist/data
       - ./model:/home/EMSAssist/model
