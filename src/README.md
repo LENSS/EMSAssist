@@ -1,4 +1,17 @@
-Here is the evaluation for Section 5 in our EMSAssist paper:
+Here is the evaluation for Section 5 in our EMSAssist paper.
+
+Before we go to the specific directory to evaluate, we want to make sure the python path and library path are set up correctly (The two paths should already be set up).
+
+* `echo $PATHONPATH`
+
+> /home/EMSAssist/src/speech_recognition:/home/EMSAssist/examples
+
+* `echo $LD_LIBRARY_PATH`
+
+> LD_LIBRARY_PATH=/opt/conda/envs/emsassist-gpu/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+
+
+Now we go to different directory to evaluate different parts of EMSAssist.
 
 For 5.1 EMSConformer Accuracy evaluation: `cd speech_recognition`
 
