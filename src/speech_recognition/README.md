@@ -56,7 +56,7 @@ To save time for artifact evaluation, here, we have pre-generated the transcribe
 
 Go to the tflite inference directory: `cd inference`
 
-(PH-1) Evaluate provided conformer tflite model on our EMS recordings: `python run_tflite_model_in_files_easy.py --tflite_model ../../../../../model/speech_models/all_14_model.tflite`
+(PH-1) Evaluate provided conformer tflite model on our EMS recordings: `python run_tflite_model_in_files_easy.py --tflite_model ../../../../../model/speech_models/all_14_model.tflite --data_path ../../../../../data/transcription_text/audio_all/finetune_test_updated.tsv`
 
 > INFO:tensorflow:wer: 0.076571024954319
 > 
@@ -157,7 +157,6 @@ Go the ContextNet directory: `cd examples/contextnet`. Make sure you are under d
 > INFO:tensorflow:beamsearch_cer: 1.0
 >
 > This run takes 0:03:29.110108
-
 
 ### 2.3 Conformer Performance with Different Training Strategies
 

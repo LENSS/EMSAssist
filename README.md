@@ -118,7 +118,7 @@ With the steps above, we should have `data`, `model`, `examples`, `src`, `docker
 $ docker-compose up -d
 ```
 
-### 2.7 Login the docker and begin the evaluation
+### 2.7 Login the docker
 
 ```console
 $ docker exec -it emsassist /bin/bash
@@ -126,7 +126,28 @@ $ conda activate emsassist-gpu
 
 #make sure you can see nvidia-device after you login the docker
 $ nvidia-smi
+```
 
+Before we go to the specific directory to evaluate, we want to make sure the python path and library path are set up correctly (The two paths should already be set up).
+
+* `echo $PYTHONPATH`
+
+> /home/EMSAssist/src/speech_recognition:/home/EMSAssist/examples
+
+* `echo $LD_LIBRARY_PATH`
+
+> LD_LIBRARY_PATH=/opt/conda/envs/emsassist-gpu/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+
+If, in some cases, the paths above do not match what's shown above inside the container, please set it up when you are in the `EMSAssist` folder while you login into the container:
+
+```console
+export PYTHONPATH=$PWD/src/speech_recognition:$PWD/examples
+export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
+```
+
+
+### 2.8 Begin the evaluation
+```
 #follow the README in the EMSAssist/src to continue the evaluation
 $ cd src
 ```

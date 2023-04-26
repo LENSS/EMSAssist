@@ -151,16 +151,18 @@ if __name__ == "__main__":
     parser.add_argument("--tflite_model", action='store', type=str, default = "./tflite_models/pretrained_librispeech_train_ss_test_concatenated_epoch50_noOptimize.tflite", required=True)
     #parser.add_argument("--audios_path", action='store', type=str, default = "/home/liuyi/audio_data/sample100/signs_symptoms_audio_concatenated", required=True)
     #parser.add_argument("--true_text_path", action='store', type=str, default = "/home/liuyi/tflite_experimental/emsBert/data/text_for_audio_data/liuyi/sampled_signs_symptoms_100_no_label_blank_separator.txt", required=True)
-    #parser.add_argument("--data", action='store', type=str, default = None, required=True)
+    parser.add_argument("--data_path", action='store', type=str, default = None, required=True)
     #parser.add_argument("--output", action='store', type=str, default = "./test_outputs/evaluate_liuyitflite_to_delete.txt", required=True)
     args = parser.parse_args()
 
     print()
     print("args.tflite_model =", args.tflite_model)
-    data_path = '/'.join(args.tflite_model.split('/')[:-1]) + '/finetune_test.tsv'
+    # data_path = '/'.join(args.tflite_model.split('/')[:-1]) + '/finetune_test_updated.tsv'
+    data_path = args.data_path
     print("data_path =", data_path)
 
-    output_path = '/'.join(args.tflite_model.split('/')[:-1]) + '/tflite_test_output.tsv'
+    # output_path = '/'.join(args.tflite_model.split('/')[:-1]) + '/tflite_test_output.tsv'
+    output_path = 'tflite_test_output.tsv'
     print("output_path =", output_path)
     print()
     #stop

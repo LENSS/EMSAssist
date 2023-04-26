@@ -4,9 +4,9 @@ We replicate Protocol Selection result shown in Table 4, which is covered by inf
 
 We provide all TFLite models in this repo and all commands to evaluate TFLite below for users to check the accuracy of the fine-tuned protocol selection TFLite models. When testing TFLite models on a server with NVIDIA GPU, it's good to set `cuda_device` as `-1` so that the TFLite test process does not occupy your NVIDIA GPU. TFLite inference engine, according to [information provided here](https://github.com/tensorflow/tensorflow/issues/34536#issuecomment-565632906), can only delegate operations to mobile GPUs. This applies to all TFLite files.
 
-As indicated in our paper, the TFLite results are almost the same with TF results. In addition, the evaluation of TFLite can only leverages CPUs, which will take several hours. So, the focus of the artifact evaluation is on TF models on the server. It should be fine if you want to test 1-2 TFLite commands. It's important to note each time you switch between ALBERT and other protocol selection models, we need to regenerate the tfrecord files as albert uses different tokenization approaches.
+As indicated in our paper, the TFLite results are almost the same with TF results. In addition, the evaluation of TFLite can only leverages CPUs, which will take several hours. So, the focus of the artifact evaluation is on TF models on the server. It's important to note each time you switch between ALBERT and other protocol selection models, we need to regenerate the tfrecord files as ALBERT uses different tokenization approaches.
 
-[part1] ## 1 Testing (Inference with provided model)
+## 1 Testing (Replicate with provided models)
 
 ### 1.1 Protocol Selection on Customized Local Dataset
 
@@ -70,7 +70,7 @@ Running TFLite on PH-1 (4 minutes): `python emsANN.py --test_model_path ../../mo
 > 
 > This run takes 0:03:32.688118
 
-unning TFLite on PH-1 ( minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_tflite --tflite_name ANN_Fitted_Tokens_Desc_batch1.tflite`
+Running TFLite on PH-1 ( minutes): `python emsANN.py --test_model_path ../../model/emsANN/Fitted_Tokens_Desc/0001/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --test_file no_fitted_separated_desc_code_46_test.txt --vocab_file ../../model/emsANN/vocab.txt --test_batch_size 64 --feature_type tokens --test_tflite --tflite_name ANN_Fitted_Tokens_Desc_batch1.tflite`
 
 > Here is the top1/3/5 using tf sparse topk:
 >
@@ -477,21 +477,28 @@ Run TFLite test: `python emsAlBERT.py --init_model ../../init_models/albert2/lar
 
 ## 2 Training
 
-We expect the main focus of artifact evaluaiton to be [testing](part1), and leave the commands to reproduce the results above for future artifact update.  
+We expect the main focus of artifact evaluaiton to be part 1. We provide some commands here for users to reproduce the results in the paper by training from scratch. It's good to note the source code released in this repo is already sufficient to reproduce EMSAssist results by training from scratch.
 
-### 2.1 training on customized local datasets:
+We have been releasing the direct training commands to reduce the learning curve of users to use this artifact. Some of them are provided below.
 
-The BERT_Base model 
+Once you encounter errors that the models cannot take the data, please keep in mind to remove the tfrecord files as ALBERT uses different tokenization scheme: `rm -rf ../../data/ae_text_data/*.tfrecord ../../data/ae_text_data/*meta_data`
+
+### 2.1 training on customized local datasets
 
 * ALBERT_Base: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertBase2_Fitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/ --cuda_device 1 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
 * ALBERT_Large: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertLarge2_Fitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/large_2/ --cuda_device 1 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
+
+* EMSMobileBERT (ours): `python emsBERT_training.py --eval_dir ../../data/text_data/ --model_dir /path/to/where/to/save/trained/models  --init_model ../../model/training_init_models/bert_en_uncased_L-12_H-768_A-12_4/ --cuda_device 0 --max_seq_len 128 --train_file no_fitted_separated_desc_code_46_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_46_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_46_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
 ### 2.2 training on nation-wide datasets:
 
 * ALBERT_Base: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertBase2_NoFitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/base_2/ --cuda_device 2 --max_seq_len 128 --train_file no_fitted_separated_desc_code_102_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_102_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
 
 * ALBERT_Large: `python emsAlBERT.py --eval_dir ../data/text_data --model_dir /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/ --init_model /home/liuyi/emsAssist_mobisys22/init_models/albert2/large_2/ --cuda_device 2 --max_seq_len 128 --train_file no_fitted_separated_desc_code_102_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_102_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
+
+* EMSMobileBERT (ours): `python emsBERT_training.py --eval_dir ../../data/text_data/ --model_dir /path/to/where/to/save/trained/models  --init_model ../../model/training_init_models/bert_en_uncased_L-12_H-768_A-12_4/ --cuda_device 0 --max_seq_len 128 --train_file no_fitted_separated_desc_code_102_train.txt --train_batch_size 8 --eval_file no_fitted_separated_desc_code_102_eval.txt --eval_batch_size 64 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --train_epoch 10 --do_train`
+
 
 <!-- # 2. Speech Recognition
 
