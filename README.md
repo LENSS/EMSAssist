@@ -31,91 +31,105 @@ Assuming NVIDIA GPUs present in the bare metal system running Ubuntu 22.04, we c
 
 We first install docker and pull the docker image from dockerhub.
 
-### 2.1 Install Docker
+### 2.1 Install Docker on Bare Metal Machine
 
-	* Update and Install Docker:
-	```console
-    $ sudo apt update
-	$ sudo apt-get install docker
-	```
+* Update and Install Docker:
+```console
+$ sudo apt update
+$ sudo apt-get install docker
+```
 
-	* Test Docker installation: (should show docker.service details.)
-	```console 
-    $ sudo systemctl status docker 
-    ```
+* Test Docker installation: (should show docker.service details.)
+```console 
+$ sudo systemctl status docker 
+```
 	
-	* Perform post installation steps to avoid sudo
-	```console
-    #Create the Docker group.
-	$ sudo groupadd docker
-	#Add your user to the Docker group
-	$ sudo usermod -aG docker $USER
-	#Activate the changes to groups
-	$ newgrp docker
-    ```
+* Perform post installation steps to avoid sudo
+```console
+#Create the Docker group.
+$ sudo groupadd docker
+
+#Add your user to the Docker group
+$ sudo usermod -aG docker $USER
+
+#Activate the changes to groups
+$ newgrp docker
+```
+
 ### 2.2 Install Docker-Compose
 
-	```
-    $ sudo apt update
-	$ sudo apt-get install docker-compose 
-    ```
+```console
+$ sudo apt update
+$ sudo apt-get install docker-compose 
+```
 
-### 2.3 Install nvidia container tootlkit in local machine (requires Docker dameon to reload).
+### 2.3 Install nvidia container tootlkit in local machine 
 
-	This toolkit allows you to connect the container engine to the bare metal machine's nvidia driver.
+This toolkit allows you to connect the container engine to the bare metal machine's nvidia driver. This requires Docker dameon to reload.
 
-	```
-    #Add key and repository 
-	$ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -
-	$ curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu22.04/nvidia-docker.list > /etc/apt/sources.list.d/nvidia-docker.list
-	
-    #Update repository
-	$ apt update
-	
-    #Install nvidia-container-toolkit
-	$ sudo apt -y install nvidia-container-toolkit
-	
-    #Restart docker engine
-	$ systemctl restart docker
-    ```
+```console
+#enter the sudo user mode to add key and repository 
+$ sudo -i
+$ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | apt-key add -
+$ curl -s -L https://nvidia.github.io/nvidia-docker/ubuntu22.04/nvidia-docker.list > /etc/apt/sources.list.d/nvidia-docker.list
+$ apt update
+$ exit
 
-### 2.4 Clone the git repository of EMSAssist
+#Install nvidia-container-toolkit
+$ sudo apt -y install nvidia-container-toolkit
 
-	```console
-	$ git clone --recursive git@github.com:LENSS/EMSAssist.git`
-	$ cd EMSAssist
-	$ git clone --recursive git@github.com:tensorflow/examples.git
-    $ cd ..
-	```
+#Restart docker engine, this requires authentication
+$ systemctl restart docker
+```
 
-### 2.5 Download and decompress the data and model
+### 2.4 Clone EMSAssist and clone tf examples inside EMSAssist
 
-Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) and [docker-compose.yml](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) files from Google Drive to the cuurent working (e.g., /home/$username) folder. We expect the downloading and decompressing to take 2-3 hours.
+```console
+$ git clone --recursive git@github.com:LENSS/EMSAssist.git`
+$ cd EMSAssist
+$ git clone --recursive git@github.com:tensorflow/examples.git
+```
 
-    * decompress the `model.tar.gz`: `tar -xvzf model.tar.gz`
-    * decompress the `data.tar.gz`: `tar -xvzf data.tar.gz`. 
+### 2.5 Download and decompress the data and model inside EMSAssist
 
-For the next step, `data`, `model`, and `EMSAssist` directories along with the `docker-compose.yml` file need to be in the same folder (i.e., current folder)
+Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) files from Google Drive to the cuurent working (e.g., /home/$username/EMAssist) folder. We expect the downloading and decompressing to take 2-3 hours.
+
+<!-- and [docker-compose.yml](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) -->
+
+```console
+#decompress model.tar.gz
+$ tar -xvzf model.tar.gz
+
+#decompress the data.tar.gz
+$ tar -xvzf data.tar.gz
+
+#correcting the data path, this is important
+$ cd data/transcription_text/
+$ python reconfig_data_path.py
+$ cd ../..
+```
+
+With the steps above, we should have `data`, `model`, `examples`, `src`, `docker-compose.yml`， `requirements.txt` in `EMSAssist` folder.
 
 ### 2.6 Launch the docker
 
-Run docker-compose in silent mode from the terminal of current folder:
-	
-    #it will pull a docker container image and run it in local machine as "emsassist"
-    $ docker-compose up -d
+```console
+#Run docker-compose in silent mode from EMSAssist folder. it will pull a docker container image and run it in bare metal machine as "emsassist"
+$ docker-compose up -d
+```
 
 ### 2.7 Login the docker and begin the evaluation
 
-	```
-    $ docker exec -it emsassist /bin/bash
-    $ conda activate emsassist-gpu
+```console
+$ docker exec -it emsassist /bin/bash
+$ conda activate emsassist-gpu
 
-    # make sure you can see nvidia-device after you login the docker
-	$ nvidia-smi
+#make sure you can see nvidia-device after you login the docker
+$ nvidia-smi
 
-    # follow the README in the EMSAssist/src to continue the evaluation
-    $ cd EMSAssist/src
-    ```
+#follow the README in the EMSAssist/src to continue the evaluation
+$ cd src
+```
 
 ## 3  Using bare metal machine 
 First of all, we download anaconda for smoother artifact evaluation

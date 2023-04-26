@@ -7,7 +7,7 @@
 
 ### 1.1 Google Cloud
 
-We do not provide the access and commands to Google Cloud Speech-to-Text service. Instead, we provide the transcription result text files from Google Cloud for evaluation. 
+We do not provide the access and commands to Google Cloud Speech-to-Text service. Instead, we provide the transcription result text files from Google Cloud for evaluation. Please enter 'y' when prompted when evaluating this section.
 
 <!-- `cd ~/emsAssist_mobisys22/src/speech_recognition` -->
 
@@ -29,7 +29,7 @@ Evaluate Google Cloud on our EMS recordings: `python evaluate_asr_google_cloud.p
 Check the conformer directory: `cd examples/conformer`
 
 <!-- `python test.py --output test_outputs/test_for_all_ae.txt --saved /home/EMSAssist/model/speech_models/all_14.h5 --config config_PretrainLibrispeech_TrainEMS_all.yml` -->
-(Server) Evaluate provided conformer model on our EMS recordings: `python test.py --output test_outputs/test_for_all_ae.txt --saved ../../../../model/speech_models/Conformer_Pretraining_Fine_Tune_14.h5 --config config_PretrainLibrispeech_TrainEMS_all.yml`
+(Server) Evaluate provided conformer model on our EMS recordings: `python test.py --output test_outputs/test_for_all_ae.txt --saved ../../../../model/speech_models/Conformer_Pretraining_Fine_Tune_14.h5 --config config_PretrainLibrispeech_TrainEMS_all_updated.yml`
 
 > INFO:tensorflow:greedy_wer: 0.07701108604669571
 >
@@ -43,7 +43,7 @@ Check the conformer directory: `cd examples/conformer`
 
 ### 1.3 EMSConformer on PH-1
 
-(PH-1) Evaluate provided conformer model on our EMS recordings: `python evaluate_asr.py --result_file /home/liuyi/emsAssist_mobisys22/model/speech_models/all_14_tflite_test_output.tsv`
+(PH-1) Evaluate provided conformer model on our EMS recordings: `python evaluate_asr.py --result_file ../../../../model/speech_models/all_14_tflite_test_output.tsv`
 
 > INFO:tensorflow:wer: 0.07701108604669571
 >
@@ -66,7 +66,7 @@ Go to the tflite inference directory: `cd inference`
 
 ## 2 Reproduce the Figure 14
 
-Before we reproduce the Figure 14, we need to update the path of audio files.
+<!-- Before we reproduce the Figure 14, we need to update the path of audio files.
 
 Go to the EMSAssist/data directory: `cd ../../data/transcription_text`.
 
@@ -76,7 +76,7 @@ Go to the EMSAssist/src/speech_recognition directory: `cd ../../src/speech_recog
 
 Make sure you are under the directory: `EMSAssist/src/speech_recognition`.
 
-With the numbers reproduced here with the following commands, you should be able to reproduce the Figure 14.
+With the numbers reproduced here with the following commands, you should be able to reproduce the Figure 14. -->
 
 ### 2.1 RNN-T Performance with Different Training Strategies
 

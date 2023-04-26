@@ -65,12 +65,12 @@ learning_config:
       # - /slot1/eval_tian/audio_yichen/finetune_train.tsv
       # - /slot1/eval_tian/audio_michael/finetune_train.tsv 
 
-      - ../../../../data/transcription_text/audio_tian/finetune_train.tsv
-      - ../../../../data/transcription_text/audio_liuyi/finetune_train.tsv
-      - ../../../../data/transcription_text/audio_amran/finetune_train.tsv
-      - ../../../../data/transcription_text/audio_radu/finetune_train.tsv
-      - ../../../../data/transcription_text/audio_yichen/finetune_train.tsv
-      - ../../../../data/transcription_text/audio_michael/finetune_train.tsv 
+      - ../../../../data/transcription_text/audio_tian/finetune_train_updated.tsv
+      - ../../../../data/transcription_text/audio_liuyi/finetune_train_updated.tsv
+      - ../../../../data/transcription_text/audio_amran/finetune_train_updated.tsv
+      - ../../../../data/transcription_text/audio_radu/finetune_train_updated.tsv
+      - ../../../../data/transcription_text/audio_yichen/finetune_train_updated.tsv
+      - ../../../../data/transcription_text/audio_michael/finetune_train_updated.tsv 
 
     tfrecords_dir: null
     shuffle: True
@@ -91,12 +91,12 @@ learning_config:
       # - /slot1/eval_tian/audio_yichen/finetune_test.tsv
       # - /slot1/eval_tian/audio_michael/finetune_test.tsv 
 
-      - ../../../../data/transcription_text/audio_tian/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_liuyi/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_amran/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_radu/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_yichen/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_michael/finetune_test.tsv 
+      - ../../../../data/transcription_text/audio_tian/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_liuyi/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_amran/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_radu/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_yichen/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_michael/finetune_test_updated.tsv 
 
     tfrecords_dir: null
     shuffle: False
@@ -118,12 +118,12 @@ learning_config:
       # - /slot1/eval_tian/audio_yichen/finetune_test.tsv
       # - /slot1/eval_tian/audio_michael/finetune_test.tsv 
 
-      - ../../../../data/transcription_text/audio_tian/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_liuyi/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_amran/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_radu/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_yichen/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_michael/finetune_test.tsv       
+      - ../../../../data/transcription_text/audio_tian/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_liuyi/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_amran/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_radu/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_yichen/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_michael/finetune_test_updated.tsv       
 
     tfrecords_dir: null
     shuffle: False
@@ -141,7 +141,7 @@ learning_config:
     num_epochs: 200
     checkpoint:
       #filepath: /slot1/asr_models/conformer_ems/checkpoints/{epoch:02d}.
-      filepath: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/checkpoints/{epoch:02d}.h5
+      # filepath: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/checkpoints/{epoch:02d}.h5
       #filepath: /slot1/eval_tian/audio_radu/conformer/conformer_PretrainLibrispeech_TrainEMS/checkpoints/{epoch:02d}.h5
       #filepath: /slot1/eval_tian/audio_michael/conformer/conformer_PretrainLibrispeech_TrainEMS/checkpoints/{epoch:02d}.h5
       #filepath: /slot1/eval_tian/audio_tian/conformer/conformer_PretrainLibrispeech_TrainEMS/checkpoints/{epoch:02d}.h5
@@ -153,7 +153,7 @@ learning_config:
       save_freq: epoch
       verbose: 1
     #states_dir: /slot1/asr_models/conformer_ems/states
-    states_dir: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/states
+    # states_dir: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/states
     #states_dir: /slot1/eval_tian/audio_radu/conformer/conformer_PretrainLibrispeech_TrainEMS/states
     #states_dir: /slot1/eval_tian/audio_michael/conformer/conformer_PretrainLibrispeech_TrainEMS/states
     #states_dir: /slot1/eval_tian/audio_tian/conformer/conformer_PretrainLibrispeech_TrainEMS/states
@@ -161,7 +161,7 @@ learning_config:
 
     tensorboard:
       #log_dir: /slot1/asr_models/conformer_ems/tensorboard
-      log_dir: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/tensorboard
+      # log_dir: ../../../../data/transcription_text/audio_all/conformer/conformer_PretrainLibrispeech_TrainEMS/tensorboard
       #log_dir: /slot1/eval_tian/audio_radu/conformer/conformer_PretrainLibrispeech_TrainEMS/tensorboard
       #log_dir: /slot1/eval_tian/audio_michael/conformer/conformer_PretrainLibrispeech_TrainEMS/tensorboard
       #log_dir: /slot1/eval_tian/audio_tian/conformer/conformer_PretrainLibrispeech_TrainEMS/tensorboard

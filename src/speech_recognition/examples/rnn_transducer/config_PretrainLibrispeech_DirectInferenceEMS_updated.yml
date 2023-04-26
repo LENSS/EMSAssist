@@ -100,12 +100,12 @@ learning_config:
     data_paths: 
       #- /home/liuyi/TensorFlowASR/conformer_standalone/finetune-test_concatenated_ss_transcripts.tsv    
 #      - /slot1/audio_dataset/LibriSpeech/test-clean/transcripts.tsv
-      - ../../../../data/transcription_text/audio_tian/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_liuyi/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_radu/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_yichen/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_michael/finetune_test.tsv
-      - ../../../../data/transcription_text/audio_amran/finetune_test.tsv
+      - ../../../../data/transcription_text/audio_tian/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_liuyi/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_radu/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_yichen/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_michael/finetune_test_updated.tsv
+      - ../../../../data/transcription_text/audio_amran/finetune_test_updated.tsv
 
     tfrecords_dir: null
     shuffle: False
