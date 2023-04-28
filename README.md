@@ -86,8 +86,6 @@ $ systemctl restart docker
 
 ```console
 $ git clone --recursive git@github.com:LENSS/EMSAssist.git`
-$ cd EMSAssist
-$ git clone --recursive git@github.com:tensorflow/examples.git
 ```
 
 ### 2.5 Download and decompress the data and model inside EMSAssist
@@ -103,10 +101,7 @@ $ tar -xvzf model.tar.gz
 #decompress the data.tar.gz
 $ tar -xvzf data.tar.gz
 
-#correcting the data path, this is important
-$ cd data/transcription_text/
-$ python reconfig_data_path.py
-$ cd ../..
+
 ```
 
 With the steps above, we should have `data`, `model`, `examples`, `src`, `docker-compose.yml`， `requirements.txt` in `EMSAssist` folder.
@@ -118,7 +113,7 @@ With the steps above, we should have `data`, `model`, `examples`, `src`, `docker
 $ docker-compose up -d
 ```
 
-### 2.7 Login the docker
+### 2.7 Login the docker, set up the paths
 
 ```console
 $ docker exec -it emsassist /bin/bash
@@ -128,7 +123,10 @@ $ conda activate emsassist-gpu
 $ nvidia-smi
 ```
 
-Before we go to the specific directory to evaluate, we want to make sure the python path and library path are set up correctly (The two paths should already be set up).
+Now you are inside the docker container as a sudo user, and your current location should be `root`. Before you go to specific `/home/EMSAssist/src` directories to evaluate the artifact, we want you to make sure the python path and library path are set up correctly (The two paths should already be set up).
+
+```console
+
 
 * `echo $PYTHONPATH`
 
@@ -145,6 +143,13 @@ export PYTHONPATH=$PWD/src/speech_recognition:$PWD/examples
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 ```
 
+#correcting the data path, this is important
+$ cd data/transcription_text/
+$ python reconfig_data_path.py
+$ cd ../..
+
+
+```
 
 ### 2.8 Begin the evaluation
 ```
@@ -163,7 +168,9 @@ First of all, we download anaconda for smoother artifact evaluation
 
 * Activate the environment: `conda activate emsassist-gpu`
 
-* Install the XGBoost-GPU: `conda install py-xgboost-gpu`. This also installs the CudaToolkit: pkgs/main/linux-64::cudatoolkit-10.0.130-0 
+* Install the XGBoost-GPU: `conda install py-xgboost-gpu`. This also installs the CudaToolkit: pkgs/main/linux-64::cudatoolkit-10.0.130-0
+
+`conda install -c anaconda py-xgboost-gpu=0.90`
 
 * Install the TensorFlow-2.9: `pip install tensorflow-gpu==2.9`
 

@@ -1,14 +1,14 @@
 # End-to-End Protocol Selection
 
 
-`conda activate xgb-gpu`
+<!-- `conda activate xgb-gpu` -->
 
-`cd ~/emsAssist_mobisys22/src/end2end_protocol_selection`
+<!-- `cd ~/emsAssist_mobisys22/src/end2end_protocol_selection` -->
 
 
 ### Table 5: Comparing EMSAssist with SOTA (Google Cloud) on the End- to-End (E2E) protocol selection top-1/3/5 accuracy
 
-`python emsBERT_e2e_table5.py --protocol_model /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model /home/liuyi/emsAssist_mobisys22/data/text_data/emsBERT_tfrecord_files/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0`
+`python emsBERT_e2e_table5.py --protocol_model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model ../../data/ae_text_data/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0 --transcription_dir ../../data/transcription_text/`
 
 > \##### SOTA E2E Protocol Selection Accuracy #####
 >
@@ -38,10 +38,9 @@
 >
 > This run takes 0:06:31.969176
 
-
 ### Table 6: E2E protocol selection top-1/3/5 accuracy for different users
 
-`python emsBERT_e2e_table6.py --protocol_model /home/liuyi/emsAssist_mobisys22/model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model /home/liuyi/emsAssist_mobisys22/data/text_data/emsBERT_tfrecord_files/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0`
+`python emsBERT_e2e_table6.py --protocol_model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model ../../data/ae_text_data/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0 --transcription_dir ../../data/transcription_text/`
 
 > \##### EMSMobileBERT E2E Protocol Selection Accuracy #####
 > 

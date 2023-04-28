@@ -23,22 +23,24 @@ version: '3.7'
 
 services:
   emsassist:
-    image: haroon3rd/anaconda3:nvidia-v1
-    container_name: emsassist
+    image: liuyidockers/emsassist-ae:emsassist_final
+    container_name: liuyidockers_emsassist
     volumes:
-      - ./init_models:/home/EMSAssist/init_models
-      - ./examples:/home/EMSAssist/examples
-      - ./src:/home/EMSAssist/src
+      # - ./init_models:/home/EMSAssist/init_models
+      # - ./examples:/home/EMSAssist/examples
+      # - ./src:/home/EMSAssist/src
       - ./data:/home/EMSAssist/data
       - ./model:/home/EMSAssist/model
+      # - .:/home/EMSAssist/.
     #command: [/bin/bash -c "tail -f /dev/null"]
-    command: tail -F anything
+    # command: tail -F anything
     #network_mode: "host"
     deploy:
       resources:
         reservations:
           devices:
             - driver: nvidia
+              count: all
               capabilities: [gpu]
 volumes:
   emsassist: {}  

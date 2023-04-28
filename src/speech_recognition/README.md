@@ -5,6 +5,7 @@
 
 ## 1. Reproduce the Table 3
 
+
 ### 1.1 Google Cloud
 
 We do not provide the access and commands to Google Cloud Speech-to-Text service. Instead, we provide the transcription result text files from Google Cloud for evaluation. Please enter 'y' when prompted when evaluating this section.
