@@ -23,18 +23,21 @@ version: '3.7'
 
 services:
   emsassist:
-    image: liuyidockers/emsassist-ae:emsassist_final
+    image: liuyidockers/emsassist-ae:emsassist_final2
     container_name: liuyidockers_emsassist
     volumes:
-      # - ./init_models:/home/EMSAssist/init_models
-      # - ./examples:/home/EMSAssist/examples
-      # - ./src:/home/EMSAssist/src
+      - ./init_models:/home/EMSAssist/init_models
+      - ./examples:/home/EMSAssist/examples
+      - ./src:/home/EMSAssist/src
       - ./data:/home/EMSAssist/data
       - ./model:/home/EMSAssist/model
+      - ./requirements.txt:/home/EMSAssist/requirements.txt
+      - ./docker-compose.yml:/home/EMSAssist/docker-compose.yml
       # - .:/home/EMSAssist/.
     #command: [/bin/bash -c "tail -f /dev/null"]
     # command: tail -F anything
     #network_mode: "host"
+    working_dir: /home/EMSAssist
     deploy:
       resources:
         reservations:
