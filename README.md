@@ -15,7 +15,7 @@ EMSAssist artifact evaluation relies on some basic software and hardware environ
 | ------------- | ------------- |
 | GPU  | 3 x NVIDIA A30   |
 | CPU | 2 x Intel Xeon 4314 |
-| Disk | require more than 200 GB |
+| Disk | require more than 400 GB |
 | RAM | require more than 32GB |
 
 Before evaluating and using the EMSAssist artifact, please make sure you have at least 1 NVIDIA GPU available with `nvidia-smi` command.
@@ -82,63 +82,89 @@ $ sudo apt -y install nvidia-container-toolkit
 $ systemctl restart docker
 ```
 
-### 2.4 Clone EMSAssist and clone tf examples inside EMSAssist
+### 2.4 Download the data and model
+
+Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) files from Google Drive to a place with more more than 200 GB free space. We expect the downloading would take 1-2 hours.
+
+### 2.5 Clone EMSAssist and decompress data into EMSAssist
 
 ```console
 $ git clone --recursive git@github.com:LENSS/EMSAssist.git`
+$ cd EMSAssist
+
+#Inside EMSAssist, decompress model.tar.gz
+$ tar -xf model.tar.gz -C .
+
+#Inside EMSAssist, decompress the data.tar.gz
+$ tar -xf data.tar.gz -C .
 ```
 
-### 2.5 Download and decompress the data and model inside EMSAssist
+<!-- ### 2.6 Download and decompress the data and model inside EMSAssist -->
 
-Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=share_link), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) files from Google Drive to the cuurent working (e.g., /home/$username/EMAssist) folder. We expect the downloading and decompressing to take 2-3 hours.
+
+<!-- the cuurent working (e.g., /home/$username/EMAssist) folder. We expect the downloading and decompressing to take 2-3 hours. -->
 
 <!-- and [docker-compose.yml](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=share_link) -->
 
-```console
-#decompress model.tar.gz
-$ tar -xvzf model.tar.gz
-
-#decompress the data.tar.gz
-$ tar -xvzf data.tar.gz
+<!-- ```console
 
 
-```
 
-With the steps above, we should have `data`, `model`, `examples`, `src`, `docker-compose.yml`， `requirements.txt` in `EMSAssist` folder.
+``` -->
+
+With the steps above, we should have `data`, `model`, `init_models`, `examples`, `src`, `docker-compose.yml`， `requirements.txt` in `EMSAssist` folder.
 
 ### 2.6 Launch the docker
 
 ```console
-#Run docker-compose in silent mode from EMSAssist folder. it will pull a docker container image and run it in bare metal machine as "emsassist"
+#Run docker-compose in silent mode from EMSAssist folder
 $ docker-compose up -d
 ```
+It will pull a docker container image and run it in bare metal machine as "emsassist". The docker image size is about 20 GB.
 
-### 2.7 Login the docker, set up the paths
+### 2.7 Login the docker container and set up the data paths
 
 ```console
 $ docker exec -it emsassist /bin/bash
 $ conda activate emsassist-gpu
 
-#make sure you can see nvidia-device after you login the docker
+#Right now, we are in the `/home/EMSAssist` directory. Please make sure you can see nvidia-device after you login the docker
 $ nvidia-smi
+
+#The data path needs to be reset
+$ cd data
+$ python reconfig_data_path.py
 ```
 
-Now you are inside the docker container as a sudo user, and your current location should be `root`. Before you go to specific `/home/EMSAssist/src` directories to evaluate the artifact, we want you to make sure the python path and library path are set up correctly (The two paths should already be set up).
+We want to make sure the python path and library path are set up correctly (The two paths should already be set up).
 
-```console
-
-
-* `echo $PYTHONPATH`
+$ echo $PYTHONPATH`
 
 > /home/EMSAssist/src/speech_recognition:/home/EMSAssist/examples
 
-* `echo $LD_LIBRARY_PATH`
+$ echo $LD_LIBRARY_PATH
 
 > LD_LIBRARY_PATH=/opt/conda/envs/emsassist-gpu/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64
+
+<!-- ``` -->
+
+<!-- Now you are inside the docker container as a sudo user, and your current location should be `root`. Before you go to specific `/home/EMSAssist/src` directories to evaluate the artifact, we want you to make sure the python path and library path are set up correctly (The two paths should already be set up). -->
+
+<!-- ```console -->
+
+
+<!-- * `echo $PYTHONPATH` -->
+
+<!-- > /home/EMSAssist/src/speech_recognition:/home/EMSAssist/examples
+
+* `echo $LD_LIBRARY_PATH`
+
+> LD_LIBRARY_PATH=/opt/conda/envs/emsassist-gpu/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64 -->
 
 If, in some cases, the paths above do not match what's shown above inside the container, please set it up when you are in the `EMSAssist` folder while you login into the container:
 
 ```console
+cd /home/EMSAssist
 export PYTHONPATH=$PWD/src/speech_recognition:$PWD/examples
 export LD_LIBRARY_PATH=$CONDA_PREFIX/lib:$LD_LIBRARY_PATH
 ```
@@ -149,7 +175,6 @@ $ python reconfig_data_path.py
 $ cd ../..
 
 
-```
 
 ### 2.8 Begin the evaluation
 ```

@@ -23,7 +23,7 @@ version: '3.7'
 
 services:
   emsassist:
-    image: liuyidockers/emsassist-ae:emsassist_final2
+    image: liuyidockers/emsassist-ae:emsassist_final3
     container_name: liuyidockers_emsassist
     volumes:
       - ./init_models:/home/EMSAssist/init_models
