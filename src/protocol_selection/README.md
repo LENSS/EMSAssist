@@ -390,7 +390,7 @@ Running TFLite on PH-1 (__40 minutes__): `python emsANN.py --test_model_path ../
 >
 > This run takes 0:04:05.172377
 
-Running TFLite on PH-1 (28.5 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_BertBase4_NoFitted_Desc_batch1.tflite`
+Running TFLite on PH-1 (__28.5 hours__): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_BertBase4_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_BertBase4_NoFitted_Desc_batch1.tflite`
 
 > Here is the top1/3/5 using tf sparse topk:
 >
@@ -410,7 +410,7 @@ Running TFLite on PH-1 (28.5 hours): `python emsBERT.py --test_model_path ../../
 >
 > This run takes 0:04:02.875558
 
-Running on PH-1 (28.5 hours):`python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_PubMed2_NoFitted_Desc_batch1.tflite`
+Running on PH-1 (__28.5 hours__):`python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_PubMed2_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_PubMed2_NoFitted_Desc_batch1.tflite`
 
 > Here is the top1/3/5 using tf sparse topk:                                                
 > 
@@ -430,7 +430,7 @@ Running on PH-1 (28.5 hours):`python emsBERT.py --test_model_path ../../model/em
 >
 > This run takes 0:04:54.529066
 
-Running TFLite on PH-1 (28.5 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device  -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_Pretrained30_NoFitted_Desc_batch1.tflite`
+Running TFLite on PH-1 (__28.5 hours__): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_Pretrained30_NoFitted_Desc/0004/ --eval_dir ../../data/ae_text_data/ --cuda_device  -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --test_tflite_model_path ../../model/export_tflite/FineTune_Pretrained30_NoFitted_Desc_batch1.tflite`
 
 > Here is the top1/3/5 using tf sparse topk:
 > 
@@ -473,7 +473,7 @@ Run TF test (11 minutes): `python emsAlBERT.py --init_model ../../init_models/al
 >
 > This run takes 0:10:33.026546
 
-Run TFLite test on PH-1: `python emsAlBERT.py --init_model ../../init_models/albert2/large_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/0001.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertLarge2_NoFitted_Desc_batch1.tflite`
+Run TFLite test on PH-1 (__28 hours__): `python emsAlBERT.py --init_model ../../init_models/albert2/large_2/  --test_model_path ../../model/emsBERT/FineTune_AlbertLarge2_NoFitted_Desc/0001.h5 --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite --tflite_name FineTune_AlbertLarge2_NoFitted_Desc_batch1.tflite`
 
 
 * EMSMobileBERT (ours):
@@ -489,7 +489,7 @@ Run TF test (5 minutes): `python emsBERT.py --test_model_path ../../model/emsBER
 >
 > This run takes 0:04:26.477293
 
-Running TFLite on PH-1 (28 hours): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_NoFitted_Desc/0006/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite_model_path ../../model/export_tflite/FineTune_MobileEnUncase1_NoFitted_Desc_batch1.tflite  --test_tflite`
+Running TFLite on PH-1 (__28 hours__): `python emsBERT.py --test_model_path ../../model/emsBERT/FineTune_MobileEnUncase1_NoFitted_Desc/0006/ --eval_dir ../../data/ae_text_data/ --cuda_device -1 --max_seq_len 128 --test_file no_fitted_separated_desc_code_102_test.txt --test_batch_size 64 --test_tflite_model_path ../../model/export_tflite/FineTune_MobileEnUncase1_NoFitted_Desc_batch1.tflite  --test_tflite`
 
 <!-- ### 1.2.3 Protocol Selection Testing with TensorFlowLite -->
 
