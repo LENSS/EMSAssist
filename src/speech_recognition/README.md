@@ -8,7 +8,7 @@
 
 ### 1.1 Google Cloud
 
-We do not provide the access and commands to Google Cloud Speech-to-Text service. Instead, we provide the transcription result text files from Google Cloud for evaluation. Please enter 'y' when prompted when evaluating this section.
+We do not provide the access and commands to Google Cloud Speech-to-Text service. Instead, we provide the transcription result text files from Google Cloud for evaluation. Please enter `y` when prompted to rewrite evaluation result file.
 
 <!-- `cd ~/emsAssist_mobisys22/src/speech_recognition` -->
 
@@ -27,7 +27,7 @@ Evaluate Google Cloud on our EMS recordings: `python evaluate_asr_google_cloud.p
 
 ### 1.2 EMSConformer on Server
 
-Check the conformer directory: `cd examples/conformer`
+Checkout to the conformer directory: `cd examples/conformer`
 
 <!-- `python test.py --output test_outputs/test_for_all_ae.txt --saved /home/EMSAssist/model/speech_models/all_14.h5 --config config_PretrainLibrispeech_TrainEMS_all.yml` -->
 (Server) Evaluate provided conformer model on our EMS recordings: `python test.py --output test_outputs/test_for_all_ae.txt --saved ../../../../model/speech_models/Conformer_Pretraining_Fine_Tune_14.h5 --config config_PretrainLibrispeech_TrainEMS_all_updated.yml`
@@ -81,7 +81,7 @@ With the numbers reproduced here with the following commands, you should be able
 
 ### 2.1 RNN-T Performance with Different Training Strategies
 
-Go the RNNT directory: `cd examples/rnnt_transducer`. Make sure you are under directory: `EMSAssist/src/speech_recognition/examples/rnnt_transducer`
+Go the RNNT directory: `cd examples/rnn_transducer`. Make sure you are under directory: `/home/EMSAssist/src/speech_recognition/examples/rnn_transducer` in the container.
 
 * Run RNNT with Pretraining Only strategy (5 mins): `python test.py --saved ../../../../model/speech_models/RNNT_Pretraining_Only_25.h5 --output test_outputs/RNNT_Pretraining_Only.txt --config config_PretrainLibrispeech_DirectInferenceEMS_updated.yml`
 

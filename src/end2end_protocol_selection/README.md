@@ -6,9 +6,9 @@
 <!-- `cd ~/emsAssist_mobisys22/src/end2end_protocol_selection` -->
 
 
-### Table 5: Comparing EMSAssist with SOTA (Google Cloud) on the End- to-End (E2E) protocol selection top-1/3/5 accuracy
+### Table 5: Comparing EMSAssist with SOTA (Google Cloud) on the End-to-End (E2E) protocol selection top-1/3/5 accuracy
 
-`python emsBERT_e2e_table5.py --protocol_model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model ../../data/ae_text_data/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0 --transcription_dir ../../data/transcription_text/`
+E2E accuracy for all users (6.5 minutes): `python emsBERT_e2e_table5.py --protocol_model ../../model/emsBERT/FineTune_MobileEnUncase1_Fitted_Desc/0004  --protocol_tflite_model ../../data/ae_text_data/export_tflite/FineTune_MobileEnUncase1_Fitted_Desc_batch1.tflite --cuda_device 0 --transcription_dir ../../data/transcription_text/`
 
 > \##### SOTA E2E Protocol Selection Accuracy #####
 >
