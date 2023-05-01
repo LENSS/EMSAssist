@@ -1,6 +1,6 @@
 # EMSAssist
 
-This repository contains the reproducible artifact for EMSAssist. We provide 3 ways to replicate the results in the EMSAssist paper: 1) replicate using a prebuilt docker image (recommended and provided); 2) replicate using a baremetal desktop/server machine with a decent NVIDIA GPU; 3) remote access (available upon request).
+This repository contains the reproducible artifact for EMSAssist. We provide 3 ways to replicate the results in the EMSAssist paper: 1) replicate using a prebuilt docker image (recommended and provided); 2) replicate using a baremetal desktop/server machine with a decent NVIDIA GPU; 3) remote access (not available for now, we are moving the system on some public cloud, e.g., AWS).
 
 ## 1. Basic requirement
 
@@ -13,12 +13,12 @@ EMSAssist artifact evaluation relies on some basic software and hardware environ
 
 | Hardware Environment  | Version |
 | ------------- | ------------- |
-| GPU  | 3 x NVIDIA A30   |
+| GPU  | 3 x NVIDIA A30  |
 | CPU | 2 x Intel Xeon 4314 |
-| Disk | require more than 400 GB |
-| RAM | require more than 32GB |
+| Disk | require about 75 GB |
+| RAM | no specific requirement, suggest more than 10GB |
 
-Before evaluating and using the EMSAssist artifact, please make sure you have at least 1 NVIDIA GPU available with `nvidia-smi` command.
+Before evaluating and using the EMSAssist artifact, please make sure you have at least 1 NVIDIA GPU available with `nvidia-smi` command. If you have lower-end GPU devices or no GPU device, no worry. Please start testing with the commands that do not contain `--cuda_device` flag and commands with `--cuda_device` flags set to be `-1`. Those 2 kinds of commands only require CPUs. We expect commands with `--cuda_device 0` are still functional on low-end GPU or on a machine without GPU. The difference should only be the execution time.
 
 ![nvidia-gpu](./nvidia-smi.png)
 
@@ -27,7 +27,7 @@ Before evaluating and using the EMSAssist artifact, please make sure you have at
 
 The prebuilt docker image contains the neccessary software environment. We recommend using this option for the artifact evaluation. If you want to build the docker image on your own, please refer to the `build_docker.md` file in this repository.
 
-Assuming NVIDIA GPUs present in the bare metal system running Ubuntu 22.04, we can start with artifact evaluation using prebuilt docker image
+Assuming NVIDIA GPUs present in the bare metal system running Ubuntu 22.04, we can start with artifact evaluation using prebuilt docker image. Again, if you have low-end GPU or have no GPU, you can still reproduce the results in the paper. Just wait for some commands to finish if your GPU device is not high-end enough.
 
 We first install docker and pull the docker image from dockerhub.
 
@@ -84,14 +84,18 @@ $ systemctl restart docker
 
 ### 2.4 Download the data and model
 
-Download the [data.tar.gz](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=sharing), [model.tar.gz](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=sharing) files from Google Drive to a place with more more than 200 GB free space. We expect the downloading would take 1-2 hours.
+data: [reduced data.tar.gz (1.4GB, recommended)](https://drive.google.com/file/d/1ir-RBDJhf-wVFNTpsg64IqZ291XocVkb/view?usp=share_link), [data.tar.gz (140GB, will be deleted soon)](https://drive.google.com/file/d/1Li-oA6ZfuHx2EbqGWbhK-sZvwgnHVJs9/view?usp=sharing), [data1.tar.gz (140GB, will be deleted soon)](https://drive.google.com/file/d/1dsWkGsAbm0U1sNzsKYJMVtnyoAUo8koY/view?usp=sharing)
 
-Additional Google Drive links for the [data1.tar.gz](https://drive.google.com/file/d/1dsWkGsAbm0U1sNzsKYJMVtnyoAUo8koY/view?usp=sharing), [model1.tar.gz](https://drive.google.com/file/d/1zkWWY9624gMN2Qh8eNJcabps6MKDzY58/view?usp=sharing)
+model: [model.tar.gz (20GB)](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=sharing), [model1.tar.gz (20GB)](https://drive.google.com/file/d/1zkWWY9624gMN2Qh8eNJcabps6MKDzY58/view?usp=sharing)
+
+The tar.gz files above are on Google Drive now, we hope you access them after you have your Google Drive account login. We expect the downloading would take less than 30 minutes.
+
+<!-- Additional Google Drive links for the ,  -->
 
 ### 2.5 Clone EMSAssist and decompress data into EMSAssist
 
 ```console
-$ git clone --recursive git@github.com:LENSS/EMSAssist.git`
+$ git clone --recursive https://github.com/LENSS/EMSAssist.git
 $ cd EMSAssist
 
 #Inside EMSAssist, decompress model.tar.gz
@@ -126,9 +130,10 @@ It will pull a docker container image and run it in bare metal machine as "emsas
 
 ### 2.7 Login the docker container and set up the data paths
 
+<!-- $ conda activate emsassist-gpu -->
+
 ```console
 $ docker exec -it emsassist /bin/bash
-$ conda activate emsassist-gpu
 
 #Right now, we are in the `/home/EMSAssist` directory. Please make sure you can see nvidia-device after you login the docker
 $ nvidia-smi
