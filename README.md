@@ -235,7 +235,11 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 * begin the evaluation: `cd src`. Check out the README file when you enter each sub-directory.
 
+## 4 Notes
 
+* This repo contains the testing commands. The training commands are updating.
+* The current artifact can be evaluated with a bare-metal machine (prebuilt docker, and bare-metal configurations); We expect you may encounter some errors/issues when you want to evaluate EMSAssist on some non-bare metal machines (e.g., WSL, VM). If you have such needs, please file an issue for the feature request. We will see how we can help. This point is brought up by an anounymous artifact evaluation reviewer.
+* All anounymous artifact reviewers contribute to the current shape of this artifact. The artifact credits also go to the reviewers.
 <!-- we create and activate a conda environment with tensorflow-gpu: `conda activate tf-gpu` -->
 
 
