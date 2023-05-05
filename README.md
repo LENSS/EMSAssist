@@ -29,6 +29,8 @@ The prebuilt docker image contains the neccessary software environment. We recom
 
 Assuming NVIDIA GPUs present in the bare metal system running Ubuntu 22.04, we can start with artifact evaluation using prebuilt docker image. Again, if you have low-end GPU or have no GPU, you can still reproduce the results in the paper. Just wait for some commands to finish if your GPU device is not high-end enough.
 
+As kindly suggested by our anounymous artifact evaluation reviewers, we provide a 2-hour video tutorial ([google drive video link](https://drive.google.com/drive/folders/14-UJsJXOJaZgTcoRq_6AqgUxhv_1ken4?usp=share_link)) to show how to fully evaluate our artifact. In the tutorial video we basically go through most of our commands in this repository. The outputs for each command are included. You may want to login into your google account first to view the video.
+
 We first install docker and pull the docker image from dockerhub.
 
 ### 2.1 Install Docker on Bare Metal Machine
