@@ -235,7 +235,13 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 * begin the evaluation: `cd src`. Check out the README file when you enter each sub-directory.
 
-## 4 Notes
+## 4 End-to-End Latency
+
+To evaluate the end-to-end latency (i.e., Table 8 in the EMSAssist paper), we provide [2 videos](https://drive.google.com/drive/folders/17UN9wLgqT8qaT6ZtGzQRWB8JowgX7vBQ?usp=share_link) with an [Android Studio log file](https://drive.google.com/file/d/1z4_gCp91ZOr5IlJlU50Ri3cB58bEomk2/view?usp=sharing). The [phone_screen.mp4](https://drive.google.com/file/d/1NJJy2KaK8p0mjsarwKbk451PssdrE6-l/view?usp=share_link) shows how we launch the EMSAssist android application on our PH-1 mobile phone. The [android_studio_screen.mp4](https://drive.google.com/file/d/1Bi9ZhJf3OfLaGUJPpaZ5H2bf2ieKgy4n/view?usp=share_link) shows the real-time log (end-to-end latency `4549` milliseconds).
+
+The source code of the android application is open source: https://github.com/liuyibox/EMSAssist-android. To try to install EMSAssist on your android phone, you may want to switch to branch `recording-button`.
+
+## 5 Notes
 
 * This repo contains the testing commands. The training commands are updating.
 * The current artifact can be evaluated with a bare-metal machine (prebuilt docker, and bare-metal configurations); We expect you may encounter some errors/issues when you want to evaluate EMSAssist on some non-bare metal machines (e.g., WSL, VM). If you have such needs, please file an issue for the feature request. We will see how we can help. This point is brought up by an anounymous artifact evaluation reviewer.
