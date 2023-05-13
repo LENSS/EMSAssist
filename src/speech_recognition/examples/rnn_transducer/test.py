@@ -35,6 +35,15 @@ DEFAULT_YAML = os.path.join(os.path.abspath(os.path.dirname(__file__)), "config.
 from datetime import datetime
 import argparse
 
+"""
+The main function to evaluate the WER and CER of RNN_Transducer on our EMS audio dataset. It uses RNN_Transducer to 
+transcribe EMS audio dataset and correspondinly compute WER and CER
+
+Input:  1) output: path of the intermediate transcription result output text file
+        2) saved: the rnn_transducer h5 model used to transcribe the EMS audio files
+        3) config: the configuration file to configure the running parameters, including the testset path
+Output: the WER and CER for both greedy search and beam search. The beam search is still under development.
+"""
 def main(
     config: str = DEFAULT_YAML,
     saved: str = None,
@@ -83,6 +92,16 @@ def main(
     time_t = datetime.now() - time_s
     print("This run takes %s" % time_t)
 
+
+"""
+The main function to evaluate the WER and CER of RNN_Transducer on our EMS audio dataset. It uses RNN_Transducer to 
+transcribe EMS audio dataset and correspondinly compute WER and CER
+
+Input:  1) output: path of the intermediate transcription result output text file
+        2) saved: the rnn_transducer h5 model used to transcribe the EMS audio files
+        3) config: the configuration file to configure the running parameters, including the testset path
+Output: the WER and CER for both greedy search and beam search. The beam search is still under development
+"""
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description = "control the functions for rnnt_transducer")

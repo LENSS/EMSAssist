@@ -55,6 +55,13 @@ def readFile(file_path, encoding = None):
     f.close()
     return res
 
+"""
+compare_normal_output is used to evaluate wer and cer given a normal text file 
+with only transcribed text and ground true text.
+
+Input: the path of text file with only transcribed text and ground true text.
+Output: the WER and CER for the given text file
+"""   
 def compare_normal_output(filepath: str):
 
     logger.info(f"Evaluating result from {filepath} ...")
@@ -74,6 +81,15 @@ def compare_normal_output(filepath: str):
     for key, value in metrics.items():
         logger.info(f"{key}: {value.result().numpy()}")
 
+"""
+The main function to evaluate the WER and CER of EMSConformer tflite on our EMS audio dataset. 
+It uses EMSConformer tflite model to transcribe EMS audio dataset and correspondinly compute WER and CER.
+
+Input:  1) tflite_model: the conformer tflite model used to transcribe the EMS audio files
+        2) data_path: the tsv file that contains the testset audio paths
+Output: 1) the WER and CER for both greedy search and beam search.
+        2) the intermediate transcription text output.
+"""
 def main(
     tflite: str,
     #audios_path: str,
@@ -142,7 +158,15 @@ def main(
     print("write %s lines to %s" % (len(evaluate_lines), output))
     
     compare_normal_output(output)
-        
+
+"""
+The main function to evaluate the WER and CER of EMSConformer tflite on our EMS audio dataset. 
+It uses EMSConformer tflite model to transcribe EMS audio dataset and correspondinly compute WER and CER.
+
+Input:  1) tflite_model: the conformer tflite model used to transcribe the EMS audio files
+        2) data_path: the tsv file that contains the testset audio paths
+Output: the WER and CER for both greedy search and beam search.
+"""
 if __name__ == "__main__":
 
     time_s = datetime.now()

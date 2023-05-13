@@ -22,6 +22,14 @@ from tensorflow_asr.utils.metric_util import cer, wer
 
 logger = tf.get_logger()
 
+"""
+compare_test_output is used to evaluate wer and cer given a text file from tensorflow_asr code. The tensorflow_asr
+uses both greedy search and beam search to generate transcribed texts. The greedy search is working, and the beam 
+search is under development.
+
+Input: the path of text file with transcribed text and ground true text for both greedy search and beam search.
+Output: the WER and CER of the given text file for both greedy search and beam search.
+"""
 def compare_test_output(filepath: str):
 
     logger.info(f"Evaluating result from {filepath} ...")
@@ -49,6 +57,14 @@ def compare_test_output(filepath: str):
     for key, value in metrics.items():
         logger.info(f"{key}: {value.result().numpy()}")
    
+
+"""
+compare_normal_output is used to evaluate wer and cer given a normal text file 
+with only transcribed text and ground true text.
+
+Input: the path of text file with only transcribed text and ground true text.
+Output: the WER and CER for the given text file
+"""
 def compare_normal_output(filepath: str):
     
     #logger = tf.get_logger()
@@ -103,6 +119,13 @@ spk_dirs = [
 
 # python evaluate_asr_tian.py --dir 
 
+"""
+The main function to evaluate the WER and CER of transcription from Google Cloud Speech-to-Text. 
+It's good to note here we directly use the transcribed texts from Google Cloud Speech-to-Text API for evaluation.
+
+Input: the directory contains the transcribed texts from 8 Google Cloud Speech-to-Text APIs on all speaker voice
+Output: the averaged WER and CER
+"""
 if __name__ == "__main__":
       
     time_s = datetime.now()

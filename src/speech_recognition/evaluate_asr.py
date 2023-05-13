@@ -21,6 +21,14 @@ from tensorflow_asr.utils.metric_util import cer, wer
 
 logger = tf.get_logger()
 
+"""
+compare_test_output is used to evaluate wer and cer given a text file from tensorflow_asr code. The tensorflow_asr
+uses both greedy search and beam search to generate transcribed texts. The greedy search is working, and the beam 
+search is under development.
+
+Input: the path of text file with transcribed text and ground true text for both greedy search and beam search.
+Output: the WER and CER of the given text file for both greedy search and beam search.
+"""
 def compare_test_output(filepath: str):
 
     logger.info(f"Evaluating result from {filepath} ...")
@@ -47,7 +55,14 @@ def compare_test_output(filepath: str):
         metrics["beamsearch_cer"].update_state(decode=beamsearch, target=groundtruth)
     for key, value in metrics.items():
         logger.info(f"{key}: {value.result().numpy()}")
-   
+
+"""
+compare_normal_output is used to evaluate wer and cer given a normal text file 
+with only transcribed text and ground true text.
+
+Input: the path of text file with only transcribed text and ground true text.
+Output: the WER and CER for the given text file
+"""
 def compare_normal_output(filepath: str):
 
     logger.info(f"Evaluating result from {filepath} ...")
@@ -68,6 +83,13 @@ def compare_normal_output(filepath: str):
         logger.info(f"{key}: {value.result().numpy()}")
     
 
+"""
+The main function to evaluate WER and CER of transcription from tensorflow_asr models, including EMSConformer,
+ContextNet, rnn_transducer.  
+
+Input: the path of the transcription result from EMSConformer
+Output: the WER and CER
+"""
 if __name__ == "__main__":
       
     time_s = datetime.now()

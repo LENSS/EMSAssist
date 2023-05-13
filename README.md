@@ -1,6 +1,12 @@
 # EMSAssist
 
-This repository contains the reproducible artifact for EMSAssist. We provide 3 ways to replicate the results in the EMSAssist paper: 1) replicate using a prebuilt docker image (recommended and provided); 2) replicate using a baremetal desktop/server machine with a decent NVIDIA GPU; 3) remote access (not available for now, we are moving the system on some public cloud, e.g., AWS).
+EMSAssist is the first end-to-end low latency mobile voice assistant for Emergency Medical Services (EMS) at the edge. By taking the voice of EMS providers (e.g., emergency medical technician (EMT), volunteers) as input, EMSAssist outputs EMS protocols which prescribe appropriate medical interventions be administered to the patient. An accurate and fast protocol selection helps make a competent clinical decision regarding a treatment plan at emergency scenes. Thus, we aim to provide accurate and low-latency protocol selection assistance to EMTs with EMSAssist.
+
+We design and deploy EMSAssist on mobile phones and on cloud. The end-to-end accuracy and latency evaluation show that: a) EMSAssist is more accurate than the state-of-the-art by a large margin, achieving a Top-5 accuracy above 96%; b) EMSAssist is the only EMS voice assistant that meets an service level objective (SLO) of 5 seconds latency on a mobile phone.
+
+This repository contains the reproducible artifact for EMSAssist. We provide 3 ways to replicate the results in the EMSAssist paper: 1) replicate using a prebuilt docker image (recommended and provided); 2) replicate using a baremetal desktop/server machine with a decent NVIDIA GPU; 3) direct remote access (not available for now, we are moving the system to some public cloud for direct remote access in the near future, e.g., AWS). The neccessary text files for evaluating the accuracy of state-of-the-art protocol selection work are also provided in this repository.
+
+To evaluate our EMSAssist artifact, downloading [reduced data.tar.gz (1.4GB, recommended)](https://drive.google.com/file/d/1ir-RBDJhf-wVFNTpsg64IqZ291XocVkb/view?usp=share_link) and [model.tar.gz (20GB)](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=sharing) are required. The compressed data file contains the audio input data for speech recognition evaluation, EMS text data for protocol selection selection evaluation. The compressed model file contains all pretrained/fine-tuned tensorflow models we developed. All the data and models are needed to replicate results in the EMSAssist paper. More details regarding the downloading are provided in Section 2.4 below.
 
 ## 1. Basic requirement
 
@@ -91,6 +97,8 @@ data: [reduced data.tar.gz (1.4GB, recommended)](https://drive.google.com/file/d
 model: [model.tar.gz (20GB)](https://drive.google.com/file/d/12LOuUl__T-oVMBQRLd8p7m27AiepQrSR/view?usp=sharing), [model1.tar.gz (20GB)](https://drive.google.com/file/d/1zkWWY9624gMN2Qh8eNJcabps6MKDzY58/view?usp=sharing)
 
 The tar.gz files above are on Google Drive now, we hope you access them after you have your Google Drive account login. We expect the downloading would take less than 30 minutes.
+
+The 2 large data.tar.gz files may be deleted in the future. They contain lots of intermediate outputs during training/testing, which do not concretely help with artifact evaluation (e.g., tfrecord files, tensorflow model checkpoints during training). By removing those intermediate outputs, we are able to reduce the size of required data file from 140 GB to 1.4 GB. The results reproducibility is still maintained after the size reduction.
 
 <!-- Additional Google Drive links for the ,  -->
 
@@ -244,8 +252,8 @@ The source code of the android application is open source: https://github.com/li
 ## 5 Notes
 
 * This repo contains the testing commands. The training commands are updating.
-* The current artifact can be evaluated with a bare-metal machine (prebuilt docker, and bare-metal configurations); We expect you may encounter some errors/issues when you want to evaluate EMSAssist on some non-bare metal machines (e.g., WSL, VM). If you have such needs, please file an issue for the feature request. We will see how we can help. This point is brought up by an anounymous artifact evaluation reviewer.
-* All anounymous artifact reviewers contribute to the current shape of this artifact. The artifact credits also go to the reviewers.
+* The current artifact can be evaluated with a bare-metal machine (prebuilt docker, and bare-metal configurations); We expect you may encounter some errors/issues when you want to evaluate EMSAssist on some non-bare metal machines (e.g., WSL, VM). If you have such needs, please file an issue for the feature request. We will see how we can help. This point is brought up by an anonymous artifact evaluation reviewer.
+* All anonymous artifact reviewers and artifact shepherd contribute to the current shape of this artifact. The artifact credits also go to the reviewers and shepherd.
 <!-- we create and activate a conda environment with tensorflow-gpu: `conda activate tf-gpu` -->
 
 
