@@ -311,6 +311,21 @@ def build_vocab_tokenizer(do_lower_case):
   tokenizer = tokenization.FullTokenizer(vocab_file, do_lower_case)
   return vocab_file, tokenizer
 
+
+"""
+from_transcription_result_file: write and load tfrecord files given transcription texts
+
+input:  1) file_path: the path of transcription file, which contains both true texts and transcribed texts
+        2) label_path: the path of label file, which contains corrsponding labels to the texts
+        3) max_seq_len: the maximum sequence length when we convert texts to tfrecord data
+        4) test_tflite (boolean): the scheme of encoding/decoding tfrecord files are different for tf and tflite
+        5) do_lower_case (boolean): a normal boolean value used in BERT to decide whether we want to convert texts
+                                    to lower case before converting texts into tfrecord
+        6) delimiter: dummy argument used to process the input text files
+        7) cache_dir: the tfrecord file conversion takes time, we use cache dir to store tfrecord files
+
+output: write and load tfrecord files
+"""
 def from_transcription_result_file(file_path,
                                    label_path,
                                    max_seq_len,
@@ -410,6 +425,15 @@ def top5_metric_fn():
     k = 5, name = 'top5_accuracy', dtype=tf.float32)
 
 # the labels for all speakers are all separate
+
+"""
+merge_labels: a utility function to merge the labels from all speakers to a label file.
+
+input:  1) args: main function arguments
+        2) spks: speaker folder name
+
+output: a dictionary from audio path to the protocol label for all speakers
+"""
 def merge_labels(args, spks):
 
     labels_all_dict = dict()
@@ -442,6 +466,16 @@ def get_label_path_for_all(strategy_path, test_out_path, labels_all_dict):
 
     return labels_all_path
 
+"""
+evaluate_end_to_end: test the end-to-end protocol selection accuracy of SOTA and EMSAssist. For the SOTA,
+we use the Google Cloud Speech-to-Text as the speech recognizer, and concept matching as the protocol
+selection model; for the EMSAssist, we use the EMSConformer as the speech recognizer, and EMSMobileBERT as
+the protocl selection model.
+
+input:  main function arguments
+
+output: Top 1/3/5 accuracy of end-to-end protocol selection
+"""
 def evaluate_end_to_end(args):
 
     spks = [
@@ -577,7 +611,14 @@ def evaluate_end_to_end(args):
                 # print("E2E: Server %s, PH-1 %s" % ([round(transcribed_result[1],2), round(transcribed_result[2],2), round(transcribed_result[3],2)], 
                 #                                     [round(transcribed_tflite_result[0],2), round(transcribed_tflite_result[1],2), round(transcribed_tflite_result[2],2)]))
 
+"""
+test_tflite: test the protocol selection accuracy of EMSMobile tflite model on the testset
 
+input:  1) ds: testset tfrecord file
+        2) main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""
 def test_tflite(ds, args):
 
   def generate_elements(d):
