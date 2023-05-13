@@ -87,6 +87,10 @@ class InputFeatures(object):
     self.is_real_example = is_real_example
     self.int_iden = int_iden
 
+"""
+RefInfo: a class used to obtain the comprehensive information of NEMSIS reference. NEMSIS reference is basically
+    used to map NEMSIS codes to NEMSIS texts
+"""
 class RefInfo(object):
 
   def __init__(self):
@@ -101,6 +105,15 @@ class RefInfo(object):
     self.d_list, self.global_d, self.code_map, self.word_map = self.get_dict() 
 
   def get_dict(self):
+
+    """
+    Input: the file path to NEMSIS reference files
+
+    Output: 1) d_list: 4 dictionary for 4 kinds of sign and symptoms mapping (code - text)
+            2) global_d: aggreate the 4 dictionaries
+            3) codes_map: codes vocabulary to one-hot encode codes
+            3) words_map: word vocabulary to one-hot encode words
+    """
 
     d_list = []
     global_d = dict()
@@ -414,6 +427,9 @@ def build_vocab_tokenizer(model_uri, do_lower_case):
   tokenizer = tokenization.FullTokenizer(vocab_file, do_lower_case)
   return vocab_file, tokenizer
 
+"""
+codes_to_texts: a function converts lines of NEMSIS codes to lines of NEMSIS texts 
+"""
 def codes_to_texts(codes_lines, refinfo):
 
   d = refinfo.global_d
@@ -557,7 +573,14 @@ def gen_dataset(dataset,
   return ds
 
 # Step 2. Load the training and test data, then preprocess them according to a specific model_spec.
+"""
+prepare_dataset: function used to prepare the dataset for training and testing
 
+input:  1) refinfo: reference file information to map the codes to texts, and convert texts to tfrecord files
+        2) args: main function arguments
+
+output: write the tfrecord files for train, eval, and test texts
+"""
 def prepare_dataset(args, refinfo):
 
     #if args.test_tflite:
@@ -727,6 +750,18 @@ def create_model(num_classes,
 
   return bert_model
 
+"""
+prepare_model: prepare the model architecture and load the the saved_model to initialize.
+    we start to train from there
+
+input:  1) train_ds: trainset tfrecord file
+        2) train_meta_data: meta data for trainset, e.g., number of classes
+        3) validation_ds: validate set tfrecord file
+        4) args: main function arguments
+
+output: 1) bert_model: created BERT model
+        2) cp_callback: call backs during training, e.g., saving checkpoint models
+"""  
 def prepare_model(train_ds, train_meta_data, validation_ds, args):
     
     steps_per_epoch = train_meta_data['size'] // args.train_batch_size
@@ -754,6 +789,17 @@ def prepare_model(train_ds, train_meta_data, validation_ds, args):
                                             save_freq='epoch')
     return bert_model, cp_callback
 
+"""
+model_fit: train the bert model
+
+input:  1) bert_model: the model starting point for training
+        2) train_ds: trainset tfrecord files
+        3) validation_ds: validate set tfrecord file
+        4) cp_callback: call backs during training, e.g., saving checkpoint models
+        5) train_epoch: number of epochs used for training
+
+output: bert_model: the trained bert model
+"""  
 def model_fit(bert_model, train_ds, validation_ds, cp_callback, train_epoch):
 
     print("start training...")
@@ -770,6 +816,14 @@ def model_fit(bert_model, train_ds, validation_ds, cp_callback, train_epoch):
     return bert_model
 
 ## Step 4. Evaluate multiple saved models with the test data.
+"""
+model_test: test the protocol selection accuracy of BERT tensorflow model on the testset
+
+input:  1) test_ds: testset tfrecord file
+        2) args: main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""  
 def model_test(test_ds, args):
 
     def top1_metric_fn():
@@ -830,6 +884,14 @@ def model_test(test_ds, args):
 
 # Step 5. Export as a TensorFlow Lite model.
 
+"""
+model_save_tflite: save the BERT tflite model given a tensorflow model
+
+input:  1) a tensorflow 2 Model object
+        2) main function arguments
+
+output: 1) write a converted tflite model
+"""   
 def model_save_tflite(bert_model, args):
     def _get_params(f, **kwargs):
       """Gets parameters of the function `f` from `**kwargs`."""
@@ -933,6 +995,14 @@ def model_save_tflite(bert_model, args):
     #  populator.populate(export_metadata_json_file=False)
       populator.populate(False)
 
+"""
+test_tflite: test the protocol selection accuracy of BERT tflite model on the testset
+
+input:  1) ds: testset tfrecord file
+        2) main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""
 def test_tflite(ds, args):
 
   def generate_elements(d):

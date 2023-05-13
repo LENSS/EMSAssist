@@ -75,6 +75,10 @@ class InputFeatures(object):
     self.input_ids = input_ids
     self.label_id = label_id
 
+"""
+RefInfo: a class used to obtain the comprehensive information of NEMSIS reference. NEMSIS reference is basically
+    used to map NEMSIS codes to NEMSIS texts
+"""
 class RefInfo(object):
 
   def __init__(self):
@@ -89,6 +93,15 @@ class RefInfo(object):
     self.d_list, self.global_d, self.code_map, self.word_map = self.get_dict() 
 
   def get_dict(self):
+
+    """
+    Input: the file path to NEMSIS reference files
+
+    Output: 1) d_list: 4 dictionary for 4 kinds of sign and symptoms mapping (code - text)
+            2) global_d: aggreate the 4 dictionaries
+            3) codes_map: codes vocabulary to one-hot encode codes
+            3) words_map: word vocabulary to one-hot encode words
+    """
 
     d_list = []
     global_d = dict()
@@ -228,7 +241,12 @@ def convert_examples_to_features(examples,
                                  feature_type,
                                  refinfo,
                                  meta_data):
-  """Convert a set of `InputExample`s to a TFRecord file."""
+  """
+  Convert a set of `InputExample`s to a TFRecord file. For features input to the 
+  xgboost models, we consider one-hot encoding of several features
+  The features with counts refer to one-hot encoding using the counts values as the non-zero values.
+  The features without counts refer the one-hot encoding using 1 as the non-zero values
+  """
 
   assert feature_type == "token_counts" or feature_type == "tokens" or feature_type == "word_counts" or feature_type == "words" or feature_type == "code_counts" or feature_type == "codes"
 
@@ -341,6 +359,9 @@ def build_vocab_tokenizer(vocab_file, do_lower_case):
   tokenizer = tokenization.FullTokenizer(vocab_file, do_lower_case)
   return tokenizer
 
+"""
+codes_to_texts: a function converts lines of NEMSIS codes to lines of NEMSIS texts 
+"""
 def codes_to_texts(codes_lines, refinfo):
 
   d = refinfo.global_d
@@ -513,6 +534,14 @@ def from_codes(filename,
 
   return _load(tfrecord_file_path, meta_data, test_tflite)
 
+"""
+prepare_dataset: function used to prepare the dataset for training and testing
+
+input:  1) refinfo: reference file information to map the codes to texts, and convert texts to tfrecord files
+        2) args: main function arguments
+
+output: write the tfrecord files for train, eval, and test texts
+"""
 def prepare_dataset(args, refinfo):
 
     test_file_name = os.path.join(args.eval_dir, args.test_file)
@@ -584,6 +613,14 @@ def top5_acc_fn():
   return tf.keras.metrics.SparseTopKCategoricalAccuracy(
       k = 5, name = 'top5', dtype=tf.float32)
 
+"""
+train_ann_model: function used to train the ann model
+
+input:  1) train, eval, and test dataset tftecord files
+        2) main function arguments
+
+output: trained tf models and test result
+"""
 def train_ann_model(prepared_data, args):
 
 #    train_x, train_y, train_meta_data, eval_x, eval_y, eval_meta_data, test_x, test_y, test_meta_data = prepared_data 
@@ -661,6 +698,14 @@ def train_ann_model(prepared_data, args):
 
     test_ann_model(prepared_data, args)
 
+"""
+model_save_tflite: save the ANN tflite model given a tensorflow model
+
+input:  1) a tensorflow 2 Model object
+        2) main function arguments
+
+output: 1) write a converted tflite model
+"""   
 def model_save_tflite(model, args):
     def _get_params(f, **kwargs):
       """Gets parameters of the function `f` from `**kwargs`."""
@@ -732,7 +777,14 @@ def model_save_tflite(model, args):
 #    evaluate_tflite(args)
     
     
-   
+"""
+test_ann_model: test the protocol selection accuracy of ANN tensorflow model on the testset
+
+input:  1) testset tfrecord file
+        2) main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""   
 def test_ann_model(prepared_data, args):
 
     train_ds, train_meta_data, eval_ds, eval_meta_data, test_ds, test_meta_data = prepared_data 
@@ -794,6 +846,14 @@ def test_ann_model(prepared_data, args):
 
 #    test_tflite(test_ds, args)
 
+"""
+test_tflite: test the protocol selection accuracy of ANN tflite model on the testset
+
+input:  1) testset tfrecord file
+        2) main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""
 def test_tflite(prepared_data, args):
 
   train_ds, train_meta_data, eval_ds, eval_meta_data, test_ds, test_meta_data = prepared_data 

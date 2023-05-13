@@ -76,6 +76,10 @@ class InputFeatures(object):
     self.input_ids = input_ids
     self.label_id = label_id
 
+"""
+RefInfo: a class used to obtain the comprehensive information of NEMSIS reference. NEMSIS reference is basically
+    used to map NEMSIS codes to NEMSIS texts
+"""
 class RefInfo(object):
 
   def __init__(self):
@@ -90,6 +94,15 @@ class RefInfo(object):
     self.d_list, self.global_d, self.code_map, self.word_map = self.get_dict() 
 
   def get_dict(self):
+
+    """
+    Input: the file path to NEMSIS reference files
+
+    Output: 1) d_list: 4 dictionary for 4 kinds of sign and symptoms mapping (code - text)
+            2) global_d: aggreate the 4 dictionaries
+            3) codes_map: codes vocabulary to one-hot encode codes
+            3) words_map: word vocabulary to one-hot encode words
+    """
 
     d_list = []
     global_d = dict()
@@ -163,7 +176,12 @@ def convert_examples_to_features(examples,
                                  tokenizer,
                                  feature_type,
                                  refinfo):
-  """Convert a set of `InputExample`s to a TFRecord file."""
+  """
+  Convert a set of `InputExample`s to a TFRecord file. For features input to the 
+  xgboost models, we consider one-hot encoding of several features
+  The features with counts refer to one-hot encoding using the counts values as the non-zero values.
+  The features without counts refer the one-hot encoding using 1 as the non-zero values
+  """
 
   assert feature_type == "token_counts" or feature_type == "tokens" or feature_type == "word_counts" or feature_type == "words" or feature_type == "code_counts" or feature_type == "codes"
 #  features = []
@@ -286,6 +304,9 @@ def build_vocab_tokenizer(vocab_file, do_lower_case):
   tokenizer = tokenization.FullTokenizer(vocab_file, do_lower_case)
   return tokenizer
 
+"""
+codes_to_texts: a function converts lines of NEMSIS codes to lines of NEMSIS texts 
+"""
 def codes_to_texts(codes_lines, refinfo):
 
   d = refinfo.global_d
@@ -402,6 +423,14 @@ def from_codes(filename,
   sparse_features, label_ids = convert_examples_to_features(examples, label_names, tokenizer, feature_type, refinfo)
   return sparse_features, np.array(label_ids), meta_data
 
+"""
+prepare_dataset: function used to prepare the dataset for training and testing
+
+input:  1) refinfo: reference file information to map the codes to texts, and convert texts to tfrecord files
+        2) args: main function arguments
+
+output: write the tfrecord files for train, eval, and test texts
+"""
 def prepare_dataset(args, refinfo):
 
 
@@ -502,6 +531,14 @@ def test_best_model(clf, test_X, test_Y, params):
     test_Y_pred = clf.predict_proba(test_X) 
     calculate_top_k(test_Y_pred, test_Y)
 
+"""
+train_xgboost_model: function used to train a xgboost model
+
+input:  1) train, eval, and test dataset tftecord files
+        2) main function arguments
+
+output: trained xgboost models and test result
+"""
 def train_xgboost_model(prepared_data, args):
 
     train_X, train_Y, train_meta_data, val_X, val_Y, eval_meta_data, test_X, test_Y, test_meta_data = prepared_data 
@@ -578,6 +615,14 @@ def train_xgboost_model(prepared_data, args):
 
     test_best_model(clf, test_X, test_Y, params)
 
+"""
+test_xgboost_model: test the protocol selection accuracy of XGBoost model on the testset
+
+input:  1) prepared_data: testset tfrecord file
+        2) args: main function arguments
+
+output: 1) Top 1/3/5 accuracy on protocol selection
+"""   
 def test_xgboost_model(prepared_data, args):
 
     train_X, train_Y, train_meta_data, val_X, val_Y, eval_meta_data, test_X, test_Y, test_meta_data = prepared_data 

@@ -70,6 +70,10 @@ def codes_to_texts(codes_lines, refinfo):
 
   return text_lines, word_lines, code_lines
 
+"""
+RefInfo: a class used to obtain the comprehensive information of NEMSIS reference. NEMSIS reference is basically
+    used to map NEMSIS codes to NEMSIS texts
+"""
 class RefInfo(object):
 
   def __init__(self):
@@ -84,6 +88,15 @@ class RefInfo(object):
     self.d_list, self.global_d, self.code_map, self.word_map = self.get_dict() 
 
   def get_dict(self):
+
+    """
+    Input: the file path to NEMSIS reference files
+
+    Output: 1) d_list: 4 dictionary for 4 kinds of sign and symptoms mapping (code - text)
+            2) global_d: aggreate the 4 dictionaries
+            3) codes_map: codes vocabulary to one-hot encode codes
+            3) words_map: word vocabulary to one-hot encode words
+    """
 
     d_list = []
     global_d = dict()
@@ -150,6 +163,19 @@ def get_set(f):
     print("obtain %s concepts from %s" % (len(c_st), f))
     return c_st
 
+
+"""
+getFittedInfo: obtain the comprehensive information of the fitted local protocol file, including 
+    local protocol texts and protocol ids. It's good to note here, the local protocol file contains the
+    concepts we already converted for our own local protocol file.
+
+Input: the file path is designated in the code, user can assign his/her own file path
+
+Output: 1) fitted_c_list: metamap concepts for lines of input text; each line of text corresponds to a list of concepts
+        2) fitted_mmlc_list: metamaplite concepts for lines of input text; each line of text corresponds to a list of concepts 
+        3) nemsis_id_list: local protocol ids 
+
+"""   
 def getFittedInfo():
 
     #protocol_csv_file = os.path.join(home_dir, 'Fit_NEMSIS_To_TAMU_Revision1.tsv')
@@ -312,6 +338,15 @@ def get_codes2concepts_dict(code2signsymptom_d, signsymptoms2concepts_dict):
         codes2concepts_dict[k] = concepts
     return codes2concepts_dict
 
+"""
+get_nemsis_input_concept: create concepts for NEMSIS input texts 
+
+Input:  1) codes2concepts_dict: NEMSIS code to concept dictionary
+        2) nemsis_input_concept_file: the output file that we write the concept to
+        3) refinfo: the reference file from NEMSIS we can use to codes2concepts_dict 
+
+Output: write the input concepts to the files
+"""   
 def get_nemsis_input_concept(codes2concepts_dict, nemsis_input_concept_file, refinfo):
 
     fitted_code_train_file = "/home/liuyi/emsAssist_mobisys22/data/text_data/no_fitted_separated_desc_code_46_train.txt"
@@ -355,6 +390,17 @@ def convert_to_lower_case(f):
     lower_case_lines = [line.lower() for line in lines]
     writeListFile(f, lower_case_lines)
 
+"""
+generate_input_concept_files is a backup function for new user (i.e., new EMS agency) to generate new concept
+files for their local EMS agency text inputs. It generates concepts for new input texts with steps below；
+1. obtain the mapping information from NEMSIS code to concepts
+2. given the NEMSIS input texts represented with NEMSIS codes, convert the texts into concepts
+3. obtain and write the concept vocabularies for later one-hot encoding input/protocol concept files
+
+Input:  main function arguments
+
+Output: write the input concepts to the files
+"""   
 def generate_input_concept_files(args):
 
     refinfo = RefInfo()
@@ -381,6 +427,19 @@ def generate_input_concept_files(args):
 
     convert_to_lower_case("revision1_text_metamaplite_concepts.txt")
 
+"""
+vectorize the local protocol texts and NEMSIS texts into one-hot vectors. The one-hot vectors are
+based on metamap and metamaplite concept vocabularies. 
+
+Input:  main function arguments
+
+Output: 1) c_pvs: vectors of metamap concepts generated from protocol texts
+        2) mmlc_pvs: vectors of metamaplite concepts generated from protocol texts
+        3) c_ivs: vectores of metamap concepts generated from loca customized NEMSIS texts
+        4) mmlc_ivs: vectores of metamaplite concepts generated from loca customized NEMSIS texts
+        5) c_ilabel_ids: label ids for similarity measurement of metamap concepts
+        6) mmlc_ilabel_ids: label ids for similarity measurement of metamaplite concepts
+"""   
 def vectorizeInputConcepts(args):
   
     fitted_c_list, fitted_mmlc_list, nemsis_id_list = getFittedInfo()
@@ -432,6 +491,17 @@ def vectorizeInputConcepts(args):
 #    return c_pvs, c_ivs, c_ilabel_ids
     return c_pvs, mmlc_pvs, c_ivs, mmlc_ivs, c_ilabel_ids, mmlc_ilabel_ids
    
+"""
+compute the similarity scores given a input text vector and 46 protocol vectors. We consider a cosine
+similarity and a dot product as 2 kinds of similarity metric. 
+
+Input:  1) tv: one input text vectorized
+        2) pvs: protocols vectorized, i.e., 46 local numeric vectors in EMSAssist
+        3) pids: protocol id labels, used to one-hot encode protocol labels
+        4) metric: 2 kinds of similarity, cosine and dot
+
+Output: a list of 46 unranked scalar similarity scores
+"""   
 def computeSimilarity(tv, pvs, pids, metric = "cosine"):
 
     ranking_list = []
@@ -453,6 +523,23 @@ def computeSimilarity(tv, pvs, pids, metric = "cosine"):
         
     return ranking_list
 
+
+"""
+get_top_score is the core function to implement sota protocol selection with steps listed below:
+1. given each line of 174178 input text sentences and its corresponding protocol id label, we compute
+     its similarity with all 46 protocols
+2. for each line of 174178 input text sentences, we rank the 46 protocols
+3. we compute the Top-1/3/5 accuracy after the ranking
+
+Input:  1) pvs: protocols vectorized, i.e., 46 local numeric vectors in EMSAssist
+        2) tvs: input texts vectorized, i.e., 174178 lines of local NEMSIS dataset texts
+        3) pids: protocol id labels, used to one-hot encode protocol labels
+        4) tids: text labels, i.e., 174178 lines of local NEMSIS dataset labels
+        5) args: the main function arguments 
+
+Output: 1) numeric Top-1/3/5 accuracy
+        2) numeric Top-1/3/5 accuracy
+"""
 def get_top_score(pvs, tvs, pids, tids, args):
     top1 = 0.0
     top3 = 0.0
@@ -492,7 +579,21 @@ def get_top_score(pvs, tvs, pids, tids, args):
             top5 += 1.0
 
     return top1/total_count, top3/total_count, top5/total_count
-        
+
+"""
+The function is the core function to implement sota protocol selection with steps listed below:
+1. We first takes the input metamap file, input metamaplite file, and also the local protocol 
+    metamap concept file, local protocol metamaplite concept file. The 4 files are one-hot vectorized 
+    using the concept set source file whose path is indicated in the main function argument.
+2. We compare the similarity of input metamap file and local protocol metamap concept file for 
+    Top-k accuracy using input_mm_file, and compare the similarity of input metamaplite file and 
+    local protocol metamaplite concept file for Top-k accuracy using input_mml_file
+
+Input:  the main function arguments
+
+Output: 1) Top-1/3/5 accuracy using input_mm_file
+        2) Top-1/3/5 accuracy using input_mml_file
+"""
 def protocol_selection(args):
    
 
@@ -508,6 +609,19 @@ def protocol_selection(args):
     print("(cosine) input metamaplite topk: ", mmlc_top1, mmlc_top3, mmlc_top5)
     
 
+"""
+The main function evaluates the protocol selection using SOTA concept matching method on customized local EMS dataset. 
+It's good to note that SOTA method cannot be used on nation-wide EMS text dataset.
+
+Input:  1) regen (boolean): whether a new user wants to use new local protocol files (e.g., new EMS agency)
+        2) concept_set_source (protocol, nemsis, both):  which concept source we choose to use, recommended is "both"
+        3) input_mm_file: metamap concept file, each input is converted to several medical concepts using metamap
+        4) input_mml_file: metamaplite concept file, each input is converted to several medical concepts using metamaplite
+        5) metric (cosine, dot): quatitative metric used to measure the similarity
+
+Output: 1) Top-1/3/5 accuracy using input_mm_file
+        2) Top-1/3/5 accuracy using input_mml_file
+"""
 if __name__ == "__main__":
 
     t_start = datetime.now()  
