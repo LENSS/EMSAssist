@@ -245,7 +245,7 @@ Before we proceed, please make sure you successfully set up the environment or g
 
 ## 4 End-to-End Latency
 
-To evaluate the end-to-end latency (i.e., Table 8 in the EMSAssist paper), we provide a [video](https://drive.google.com/file/d/1d8w51p61RjovjKSobR-WXnKoPh5qbsEl/view?usp=sharing) with an [Android Studio log file](https://drive.google.com/file/d/1sVAR5Fmkn343qfcjF2-thuRxpiRtp1-X/view?usp=share_link). The video shows the real-time phone and android studio recording at the same time (end-to-end latency `4562` milliseconds).
+To evaluate the end-to-end latency (i.e., Table 8 in the EMSAssist paper), we provide a [video](https://drive.google.com/file/d/1Yvxb4ppnlDOZyBa6Hom1bVoisBZkPKee/view?usp=share_link) with an [Android Studio log file](https://drive.google.com/file/d/1sVAR5Fmkn343qfcjF2-thuRxpiRtp1-X/view?usp=share_link). The video shows the real-time phone and android studio recording at the same time (end-to-end latency `4562` milliseconds).
 
 <!-- The [phone_screen.mp4](https://drive.google.com/file/d/1NJJy2KaK8p0mjsarwKbk451PssdrE6-l/view?usp=share_link) shows how we launch the EMSAssist android application on our PH-1 mobile phone. The [android_studio_screen.mp4](https://drive.google.com/file/d/1Bi9ZhJf3OfLaGUJPpaZ5H2bf2ieKgy4n/view?usp=share_link) shows the real-time log (end-to-end latency `4549` milliseconds). -->
 
@@ -254,12 +254,14 @@ The source code of the android application is open source: https://github.com/li
 To provide more practical analysis on the end-to-end analysis, we are working on evaluating more tflite models on mobile phones as shown in the todo table below. Please open an issue for feature request that may help you better understand and development on our EMSAssist.
 
 - [x] EMSConformer + EMSMobileBERT
+- [ ] EMSConformer + EMSMobileBERT (more mobile devices with different android)
 - [ ] EMSConformer + ANN with one-hot on tokens (WIP)
 - [ ] ContextNet + EMSMobileBERT
 - [ ] ContextNet + ANN with one-hot on tokens
 - [ ] RNNT + EMSMobileBERT
 - [ ] RNNT + ANN with one-hot on tokens
-- [ ] EMSConformer + EMSMobileBERT (IOS)
+- [ ] EMSConformer + EMSMobileBERT (iOS)
+
 
 ## 5 Notes
 
