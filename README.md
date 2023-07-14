@@ -1,5 +1,7 @@
 # EMSAssist
 
+[EMSAssist paper](https://dl.acm.org/doi/10.1145/3581791.3596853)
+
 EMSAssist is the first end-to-end low latency mobile voice assistant for Emergency Medical Services (EMS) at the edge. By taking the voice of EMS providers (e.g., emergency medical technician (EMT), volunteers) as input, EMSAssist outputs EMS protocols which prescribe appropriate medical interventions be administered to the patient. An accurate and fast protocol selection helps make a competent clinical decision regarding a treatment plan at emergency scenes. Thus, we aim to provide accurate and low-latency protocol selection assistance to EMTs with EMSAssist.
 
 We design and deploy EMSAssist on mobile phones and on cloud. The end-to-end accuracy and latency evaluation show that: a) EMSAssist is more accurate than the state-of-the-art by a large margin, achieving a Top-5 accuracy above 96%; b) EMSAssist is the only EMS voice assistant that meets an service level objective (SLO) of 5 seconds latency on a mobile phone.
