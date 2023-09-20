@@ -1,6 +1,6 @@
 # EMSAssist
 
-[EMSAssist paper](https://dl.acm.org/doi/10.1145/3581791.3596853)
+[EMSAssist: An End-to-End Mobile Voice Assistant at the Edge for Emergency Medical Services](https://dl.acm.org/doi/10.1145/3581791.3596853)
 
 EMSAssist is the first end-to-end low latency mobile voice assistant for Emergency Medical Services (EMS) at the edge. By taking the voice of EMS providers (e.g., emergency medical technician (EMT), volunteers) as input, EMSAssist outputs EMS protocols which prescribe appropriate medical interventions be administered to the patient. An accurate and fast protocol selection helps make a competent clinical decision regarding a treatment plan at emergency scenes. Thus, we aim to provide accurate and low-latency protocol selection assistance to EMTs with EMSAssist.
 
